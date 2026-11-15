@@ -1,0 +1,26 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/styles/components/_player.scss",
+      "before": "8e09361da1bc70dbea5954dd29b0a77a901c1ca21db6ad1fa64acdc05c4373a9",
+      "after": "9f46782f19cdd8cd09a311ea1035c55eea7afb5c9c673232551eb97dcda89011"
+    },
+    {
+      "path": "src/components/Player.jsx",
+      "before": "dff7680086f2880faea78c4bc4e5d3ba310a39ba7268a1ea5790dc9b98c3348f",
+      "after": "afb8229dba42811f6fc13408cba89c45b72f1a156db38466a645d531de9662f7"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "5cb41091aedcf730385380b3773ba1d5f6618d728d6f352825c0eb3894b6b959",
+      "after": "b90a983cf573fa98beefbbf7cabf417e297edfbe85b33494b79aeec366e1be34"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "bf8501df1da08f83dbcee8ca4b3f0c90d93b56d01d4d68823163f3620869deae",
+      "after": "41032b0de0df203ddc550d853519917fe5815ce26be6a81a92df3754cb5431b2"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/lib/studio.js",
+      "before": "4f2b41a2f4e1fb3303e3bab2b83bc0c4df9d94daee896fb21fc518fc6aa12809",
+      "after": "a70973fb2240683d8488de507c639ab837b9baaa49c6c6b92189ccf83ec207f2"
+    },
+    {
+      "path": "src/lib/band-config.json",
+      "before": "e229a28e228390770a232ffd6b7f8cc0647c94a0ab8c975b09dca18702a31aa2",
+      "after": "2a05c04758e3e7757bd32592cb401d50eaa9bcb813ca587c661a9e49452bd192"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "b90a983cf573fa98beefbbf7cabf417e297edfbe85b33494b79aeec366e1be34",
+      "after": "62b34a1238033f8dadaf621475e7d848e42fa242b3a6fc813e28d68f6db4b1c2"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "41032b0de0df203ddc550d853519917fe5815ce26be6a81a92df3754cb5431b2",
+      "after": "0293d8087ba5e1d84322abfbc6d9db67fa67725c4488294c8f8b8f36787f79ff"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "blues12",
+    "scope": "user",
+    "title": "Research blues12",
+    "composer": "Original research fixture",
+    "key": "C",
+    "style": "Medium Swing",
+    "tempo": 120,
+    "chart": "T44*A[C7   |F7   |C7   |C7   |*BF7   |F7   |C7   |A7   |*CD-7   |G7   |C7  A7  |D-7  G7  Z",
+    "meter": [
+      4,
+      4
+    ],
+    "sections": {
+      "0": "A",
+      "4": "B",
+      "8": "C"
+    }
+  },
+  {
+    "id": "aaba32",
+    "scope": "user",
+    "title": "Research aaba32",
+    "composer": "Original research fixture",
+    "key": "C",
+    "style": "Medium Swing",
+    "tempo": 120,
+    "chart": "T44*A[C^7   |A7   |D-7   |G7   |E-7   |A7   |D-7  G7  |C6   |*AC^7   |A7   |D-7   |G7   |E-7   |A7   |D-7  G7  |C6   |*BE7   |E7   |A7   |A7   |D7   |D7   |G7   |G7   |*AC^7   |A7   |D-7   |G7   |E-7   |A7   |D-7  G7  |C6   Z",
+    "meter": [
+      4,
+      4
+    ],
+    "sections": {
+      "0": "A1",
+      "8": "A2",
+      "16": "B",
+      "24": "A3"
+    }
+  },
+  {
+    "id": "ballad16",
+    "scope": "user",
+    "title": "Research ballad16",
+    "composer": "Original research fixture",
+    "key": "C",
+    "style": "Ballad",
+    "tempo": 120,
+    "chart": "T44*A[Eb^7   |C-7   |F-7   |Bb7   |G-7   |C7   |F-7   |Bb7   |*BAb^7   |Ab-6   |Eb^7   |C7   |F-7   |Bb7   |Eb^7   |Bb7   Z",
+    "meter": [
+      4,
+      4
+    ],
+    "sections": {
+      "0": "A",
+      "8": "B"
+    }
+  },
+  {
+    "id": "bossa16",
+    "scope": "user",
+    "title": "Research bossa16",
+    "composer": "Original research fixture",
+    "key": "C",
+    "style": "Bossa Nova",
+    "tempo": 120,
+    "chart": "T44*A[D-9   |G13   |C^7   |C^7   |F^7   |Bb7   |E-7   |A7   |*BD-9   |G13   |C^7   |A7   |D-7   |G7   |C6   |G7   Z",
+    "meter": [
+      4,
+      4
+    ],
+    "sections": {
+      "0": "A",
+      "8": "B"
+    }
+  },
+  {
+    "id": "waltz16",
+    "scope": "user",
+    "title": "Research waltz16",
+    "composer": "Original research fixture",
+    "key": "C",
+    "style": "Waltz",
+    "tempo": 120,
+    "chart": "T34*A[C^7   |A-7   |D-7   |G7   |E-7   |A7   |D-7   |G7   |*BF^7   |F-6   |E-7   |A7   |D-7   |G7   |C6   |G7   Z",
+    "meter": [
+      3,
+      4
+    ],
+    "sections": {
+      "0": "A",
+      "8": "B"
+    }
+  },
+  {
+    "id": "funk16",
+    "scope": "user",
+    "title": "Research funk16",
+    "composer": "Original research fixture",
+    "key": "C",
+    "style": "Funk",
+    "tempo": 120,
+    "chart": "T44*A[C-9   |F9   |C-9   |C-9   |Ab^7   |G7alt   |C-9   |G7alt   |*BC-9   |F9   |C-9   |C-9   |Ab^7   |G7alt   |C-9   |G7alt   Z",
+    "meter": [
+      4,
+      4
+    ],
+    "sections": {
+      "0": "A",
+      "8": "B"
+    }
+  }
+]

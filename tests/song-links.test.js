@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {songURL,readSongURL} from '../src/lib/songLinks.js';
+const song={id:'global:1',scope:'global',title:'Água & 雨 #1',composer:'Original',chart:'[C^7   |F7   Z',style:'Swing',key:'C',tempo:120};
+test('global links keep stable ID and readable title without copying catalog content',()=>{const url=songURL(song,'https://test.example/practice/?other=1#old');assert.equal(new URL(url).searchParams.get('title'),song.title);assert.equal(new URL(url).hash,'');assert.deepEqual(readSongURL(url),{id:song.id,chart:null});});
+test('portable personal links contain only chart metadata and round-trip Unicode',()=>{const url=songURL({...song,scope:'user',favorite:true,ownerId:'secret'},'https://test.example/');const shared=readSongURL(url).chart;assert.equal(shared.title,song.title);assert.equal(shared.chart,song.chart);assert.equal(shared.ownerId,undefined);assert.equal(shared.favorite,undefined);assert.equal(shared.scope,undefined);});
+test('malformed and oversized chart links fail validation',()=>{assert.throws(()=>readSongURL('https://test.example/#chart=broken'));assert.throws(()=>readSongURL('https://test.example/#chart='+encodeURIComponent(JSON.stringify({title:'x',chart:''}))));assert.throws(()=>songURL({...song,scope:'user',title:'x'.repeat(65000)},'https://test.example/'),/too large/);});
+test('shared links reject malformed renderer metadata',()=>{for(const patch of [{key:{}},{tempo:'fast'},{meter:[0,4]},{composer:{name:'x'}},{tags:[{}]}])assert.throws(()=>readSongURL('https://test.example/#chart='+encodeURIComponent(JSON.stringify({...song,...patch}))));});

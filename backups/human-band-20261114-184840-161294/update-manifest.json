@@ -1,0 +1,76 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": "a36c3b9b1877291ae6b7801440eb2e7638964c2239cfbfe1366a5577563512e3",
+      "after": "c2a5a049a06c6d2ef56af110a68c37ad6d33d09a1b2a4a9d857b8b319c2f0bf2"
+    },
+    {
+      "path": "src/lib/band-expression.js",
+      "before": null,
+      "after": "12002f1c78272cfbd1bc0d1a726cc91da611ae266244b5de445381118fc5a84c"
+    },
+    {
+      "path": "src/lib/studio.js",
+      "before": "85fea5826f1e7d1639352c451cd54e8fa8c035b9d44e5aeb660a9c2e922617e8",
+      "after": "ed3b676089f6b6bb8ed0787ba9aa807e019327353f49bd8d253ce54631fb7608"
+    },
+    {
+      "path": "src/lib/audio.js",
+      "before": "04827cb3c0eefa6e2283032351cdf6f8879136af50245c44b45fb8531f233a41",
+      "after": "6a209bb5902a86214482f4f6fb21df505ec3b57527db60e438abed1476fdb45e"
+    },
+    {
+      "path": "src/lib/band-humanize.js",
+      "before": "e23d0e0c6fa85f1d20e60f71d98e72fca46e97f915ab1bd31d2329fac07f95ac",
+      "after": "a6973c83574ed557194a93f92d5b07338f77e0b4f1b659e5046085171649f4f3"
+    },
+    {
+      "path": "src/lib/band-config.json",
+      "before": "90c5f50f9e6f73a029d9d1cd8443c2a7db063ff03371f0c3b272f3ef1cd7cba5",
+      "after": "72d62062dcbe376f33733fbd62d42e19c9da442cd4c21351f069649786b197c4"
+    },
+    {
+      "path": "src/lib/drum-breaks.js",
+      "before": null,
+      "after": "648c8d0c493225d05f6a99effc0a66008ba578155987b6d38b6a1348adae7ac3"
+    },
+    {
+      "path": "src/lib/phrase-planner.js",
+      "before": "d6c2f577c001c67421001aac123dc44f913a0d4e7bafc30ae35b02ed67a7c628",
+      "after": "52076731520c8af277d0ea8796a1c3dcd7404c34ad0dce4d7efacfe7f3f61547"
+    },
+    {
+      "path": "src/lib/band-config.js",
+      "before": "b597968dd0417af7af8c23b9dae769d9eeb54dc5431b73179dd85dff761822a1",
+      "after": "d32c9c47ec149210f7ca46dabf9dcb6854dea27a0f7445ce157140e9ebc65e5f"
+    },
+    {
+      "path": "src/store/themes.js",
+      "before": "d8d0cb8c9950d40dbc131d661a47f7f3b5e49bebd461997cde161a64961f89b2",
+      "after": "55911a46c13c8298aaf742be33aed434502a5df7c31d73ebc0724d10a9c31bb8"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "4cbcd27ce3fe7135b47ed84ccc8a6e93677875b194ccec8f7197f6c020cf52d3",
+      "after": "191840de9104a807e58b08f008f5139c4b494b986c47bfd190fe1e96a6ba2089"
+    },
+    {
+      "path": "tests/expression-breaks.test.js",
+      "before": null,
+      "after": "761e4cf164d091689fe2e7f1e55bbf370eab5c840af72e4dafa48933dbe58938"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "9fd2a7471888aaeeb629db21b7b8720c184b494cd39a145d6b2bab80c4b3fbdb",
+      "after": "f197fb6857c86d8e6f4fed0b2c8d49bdbf0bd93d35d62657fca468c3cbde560c"
+    },
+    {
+      "path": "README.md",
+      "before": "5a34e7bc6b6045ae1df6fa630397ea9d61775f156032457cf36c3b82c3297525",
+      "after": "232fd165bfbce621927b1214bf800c2fb1331447a5377b6ebac74e4855b41d5a"
+    }
+  ]
+}

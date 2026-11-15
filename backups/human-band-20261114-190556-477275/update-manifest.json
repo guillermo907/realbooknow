@@ -1,0 +1,96 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/App.jsx",
+      "before": "7627da7febb1e799a68e7ea06c10a569467935cd59bc768d0a2415cdba13c795",
+      "after": "e98c65c43239b491af4a878f36e43fc0f2b74d98c80a4d23e0e1322c06cb4a51"
+    },
+    {
+      "path": "src/styles/components/_player.scss",
+      "before": "ef743e833ef901e428d1f5f7a3e012396c6de5269a9c1aeaf439023a0d5e1d99",
+      "after": "8e09361da1bc70dbea5954dd29b0a77a901c1ca21db6ad1fa64acdc05c4373a9"
+    },
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": "c2a5a049a06c6d2ef56af110a68c37ad6d33d09a1b2a4a9d857b8b319c2f0bf2",
+      "after": "a7ee8ae736ed0af31b03730243d7bd415a633b0690c5a03e4c459c70ff78bd5c"
+    },
+    {
+      "path": "src/components/Player.jsx",
+      "before": "78c4dbf0909c29b8fba78e37b877dcb0f321e06e755bf2b84d83b0d3232bd4e1",
+      "after": "28f61702d0187da3d30e2132bf920fd5f23c7c5a2efb92130d50b78956e09eae"
+    },
+    {
+      "path": "src/lib/studio.js",
+      "before": "ed3b676089f6b6bb8ed0787ba9aa807e019327353f49bd8d253ce54631fb7608",
+      "after": "4f2b41a2f4e1fb3303e3bab2b83bc0c4df9d94daee896fb21fc518fc6aa12809"
+    },
+    {
+      "path": "src/lib/bass-sounds.js",
+      "before": "f2206f2988d7e8355521d8ac9c0bd3f8394fe42ce9f30ce5cd959cfcfbc4d87e",
+      "after": "e682a6292d3488d7b1caacb37fb629f943a2a4044b32f8d3bf04a859b9e987be"
+    },
+    {
+      "path": "src/lib/audio.js",
+      "before": "6a209bb5902a86214482f4f6fb21df505ec3b57527db60e438abed1476fdb45e",
+      "after": "93687d32950664c4e4c70fb9f3faebeb201e8f6434b4a448402550651250319e"
+    },
+    {
+      "path": "src/lib/drummer.js",
+      "before": "85b47860d7b74903ec537a0d5c34d9b2fd17ddcd0e9202d346a709fe23f0c47b",
+      "after": "5840e3ed96fa86d5293c39188bf5f5d217bdd5467acc2e62211f6c42139a3c39"
+    },
+    {
+      "path": "src/lib/band-midi.js",
+      "before": "a6cd7ccf7e956257274032e7ebc68ab3a5fee7d4dccb9d0200db07fb8c33a9da",
+      "after": "4370c01eb8fffe5ba4555f36034b81c4bd799177d34bb4d96f048b613c9d6bc8"
+    },
+    {
+      "path": "src/lib/ballad-band.js",
+      "before": null,
+      "after": "a59c7f0b789ea32297e40100e15c04e7829b24249f2db84cce9ca4904429df5b"
+    },
+    {
+      "path": "src/lib/band-config.json",
+      "before": "72d62062dcbe376f33733fbd62d42e19c9da442cd4c21351f069649786b197c4",
+      "after": "e229a28e228390770a232ffd6b7f8cc0647c94a0ab8c975b09dca18702a31aa2"
+    },
+    {
+      "path": "src/lib/phrase-planner.js",
+      "before": "52076731520c8af277d0ea8796a1c3dcd7404c34ad0dce4d7efacfe7f3f61547",
+      "after": "c79d200fc088d7a8033b806823f0e49924a8162ddbdb675dabfa0431e74cf6b5"
+    },
+    {
+      "path": "src/store/themes.js",
+      "before": "55911a46c13c8298aaf742be33aed434502a5df7c31d73ebc0724d10a9c31bb8",
+      "after": "ace72d31e884cd5cec57e93c8f4f9ba31f9366111c40ba23d4350e74abb06e30"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "191840de9104a807e58b08f008f5139c4b494b986c47bfd190fe1e96a6ba2089",
+      "after": "c7eed47a46200b919c9e4a526ea5712a262e745c244f3d7c233bef1212194752"
+    },
+    {
+      "path": "tests/instrument-controls.test.js",
+      "before": "ec63d5804dbcef12fd4bc78b07d4cca7acdb788c48442d76406edcccb91b7a7f",
+      "after": "2e6612b269a386977e7b72a6fdb1b98e295262f8ebd9ab7adad3c6b867f5bd62"
+    },
+    {
+      "path": "tests/ballad-band.test.js",
+      "before": null,
+      "after": "d0f26227475cdf08d7b0afa9edac22931772a793e66eb893a958449769ddccdc"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "f197fb6857c86d8e6f4fed0b2c8d49bdbf0bd93d35d62657fca468c3cbde560c",
+      "after": "02b6a08dfdf392f9293f70cb89c42033d8ee6d99513c8523ea4fe49ab3bfffce"
+    },
+    {
+      "path": "README.md",
+      "before": "232fd165bfbce621927b1214bf800c2fb1331447a5377b6ebac74e4855b41d5a",
+      "after": "8379bb01212b04793fa7829d0a991cdb30d773a197dbe0495ca66ff927600653"
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "id": "ballad",
+  "ppq": 960,
+  "meter": [
+    4,
+    4
+  ],
+  "pulseGroups": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tempoRange": [
+    40,
+    360
+  ],
+  "cycleBars": 2,
+  "parts": {
+    "bass": {
+      "range": [
+        28,
+        55
+      ],
+      "mode": "auto"
+    },
+    "comp": {
+      "range": [
+        48,
+        84
+      ],
+      "maxVoices": 4
+    },
+    "drums": {
+      "timekeeper": "ride"
+    }
+  },
+  "motifs": [
+    {
+      "id": "ballad-bass-0",
+      "role": "bass",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "arrival",
+      "events": [
+        {
+          "at": 0,
+          "length": 768,
+          "intent": "anchor",
+          "accent": 0.2
+        },
+        {
+          "at": 1920,
+          "length": 768,
+          "intent": "member",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-bass-1",
+      "role": "bass",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "events": [
+        {
+          "at": 0,
+          "length": 768,
+          "intent": "anchor",
+          "accent": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ballad-bass-2",
+      "role": "bass",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "events": [
+        {
+          "at": 0,
+          "length": 768,
+          "intent": "anchor",
+          "accent": 0.2
+        },
+        {
+          "at": 2400,
+          "length": 768,
+          "intent": "member",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-drums-0",
+      "role": "drums",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "time",
+      "events": [
+        {
+          "at": 0,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0.2,
+          "instrument": "ride"
+        },
+        {
+          "at": 1920,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "ride"
+        }
+      ]
+    },
+    {
+      "id": "ballad-drums-1",
+      "role": "drums",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "time",
+      "events": [
+        {
+          "at": 0,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0.2,
+          "instrument": "ride"
+        },
+        {
+          "at": 960,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "ride"
+        },
+        {
+          "at": 1920,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "ride"
+        },
+        {
+          "at": 2880,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "ride"
+        }
+      ]
+    },
+    {
+      "id": "ballad-drums-2",
+      "role": "drums",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "time",
+      "events": [
+        {
+          "at": 0,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0.2,
+          "instrument": "ride"
+        },
+        {
+          "at": 960,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "ride"
+        },
+        {
+          "at": 1920,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "ride"
+        },
+        {
+          "at": 2880,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "ride"
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-0",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 3840,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-1",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 480,
+          "length": 3360,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-2",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 3360,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-3",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 960,
+          "length": 2880,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-4",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "arrival",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 1920,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 1920,
+          "length": 1920,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-5",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 1440,
+          "length": 2400,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-6",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 3840,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-7",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 480,
+          "length": 2880,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-8",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "arrival",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 2400,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 3360,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-9",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": true,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 2880,
+          "intent": "voiceNext",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-10",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 960,
+          "length": 2400,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ballad-phrase-11",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 3840,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    }
+  ],
+  "variation": {
+    "memoryBars": 3,
+    "phraseBars": 4,
+    "fillMaxBeats": 2
+  },
+  "humanize": {
+    "timingLimitMs": 9,
+    "velocitySpread": 5,
+    "lengthSpread": 0.08
+  }
+}

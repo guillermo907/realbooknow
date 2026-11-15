@@ -1,0 +1,671 @@
+{
+  "version": 1,
+  "id": "bossa",
+  "ppq": 960,
+  "meter": [
+    4,
+    4
+  ],
+  "pulseGroups": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "tempoRange": [
+    40,
+    360
+  ],
+  "cycleBars": 2,
+  "parts": {
+    "bass": {
+      "range": [
+        28,
+        55
+      ],
+      "mode": "auto"
+    },
+    "comp": {
+      "range": [
+        48,
+        84
+      ],
+      "maxVoices": 4
+    },
+    "drums": {
+      "timekeeper": "hat"
+    }
+  },
+  "motifs": [
+    {
+      "id": "bossa-bass-0",
+      "role": "bass",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "arrival",
+      "events": [
+        {
+          "at": 0,
+          "length": 768,
+          "intent": "anchor",
+          "accent": 0.2
+        },
+        {
+          "at": 1440,
+          "length": 768,
+          "intent": "member",
+          "accent": 0
+        },
+        {
+          "at": 1920,
+          "length": 768,
+          "intent": "member",
+          "accent": 0
+        },
+        {
+          "at": 3360,
+          "length": 480,
+          "intent": "member",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-bass-1",
+      "role": "bass",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "events": [
+        {
+          "at": 0,
+          "length": 768,
+          "intent": "anchor",
+          "accent": 0.2
+        },
+        {
+          "at": 1440,
+          "length": 768,
+          "intent": "member",
+          "accent": 0
+        },
+        {
+          "at": 1920,
+          "length": 768,
+          "intent": "member",
+          "accent": 0
+        },
+        {
+          "at": 3360,
+          "length": 480,
+          "intent": "member",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-bass-2",
+      "role": "bass",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "events": [
+        {
+          "at": 0,
+          "length": 768,
+          "intent": "anchor",
+          "accent": 0.2
+        },
+        {
+          "at": 1920,
+          "length": 768,
+          "intent": "member",
+          "accent": 0
+        },
+        {
+          "at": 3360,
+          "length": 480,
+          "intent": "member",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-drums-0",
+      "role": "drums",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "time",
+      "events": [
+        {
+          "at": 0,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0.2,
+          "instrument": "hat"
+        },
+        {
+          "at": 480,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 960,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 1440,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 1920,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 2400,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 2880,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 3360,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        }
+      ]
+    },
+    {
+      "id": "bossa-drums-1",
+      "role": "drums",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "time",
+      "events": [
+        {
+          "at": 0,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0.2,
+          "instrument": "hat"
+        },
+        {
+          "at": 480,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 960,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 1440,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 1920,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 2400,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 2880,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 3360,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        }
+      ]
+    },
+    {
+      "id": "bossa-drums-2",
+      "role": "drums",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "time",
+      "events": [
+        {
+          "at": 0,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0.2,
+          "instrument": "hat"
+        },
+        {
+          "at": 960,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 1920,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        },
+        {
+          "at": 2880,
+          "length": 96,
+          "intent": "strike",
+          "accent": 0,
+          "instrument": "hat"
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-0",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "arrival",
+      "tags": {
+        "density": 3,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 432,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 1440,
+          "length": 432,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 2880,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-1",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "answer",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": false
+      },
+      "events": [
+        {
+          "at": 480,
+          "length": 432,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 1920,
+          "length": 1440,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-2",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "arrival",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": false
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 1440,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 2400,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-3",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "answer",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": false
+      },
+      "events": [
+        {
+          "at": 960,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 2400,
+          "length": 960,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-4",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "arrival",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": false
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 1920,
+          "length": 1440,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-5",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "answer",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": false
+      },
+      "events": [
+        {
+          "at": 480,
+          "length": 1440,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 3360,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-6",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "support",
+      "tags": {
+        "density": 1,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": false
+      },
+      "events": [
+        {
+          "at": 1440,
+          "length": 1440,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-7",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "answer",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": false,
+        "roll": false
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 2400,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 2880,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-8",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "arrival",
+      "tags": {
+        "density": 3,
+        "change": true,
+        "span": true,
+        "beatOne": false,
+        "anticipation": false,
+        "roll": true
+      },
+      "events": [
+        {
+          "at": 480,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 1440,
+          "length": 384,
+          "intent": "voiceCurrent",
+          "accent": 0
+        },
+        {
+          "at": 2880,
+          "length": 960,
+          "intent": "voiceCurrent",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "bossa-phrase-9",
+      "role": "comp",
+      "bars": 1,
+      "weight": 1,
+      "energy": [
+        0,
+        1
+      ],
+      "function": "answer",
+      "tags": {
+        "density": 2,
+        "change": true,
+        "span": true,
+        "beatOne": true,
+        "anticipation": true,
+        "roll": false
+      },
+      "events": [
+        {
+          "at": 0,
+          "length": 480,
+          "intent": "voiceNext",
+          "accent": 0
+        },
+        {
+          "at": 2400,
+          "length": 1440,
+          "intent": "voiceNext",
+          "accent": 0
+        }
+      ]
+    }
+  ],
+  "variation": {
+    "memoryBars": 3,
+    "phraseBars": 4,
+    "fillMaxBeats": 2
+  },
+  "humanize": {
+    "timingLimitMs": 9,
+    "velocitySpread": 5,
+    "lengthSpread": 0.08
+  }
+}

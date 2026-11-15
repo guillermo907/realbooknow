@@ -1,0 +1,201 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": "12cd3425b67287d95c4652ecd860704ddbf489e3032eadbeb106389b3435711c",
+      "after": "3df73bcbe0f94a82bfdb0adcdeadbf08b49b3752d8c8072709812b7c9b37a308"
+    },
+    {
+      "path": "src/lib/walking.js",
+      "before": null,
+      "after": "3d76a1b13d75c3159fe29698bfa96b394f8b38f84c666706ddc913b1fcf7099e"
+    },
+    {
+      "path": "src/lib/export.js",
+      "before": "93d64c4721ea108fc58a864c80a8d2b0144d7c1dbddd1be0e1a4c6b3a9b72692",
+      "after": "fc1158af33e5b01d4f8c7259d7f93818196236fe7308d6d91cddeb7f391b285d"
+    },
+    {
+      "path": "src/lib/comping.js",
+      "before": null,
+      "after": "b3a8f42f96b01cfd8bebe1f75393ae845ec3e04c17e323564d74b4f2a87564d8"
+    },
+    {
+      "path": "src/lib/modal-bass.js",
+      "before": null,
+      "after": "92a9e8a8174018b71d72c6a06acc44fbb01b4b1e714e7db79bc99f3b4214ff14"
+    },
+    {
+      "path": "src/lib/band-loudness.js",
+      "before": "a6d1671aa7b95b86a5c53fda951b5dcce0b169c006500b1d4730a8c84d77ba02",
+      "after": "5f764ee6be76f29ed66ffc12f5a73f1f5065369382e4923d9cdd5e93ebb50050"
+    },
+    {
+      "path": "src/lib/band-theory.js",
+      "before": null,
+      "after": "2b0c2fffdf652eadad64022d07bce8c29aed813fe9af4abac3a4b8aa4babe65d"
+    },
+    {
+      "path": "src/lib/bass-harmony.js",
+      "before": null,
+      "after": "8bbc34a94a0380bbfbef950cd64b13abd350f78433bc0e95f6a3f68a56d9189d"
+    },
+    {
+      "path": "src/lib/swing-arranger.js",
+      "before": null,
+      "after": "09808dbf625695a82e69408e345551e26c046e527027c8e14bd54c050f688cf0"
+    },
+    {
+      "path": "src/lib/studio.js",
+      "before": "f28b5117ebb958772b7ec16137a5ed57abbe8f04a97a9037010cecda1c2c1725",
+      "after": "9c7429d6d351d13ff01cad2b8ded41b4317a0df97254e60929bc232237dc16f3"
+    },
+    {
+      "path": "src/lib/accompaniment.js",
+      "before": "19428501777a9db09d2d8b690e8b64260acda32dbe84a1990fe4eb98094cecdf",
+      "after": "5feca397e155e2d25e2969f02568bc9022826439ff3bd72f5ee7d97a1d0bf3c3"
+    },
+    {
+      "path": "src/lib/performance.js",
+      "before": "0124e51cc01f4cece67d1353e8437792a5bdc377c1c8976ae24be51318ebf8d1",
+      "after": "c213984753afda02b643f123bba08930911e8aedebde97b7ece20fa5e7b55279"
+    },
+    {
+      "path": "src/lib/swing-corpus.json",
+      "before": null,
+      "after": "67d1a3d1f933061b413638436baf1c911c4da3ccdab92a43b5ce3a9912ff2c40"
+    },
+    {
+      "path": "src/lib/audio.js",
+      "before": "5f655590205bc4f70878a12556ec92a8d37e11cd6352137c09ccd6bd45e19d34",
+      "after": "e57c8a684eb72558af6f95d131499d21551a20f577a762b7d0da7baa15fcea05"
+    },
+    {
+      "path": "src/lib/drummer.js",
+      "before": null,
+      "after": "5b7b1fdb5d68896632f151093d3b01fd0d6fa359540e2c93b286bdbbd77a9c9e"
+    },
+    {
+      "path": "src/lib/band-midi.js",
+      "before": "1de583db3e1ea8c4e82ed35b2ff2e04a7647b79c20ed756e67d238fb50372551",
+      "after": "64de9a1bd220bdf22dcc9b3ba6420ec3e8afb0841bb7cf6ea48b087f9db7dfbd"
+    },
+    {
+      "path": "src/lib/band-config.json",
+      "before": "194b33a41d0c31fd811b7235fce98214013fb543e6fbd2e5b866f8f3d1b201ca",
+      "after": "9815e0cf30dc3122690389b51aabdb3a55ab0754cb15d6a77a9460bc84f5e633"
+    },
+    {
+      "path": "src/lib/phrase-planner.js",
+      "before": null,
+      "after": "ede9f0dc995b6ede2122cbce961705cad8d957d23733cbd83e298a5be4fbec86"
+    },
+    {
+      "path": "src/lib/band-config.js",
+      "before": "6c0a1d9d996756defc3f6893fe4bfc48b9d8f1b1822ca3ab16569933b01f13ac",
+      "after": "3fa010b105721bda4855240950edb07a965dc832b53f6fba9296ea4cb5f378a1"
+    },
+    {
+      "path": "src/lib/styles/waltz.json",
+      "before": "b9c030363156fc8192dc4b1c62d784c1549c9a0cd37a8a811d8c1800563cb2a1",
+      "after": "1fd451ed0abfd3e03b5cd5319bc04b3c8a31912072bd183fc9edfc6868fc6869"
+    },
+    {
+      "path": "src/lib/styles/afro.json",
+      "before": "20907afd791e6dd643f09219e137f2cbdb15db18e67cfb5acbddbab2d739b596",
+      "after": "135c4ca797c5733b4d361ee2d43065261e8cd5fc43973c6d0581def6427f4dfd"
+    },
+    {
+      "path": "src/lib/styles/rock.json",
+      "before": "4f6cc45bc16b8bc197037871dc9f44b436f04ec5440a53d7c281beb59fc7001e",
+      "after": "9569639397a68e8feab6b831d521865467e7bb26d7f10ad24ca6b0d56ab78a75"
+    },
+    {
+      "path": "src/lib/styles/index.js",
+      "before": "576904cbf6297c3f7cadc90aa8aab26bb7e417061e6070ceaa8ad7f354fc426a",
+      "after": "4c9fd63919c2effa5ae167baa41eb33442905faf385493c4fe7e8a6076cfe3ed"
+    },
+    {
+      "path": "src/lib/styles/swing.json",
+      "before": "60e1eaac15523100d6511694d9731bbc69f8acbf5e90ce488d10b5eeb47d3e59",
+      "after": "c994277311ebf881d95dd44c564822976f6962a84a01eb98395355f50de212ba"
+    },
+    {
+      "path": "src/lib/styles/ballad.json",
+      "before": "82593b548426f26036f2726239dbe2bf33ff9d8f290b5fa84e0bbdfd608defd8",
+      "after": "1e04c6ded3074863119f6db1ea6e7a8133fb0cedb2359077df397fb5bb6b107a"
+    },
+    {
+      "path": "src/lib/styles/shuffle.json",
+      "before": "afd113bdd973fb67c7db6888b9191dfdedebb4270acd0a16d6707c609221ba86",
+      "after": "50d9d2fdbfd75421c2af3806c6ae97fbbfad2764e33dadd872764bb3fde20283"
+    },
+    {
+      "path": "src/lib/styles/latin.json",
+      "before": "1b077287d3690b5592d2063d97064fdac5e691d4e2fe966b97ccec5261e97c44",
+      "after": "f61c977c6c6a1b2668874c75f865d27571cafc0fbb9a3ed1ec71556ead32a845"
+    },
+    {
+      "path": "src/lib/styles/bossa.json",
+      "before": "416b3a4ad6a463277a5f8f9888890bc106f08bad11ac6ec75beca0f7f122ab5b",
+      "after": "72e761c6c18eb29c031d79af532ba4ff5dbfab1e68f5a8a96e30fdb45c2fcef4"
+    },
+    {
+      "path": "src/lib/styles/funk.json",
+      "before": "3c8eb4db1ad6acd42dcf088075474e7832c945fefbc4be975d14931d547d78d9",
+      "after": "a0b6213cf5178981faf8deea7856edf0fe2c983620b5cfe7262a581ed43736b6"
+    },
+    {
+      "path": "src/store/themes.js",
+      "before": "f3c4f37e1c7c0f2e18725fe47d7f82a91437fd357709298a6b0f9252e628f377",
+      "after": "d8b816923ed5bb049d397d137cc4b42e791539d64047150285ca4cf0862296e3"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "156ac6a37c4fbe4f96872cdf48f8dcea050373dddceca681dd60ebfc8fb74853",
+      "after": "6f580b873a49306ac0bf6a891a8f770c00680ef3274cdd0d0a1df3629debc615"
+    },
+    {
+      "path": "scripts/author-phrase-gestures.mjs",
+      "before": null,
+      "after": "3bd8d7bd06aa4392ca3e96e98ca086b6c4d4885b13583ebf54dcd292058910d4"
+    },
+    {
+      "path": "tests/harmony-route.test.js",
+      "before": null,
+      "after": "7074a76f619baa654aaca80dffa6623bca9b9495d12b8d8dbc35add44b6bded2"
+    },
+    {
+      "path": "tests/band.test.js",
+      "before": "5c2589c36876f14a468cc3fcc361d87fabcd734add0ae1736a216147107db75b",
+      "after": "3620e7c36a570573ff4e32c2542a38e5073a02c5be8ea1437ac82a0caf0589a8"
+    },
+    {
+      "path": "tests/groove.test.js",
+      "before": "eb2eb97e214d742db31a2f2737dae93f99b156701073a86daf661a7dcbff3e6a",
+      "after": "a7d0f20f4fe4b94009416e0d7450b17c1da3f06fbfb480f306e4495c2ae196ea"
+    },
+    {
+      "path": "docs/implementation-status.md",
+      "before": "e292d74763ce38cc3ee4760afa7b6511d351fbb50f7cfef22d92282c9e9e4308",
+      "after": "02763bb50278dd802d997d564672350fb1cb31c68f8995cc9fd2f39d85e321f3"
+    },
+    {
+      "path": "docs/accompaniment-diagnosis.md",
+      "before": null,
+      "after": "76ea20a8130004a8b4871649aa9a8f39638c2c442ea51f5e544f0f56b7b794b5"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "0bf3dd902aad3f3eeb0f16438eaa6404bd0aefb7646432b1d3e45f626b8f8f2e",
+      "after": "bfb7bac71679f60dac1569d7b8e56f07d5e707acfe59dc075a4b532219bc2d75"
+    },
+    {
+      "path": "README.md",
+      "before": "2fe901acb0cdc4f4f5abb806b2664d48064437eea1244a7caa98249d6d645ba4",
+      "after": "738b846b40429fa20c09db670586f706aafbeaadef13278aef8858906fd253ab"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-11T23:58:12.219Z",
+  "browser": "157.0.8103.39",
+  "checks": [
+    "Initial library and chart mount",
+    "Web Audio scheduler reaches playing state",
+    "Playback does not rewrite chart cells",
+    "Pause state",
+    "Editor saves a chart revision",
+    "Legacy link import",
+    "Favorite and import persist after reload",
+    "Live transposition changes root",
+    "Theme applies instantly",
+    "Roman numeral rendering",
+    "Piano diagram renders",
+    "Scale staff renders",
+    "Share link download",
+    "Phone layout does not overflow",
+    "Phone search remains usable",
+    "5,000 songs use a bounded virtual list",
+    "Full-text search finds the last of 5,000 charts",
+    "Original backing export contains non-silent WAV audio",
+    "No browser runtime errors"
+  ],
+  "libraryLoadMs": 129,
+  "mountedRows": 17,
+  "searchIncludingDebounceMs": 198,
+  "audio": {
+    "mime": "audio/wav",
+    "bytes": 497172,
+    "duration": 5.636354166666667,
+    "peak": 0.2737663984298706,
+    "rms": 0.027501736319691304
+  },
+  "errors": []
+}

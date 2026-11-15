@@ -1,0 +1,51 @@
+@use '../abstracts/mixins' as m;
+@use '../abstracts/variables' as v;
+.transport { flex-shrink:0; position:relative; display:flex; align-items:center; gap:20px; padding:20px 28px 23px; min-height:113px; background:var(--bg); border-top:1px solid var(--border-strong); }
+.transport-main { display:flex; gap:13px; align-items:center; min-width:0; }
+.play-button { width:49px; height:49px; flex-shrink:0; display:flex; align-items:center; justify-content:center; background:var(--accent); color:var(--bg); border-radius:50%; box-shadow:0 0 0 6px var(--accent-soft); transition:transform .18s; &:hover { transform:scale(1.06); } &:active { transform:scale(.96); } svg { margin-left:2px; } }
+.transport-song { min-width:0; white-space:nowrap; strong { display:block; font-family:v.$serif; font-size:14px; font-weight:400; } span { display:block; font-size:8px; color:var(--muted); margin-top:7px; } }
+.transport-divider { width:1px; height:40px; background:var(--border-strong); flex-shrink:0; }
+.tempo-control { text-align:center; >div { display:flex; align-items:center; gap:4px; margin-top:5px; } input { font-size:22px; font-family:v.$serif; padding:0; width:43px; border:0; background:transparent; text-align:center; } button:not(.tap-button) { width:19px; height:25px; font-size:16px; color:var(--muted); } .tap-button { font-size:6px; letter-spacing:.08em; margin-top:5px; color:var(--muted); } }
+.transport-style { display:flex; flex-direction:column; gap:7px; flex:1; min-width:0; strong,select { font-size:11px; font-weight:500; } select { border:0; padding:0 12px 0 0; background:transparent; width:100%; max-width:180px; } .style-note { font-size:7px; color:var(--muted); } }
+.chorus-control { display:flex; flex-direction:column; gap:7px; align-items:center; input { width:38px; text-align:center; border:0; padding:0; background:transparent; font-family:v.$serif; font-size:21px; } }
+.mixer-trigger { display:flex; align-items:center; gap:8px; font-size:9px; color:var(--muted); margin-left:auto; span { max-width:45px; text-align:left; line-height:1.6; } }
+.transport-progress { height:2px; position:absolute; left:0; bottom:0; width:100%; background:var(--accent); transform-origin:left; }
+.mixer-panel { position:absolute; right:0; top:0; bottom:113px; width:335px; max-width:95vw; background:var(--surface); border-left:1px solid var(--border-strong); box-shadow:-25px 0 60px #0003; z-index:15; display:flex; flex-direction:column; header { padding:26px 24px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--border); h2 { font-family:v.$serif; font-size:27px; font-weight:400; letter-spacing:-.035em; margin-top:10px; } } }
+.mixer-content { padding:0 25px 30px; overflow:auto; @include m.scrollbar; h3 { @include m.caption; margin:25px 0 17px; color:var(--section); font-size:9px; } >.button { margin-top:12px; width:100%; } .small-copy { font-size:10px; } }
+.mix-row { display:flex; align-items:center; gap:17px; margin-bottom:16px; button { display:flex; align-items:center; gap:8px; text-transform:capitalize; min-width:85px; color:var(--muted); font-size:11px; } button.muted { opacity:.5; } }
+.recording { color:var(--accent) !important; border-color:var(--accent) !important; }
+@media (max-width:1400px) { .transport { padding-left:24px; padding-right:24px; gap:15px; } .transport-song { max-width:140px; } .transport-song strong { font-size:12px; } .transport-main { gap:10px; >.icon-button { width:22px; } } .transport-divider { display:none; } .mixer-trigger span { display:none; } .transport>.icon-button { width:24px; } }
+@media (max-width:1200px) { .transport-song { display:none; } .transport { gap:18px; } .transport-style .style-note { font-size:6px; } .chorus-control { display:none; } }
+@media (max-width:v.$phone) { .transport { min-height:93px; padding:17px 21px; gap:19px; } .play-button { width:44px; height:44px; } .transport-song { display:none; } .transport-style strong,.transport-style select { font-size:11px; } .transport-main { gap:9px; } .transport .icon-button { width:22px; } .tempo-control input { font-size:21px; } .tempo-control .tap-button { display:none; } .mixer-panel { bottom:93px; } }
+
+// Keep the audio component mounted: hiding controls never stops the engine.
+.app.player-hidden .transport { display: none !important; }
+
+.band-room.dialog.wide { width:min(1000px,calc(100vw - 32px)); max-width:none; height:min(820px,94dvh); max-height:94dvh; padding:24px; overflow:hidden; display:flex; flex-direction:column; gap:14px; }
+.band-room .dialog-header { flex:none; margin:0; padding-bottom:8px; }
+.band-room .dialog-header h2 { font-size:30px; margin-top:6px; }
+.band-room-tabs { display:flex; gap:6px; flex:none; overflow-x:auto; padding:4px 0 12px; border-bottom:1px solid var(--border); }
+.band-room-tabs button { display:flex; align-items:center; gap:8px; white-space:nowrap; padding:12px; border:1px solid transparent; border-radius:12px; color:var(--muted); }
+.band-room-tabs button:nth-child(2) { color:var(--accent); }
+.band-room-tabs button:nth-child(3) { color:var(--section); }
+.band-room-tabs button:nth-child(4) { color:var(--highlight); }
+.band-room-tabs button[aria-selected='true'] { border-color:currentColor; background:var(--accent-soft); color:var(--text); box-shadow:inset 0 -3px 0 var(--accent); }
+.band-room-tabs button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.band-room-page { flex:1; min-height:0; overflow-y:auto; padding:4px 12px 16px 2px; }
+.band-room-caption { display:flex; gap:12px; align-items:center; padding:15px; background:var(--accent-soft); border-radius:14px; color:var(--accent); margin-bottom:18px; }
+.band-room-page h3 { color:var(--section); margin:20px 0 14px; }
+.band-room-page fieldset { border:1px solid var(--border-strong); border-radius:16px; padding:18px; margin:16px 0; background:var(--surface); }
+.band-room-page legend { color:var(--accent); padding:0 8px; font-weight:600; }
+.band-room-drums fieldset { border-color:var(--highlight); }
+.band-room-piano fieldset { border-color:var(--section); }
+.band-room-page input[type='range'] { width:100%; accent-color:var(--accent); }
+.band-room-page .range-field { font-size:14px; margin:20px 0; gap:12px; }
+.band-room-page .setting-field { margin:16px 0; }
+.band-room-page .setting-field select { min-height:44px; }
+.band-room-footer { display:flex; justify-content:space-between; align-items:center; gap:12px; padding-top:12px; border-top:1px solid var(--border); flex:none; }
+@media(max-width:640px) { .band-room.dialog.wide { width:calc(100vw - 16px); height:96dvh; max-height:96dvh; padding:16px; } .band-room-tabs button { flex-direction:column; gap:5px; padding:9px 12px; font-size:12px; } .band-room-footer .small-copy { max-width:45%; } }
+
+.band-room .comping-instrument-card { display:flex; flex-direction:column; align-items:stretch; gap:12px; width:100%; max-width:360px; margin:20px 0; padding:16px; border:1px solid var(--border-strong); border-radius:14px; background:var(--surface); }
+.band-room .comping-instrument-card .setting-field { display:flex; flex-direction:column; align-items:stretch; gap:10px; margin:0; font-size:14px; }
+.band-room .comping-instrument-card select { width:100%; max-width:100%; min-height:44px; font-size:14px; }
+.band-room .comping-instrument-card .button { width:100%; justify-content:center; }

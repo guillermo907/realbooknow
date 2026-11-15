@@ -1,0 +1,51 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": "a64033ce2408a888cfb3293ea04f94374f56204a8dae90aae4aab9271c6ce6f2",
+      "after": "a39c2972a890af325a43bc3935b0d90a7e1df19b26f7ff569a1d578d323e012e"
+    },
+    {
+      "path": "src/components/Player.jsx",
+      "before": "afb8229dba42811f6fc13408cba89c45b72f1a156db38466a645d531de9662f7",
+      "after": "742acefc2161ee78ffeb755e75ebb0dcd08e7f5ea38de460d0d3ac2b64087e1e"
+    },
+    {
+      "path": "src/lib/comping.js",
+      "before": "a8d3cb35c4acfeb50efeaa737a3fe4765bf9e83b290862a2a3d4ab2bf07891dd",
+      "after": "eaeec7a4d5dd11718e935d57cde5be6a9010140984f5bf57a727b4fd33a023da"
+    },
+    {
+      "path": "src/lib/band-config.json",
+      "before": "7414572219b26564d452f265790d6813a21e60118f796f889298e16026fa8879",
+      "after": "f657636c23d20a248fa7a5f81b6b889388463c1b3b1600b7cc5521250bcdabd1"
+    },
+    {
+      "path": "src/lib/piano-touch.js",
+      "before": null,
+      "after": "8da5975a6f4dbade5b688c561570bff0cbafaa6af243732da7327787b2e88679"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "ee46d3d79ca1031df59d3dcee6928a6d4c2bb35d67c77cd407ad1e79c8457598",
+      "after": "4f4821f21a95472b03c78678359ac0dc37292938dbf90be2410ec8dca999be6b"
+    },
+    {
+      "path": "tests/piano-colors.test.js",
+      "before": "0c25be31bb6e450c6da10d76d8196f9cc9e0679c80a9ed63b35f4a9b937adf69",
+      "after": "3b3d0ba73bb0bb900e25f7c7678fde514fd115f1edff33e9b1d8579f76f070ad"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "d5eda040bf6342370fb73cba0b5252183dc92b4e25b7ae5afc41457be78f180e",
+      "after": "69686ab342ee6f606610684682be1bae0a341d499f342e3147f6cc1529d8a719"
+    },
+    {
+      "path": "README.md",
+      "before": "fd6386ee084aa65b85d2e9f57ec5730c01162f66d2410b8a21909b386067ebac",
+      "after": "f6c8c1591dab27653f1a9bc4c1a28edbadeadaa84ef2689461e556f54aae9c23"
+    }
+  ]
+}

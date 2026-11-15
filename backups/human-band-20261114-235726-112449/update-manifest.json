@@ -1,0 +1,166 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/App.jsx",
+      "before": "e98c65c43239b491af4a878f36e43fc0f2b74d98c80a4d23e0e1322c06cb4a51",
+      "after": "a63c41b849e29e686abce5d3a0406b7e3ede4d6ef403c2da981885ca55a751b1"
+    },
+    {
+      "path": "src/styles/layout/_mobile-score.scss",
+      "before": "e201b0285dd60bf90aa6daed86721bce075e69e8de2d46a11fc11c4b52c86790",
+      "after": "631f243cf6fc1aa9e85e88dff97e157e232468fc3c8b17022227962663a861c1"
+    },
+    {
+      "path": "src/styles/components/_dialogs.scss",
+      "before": "91600176ac01b91d63f3c7b0488364b338bbb87bc41c95fd3ae39ab02dd7d92a",
+      "after": "b32a0703ed2d688da6f7bb8aca92917227349c398d2b12d8ec7818d5ed03751b"
+    },
+    {
+      "path": "src/components/ImportExport.jsx",
+      "before": "7c982c6bb0afc8c4182e3b8551d129caa7b993a3c78a038004ade55c920fa8e8",
+      "after": "e618de344b5eed35354a58fee60a06159d2b338ea217405d6cbeff5175620884"
+    },
+    {
+      "path": "src/components/Account.jsx",
+      "before": null,
+      "after": "836aa2f36a0807487ede340d55ae8d1ddd6a1891a111feb4e38159857df6a70e"
+    },
+    {
+      "path": "src/lib/account-api.js",
+      "before": null,
+      "after": "a8f8ac0acdf00bb96d52ae52159fb4bf304edcdd027586deab8ce954bcda5039"
+    },
+    {
+      "path": "src/lib/studio.js",
+      "before": "a70973fb2240683d8488de507c639ab837b9baaa49c6c6b92189ccf83ec207f2",
+      "after": "289186ed866996c5c0c5c45afb9163cd7f7fe3546d0f25d29c1c60b42ac590b7"
+    },
+    {
+      "path": "src/lib/merge-libraries.js",
+      "before": null,
+      "after": "e9075a052110293529ad3f3f53d74cde868011cfacc2d75115cb149c634356ae"
+    },
+    {
+      "path": "src/lib/storage.js",
+      "before": "e34584f780491477760e167329842fd9bb4d7c1cd276ffd61ab0aae6ae86c22d",
+      "after": "41562059d729833f2fa22170d2dbe38c03c425f85edd5f11266f9331b10edc1a"
+    },
+    {
+      "path": "src/store/Store.jsx",
+      "before": "65bd0218ff9d15a83dd577df3c0cb577d1ce9d95b492da1ebafb3351ef250ac2",
+      "after": "92e117b6bb8205d5a54bb16f0006d42a126a0c262015e9c15b45db7ba06fce32"
+    },
+    {
+      "path": "src/store/AccountProvider.jsx",
+      "before": null,
+      "after": "346ff98fe519be6f6eec221c5e374fb4fb24581564d6f8c2b2ad62c56fde3b37"
+    },
+    {
+      "path": "server/web.htaccess",
+      "before": null,
+      "after": "582043aeca8742f8956304f7e453b39eb3c70c1b1a0c77c4c58335d6fc67349a"
+    },
+    {
+      "path": "server/private/config.example.php",
+      "before": null,
+      "after": "e6e5368338fa9a661a95491ef56c3d18ba18f29dc03f6f5b6950cce0d65ac29f"
+    },
+    {
+      "path": "server/private/config-path.example.php",
+      "before": null,
+      "after": "6661785efa111874a83182f452fd0a5de2b6a16fbdf47994b25f7a752a1ac7c3"
+    },
+    {
+      "path": "server/api/index.php",
+      "before": null,
+      "after": "5dd4594a8bdc5abf71b8fac5f759b7147d645b7d1793ec182e74a3c84c7c6d17"
+    },
+    {
+      "path": "server/api/bootstrap.php",
+      "before": null,
+      "after": "67b3c7b8efd1f6721ed47b70df216ef0afd6d752f153521bac82419220a98b70"
+    },
+    {
+      "path": "server/api/.htaccess",
+      "before": null,
+      "after": "1acb2dfec727f995081669eed49129b5f6e3d1a724621ea8271ac1e2acada2ee"
+    },
+    {
+      "path": "server/sql/001_accounts_catalog.sql",
+      "before": null,
+      "after": "0fd9698de8d1bc7f0f3717e5591d0a6fd359353a1be8c69181784cf103259e5b"
+    },
+    {
+      "path": "scripts/package-hostgator.py",
+      "before": "468dd7430076a0e491eea46b3ad96b354ebfa845c464d0b8302794c48c15eb8b",
+      "after": "e19c0331a69d5cef49a3c8a5e930de0f59f5396f62307f55da4b24a8c8b43f59"
+    },
+    {
+      "path": "scripts/apply-band-update.py",
+      "before": "2e29c3e11daa5a2ed20d0cd0b1e5e65a777947f76e06dc335489671e61c96671",
+      "after": "bd9980029d3b29f19c9ee5f8f54b386aaddfb069c6fdd90614fcb4818d4faeab"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "4f4821f21a95472b03c78678359ac0dc37292938dbf90be2410ec8dca999be6b",
+      "after": "c3c544449438320614a5ca700ce366c45eab1709a4a12d7857b44b425e88c451"
+    },
+    {
+      "path": "scripts/accompaniment-eval/build-harness.mjs",
+      "before": "92dd68665d6a346ef49ae2aa4c2e932e203159d45b28634c1e789487ac1daf9d",
+      "after": "69333977887cfb0cec48a11049f432f21938fbcc670fbac27c6a55ddd35f3559"
+    },
+    {
+      "path": "scripts/hosting/check-account-browser.mjs",
+      "before": null,
+      "after": "8f44bc601218d469a92fefc11be73391e91d590ba75f2e9a6965bf5119a76f32"
+    },
+    {
+      "path": "scripts/hosting/check-api-sqlite.py",
+      "before": null,
+      "after": "2d0f6a08c5a913266361506b78d9eb91b73256a7013beef9f82a8357fec3cb17"
+    },
+    {
+      "path": "scripts/hosting/check-api.py",
+      "before": null,
+      "after": "1adbda65b22ff12722cf28e453a2e64b8aacef8f907ea17f51ca71c013397c8b"
+    },
+    {
+      "path": "tests/account-sync.test.js",
+      "before": null,
+      "after": "36ae94cfde9a5bc1cad9f6c8cab4c36f88d0f6844fc558b361c92a8b026f55cb"
+    },
+    {
+      "path": "docs/HOSTGATOR_DEPLOY.md",
+      "before": "e88d4a60231317e03ebad7939ee595178786759e62f2178faa6190d84cb6f2cc",
+      "after": "971d5097048a00ab368cd9d2f579f50e76c00d59e58b3cf420ca5bc991201357"
+    },
+    {
+      "path": "docs/implementation-status.md",
+      "before": "02763bb50278dd802d997d564672350fb1cb31c68f8995cc9fd2f39d85e321f3",
+      "after": "f88c94fbfd47deaf3cbf56175dd8f750af031d0a692cbf2b45e377d467eb55f7"
+    },
+    {
+      "path": "docs/hostgator-rollout.md",
+      "before": null,
+      "after": "bd2aa9ab3c5767b247252be3a6e3639d672fab396315c01900098863abc8a83c"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "69686ab342ee6f606610684682be1bae0a341d499f342e3147f6cc1529d8a719",
+      "after": "ce5866411a32c6a19917911ddf958bb64decb4154d4e98d63aaae4651d8ec6cd"
+    },
+    {
+      "path": "next.config.mjs",
+      "before": "47ee36f2c2572ee75930d332ef8e918187a34cf58e418df3082c66bac5a37086",
+      "after": "03fb58c260de4e9fd614044c7ac84547e79ab275b20ad5adeb9374c956502888"
+    },
+    {
+      "path": "README.md",
+      "before": "f6c8c1591dab27653f1a9bc4c1a28edbadeadaa84ef2689461e556f54aae9c23",
+      "after": "66f85eabd75a666d4a998cb582265d8f0849e674e060bc2748f800341a66ba65"
+    }
+  ]
+}

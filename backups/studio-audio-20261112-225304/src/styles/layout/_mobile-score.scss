@@ -1,0 +1,65 @@
+// Phones open on the score. All application tools follow it in document flow.
+// Keep the fixed paper coordinate system; only its uniform scale changes.
+@media screen and (max-width: 760px), screen and (max-height: 500px) and (pointer: coarse) {
+  html, body { min-width: 0; width: 100%; overflow-x: clip; }
+  .app { display: flex; flex-direction: column; width: 100%; height: auto; min-height: 100dvh; padding: 0; overflow: visible; }
+  .app .main, .app .score-workspace { display: contents !important; }
+  .app .score-center, .app .score-center .chart-scroll { display: contents; }
+  .app .score-center .paper-viewport {
+    order: 0; flex: none; width: 100%; height: 100svh; height: 100dvh; min-height: 0;
+    align-items: center; justify-content: center; background: var(--surface);
+    padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  }
+  .app .score-center .chart-sheet { border: 0; box-shadow: none; }
+  .app .score-center > .warning { order: 1; flex: none; }
+  .app .chart-scroll > .diagrams { order: 6; flex: none; max-height: none; overflow: visible; margin: 0 12px 16px; }
+  .app .chart-scroll > .loop-selection { order: 6; flex: none; margin: 0 12px 16px; }
+
+  .app .app-topbar { order: 1; position: relative; inset: auto; flex: none; width: 100%; height: auto; min-height: 54px; z-index: 70; }
+  .app .panel-controls { height: auto; min-height: 54px; }
+  .app .app-topbar button { min-height: 44px; }
+  .app .song-search-bar { order: 2; position: relative; inset: auto; flex: none; width: 100%; height: auto; padding: 12px; }
+  .app .song-search-input { min-height: 52px; padding-inline: 12px; gap: 10px; }
+  .app .song-search-input input { font-size: 16px; }
+  .app .song-search-input kbd { display: none; }
+
+  .app .score-side { flex: none; width: auto; overflow: visible; margin: 0 12px; padding: 16px 0; gap: 16px; }
+  .app .score-side-left { order: 3; display: grid; grid-template-columns: minmax(0, 1fr) minmax(150px, 1fr); align-items: center; }
+  .app .score-library-back { display: none; }
+  .app .current-song-card { display: block; padding: 4px; border: 0; }
+  .app .current-song-card h2 { font-size: 23px; }
+  .app .key-card { padding: 14px 8px; gap: 8px; }
+  .app .key-stepper { grid-template-columns: 36px minmax(0, 1fr) 36px; gap: 4px; }
+  .app .key-value { grid-area: auto; min-height: 54px; }
+  .app .key-step { grid-row: auto; width: 36px; height: 44px; font-size: 26px; }
+  .app .key-root { font-size: clamp(24px, 40cqi, 40px); }
+  .app .key-mode { font-size: 12px; }
+  .app .key-original { font-size: 11px; }
+  .app .score-side-right { order: 4; display: flex; flex-direction: column; padding-top: 0; }
+  .app .score-side .song-actions, .app .score-side .chart-controls-right { flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 8px; }
+  .app .score-side .song-actions .button span, .app .score-side .chart-controls-right .text-button span { display: inline; }
+  .app .score-side .song-actions > .icon-button:first-child { display: inline-flex; }
+  .app .score-side .song-actions .button, .app .score-side .chart-controls-right > button { min-height: 44px; padding-inline: 12px; }
+  .app .score-side .icon-button { width: 44px; height: 44px; }
+
+  .app .transport { order: 5; flex: none; width: auto; margin: 0 12px 16px; padding: 18px 14px; flex-wrap: wrap; overflow: visible; gap: 18px; }
+  .app .transport-main { flex: 1 0 100%; min-width: 0; }
+  .app .transport-song { display: block; max-width: none; min-width: 0; }
+  .app .transport-song span { white-space: normal; }
+  .app .transport .tempo-control { flex: none; }
+  .app .transport-style { flex: 1 1 110px; min-width: 0; }
+  .app .transport .chorus-control { display: flex; }
+  .app .transport-divider { display: none; }
+  .app .mixer-panel { order: 6; position: relative; inset: auto; width: auto; max-height: none; height: auto; margin: 0 12px 16px; flex: none; }
+  .app .mixer-content { max-height: none; overflow: visible; }
+  .app .sidebar:not([hidden]), .app .library:not([hidden]) { display: flex; flex: none; width: 100%; }
+  .app .library { order: 7; height: 70dvh; min-height: 360px; }
+  .app .sidebar { order: 8; padding: 20px 16px; border-top: 1px solid var(--border); }
+  .app .sidebar .brand > span:last-child { display: block; }
+  .app .sidebar .brand { padding-bottom: 18px; }
+  .app .sidebar .nav-item { justify-content: flex-start; padding-inline: 12px; }
+  .app .sidebar .nav-item span, .app .sidebar .nav-item small, .app .sidebar .nav-item kbd { display: inline; }
+  .app .sidebar .sidebar-section, .app .sidebar .new-set { display: flex; }
+  .app .sidebar .sidebar-bottom { margin-top: 0; }
+  .app .sidebar .playlists { min-height: 0; }
+}

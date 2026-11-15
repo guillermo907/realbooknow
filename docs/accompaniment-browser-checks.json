@@ -1,0 +1,1437 @@
+{
+  "browser-ui.json": {
+    "passed": true,
+    "checks": [
+      "Search is visible",
+      "Practice band controls",
+      "Band settings persist",
+      "Dark Stage midnight violet background",
+      "Created theme deletes with safe fallback",
+      "Advanced band tuning",
+      "Tuning export",
+      "GMD attribution",
+      "Production player starts with recorded bank",
+      "Mobile no horizontal overflow",
+      "Mobile sheet present",
+      "No page errors"
+    ],
+    "errors": []
+  },
+  "browser-band.json": {
+    "started": "2026-11-14T18:04:04.219Z",
+    "styles": [
+      {
+        "style": "Medium Swing",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Bossa Nova",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Latin",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Ballad",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Funk",
+        "same": true,
+        "active": 8,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Rock",
+        "same": true,
+        "active": 8,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Waltz",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Shuffle",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Slow Swing",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Up Tempo Swing",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Two Feel",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Bossa / Swing",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Latin / Swing",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Ballad Double Time",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Gypsy Swing",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Long Notes",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Even Ballad",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Afro 12/8",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Samba",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Cha Cha",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Rumba",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Bolero",
+        "same": true,
+        "active": 4,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Son Montuno",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Salsa",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Tango",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Reggae",
+        "same": true,
+        "active": 8,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Disco",
+        "same": true,
+        "active": 8,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Soul",
+        "same": true,
+        "active": 8,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Bluegrass",
+        "same": true,
+        "active": 8,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Country",
+        "same": true,
+        "active": 8,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Gospel",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Blues Shuffle",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      },
+      {
+        "style": "Brazilian Partido",
+        "same": true,
+        "active": 7,
+        "remaining": 0,
+        "midiParity": true
+      }
+    ],
+    "errors": [],
+    "longRun": {
+      "start": 17704.5,
+      "audioStart": 16.810666666666666,
+      "plannedSeconds": 640,
+      "events": 13660,
+      "latest": {
+        "state": "playing",
+        "scheduled": 225,
+        "maxLateMs": 0,
+        "active": 21,
+        "audioTime": 26.82133333333333
+      },
+      "elapsedWallSeconds": 10.014,
+      "stop": {
+        "remaining": 0,
+        "scheduled": 225,
+        "maxLateMs": 0
+      }
+    },
+    "passed": true
+  },
+  "browser-ten-minute-soak.json": {
+    "started": "2026-11-14T17:10:24.365Z",
+    "styles": [
+      {
+        "style": "Medium Swing",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Bossa Nova",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Latin",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Ballad",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Funk",
+        "same": true,
+        "active": 8,
+        "remaining": 0
+      },
+      {
+        "style": "Rock",
+        "same": true,
+        "active": 8,
+        "remaining": 0
+      },
+      {
+        "style": "Waltz",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Shuffle",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Slow Swing",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Up Tempo Swing",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Two Feel",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Bossa / Swing",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Latin / Swing",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Ballad Double Time",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Gypsy Swing",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Long Notes",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Even Ballad",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Afro 12/8",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Samba",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Cha Cha",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Rumba",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Bolero",
+        "same": true,
+        "active": 4,
+        "remaining": 0
+      },
+      {
+        "style": "Son Montuno",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Salsa",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Tango",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Reggae",
+        "same": true,
+        "active": 8,
+        "remaining": 0
+      },
+      {
+        "style": "Disco",
+        "same": true,
+        "active": 8,
+        "remaining": 0
+      },
+      {
+        "style": "Soul",
+        "same": true,
+        "active": 8,
+        "remaining": 0
+      },
+      {
+        "style": "Bluegrass",
+        "same": true,
+        "active": 8,
+        "remaining": 0
+      },
+      {
+        "style": "Country",
+        "same": true,
+        "active": 8,
+        "remaining": 0
+      },
+      {
+        "style": "Gospel",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Blues Shuffle",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      },
+      {
+        "style": "Brazilian Partido",
+        "same": true,
+        "active": 7,
+        "remaining": 0
+      }
+    ],
+    "errors": [],
+    "longRun": {
+      "start": 7782.100000023842,
+      "audioStart": 6.922666666666666,
+      "plannedSeconds": 640,
+      "events": 13692,
+      "latest": {
+        "state": "playing",
+        "scheduled": 12862,
+        "maxLateMs": 0,
+        "active": 22,
+        "audioTime": 607.52
+      },
+      "elapsedWallSeconds": 600.576,
+      "stop": {
+        "remaining": 0,
+        "scheduled": 12862,
+        "maxLateMs": 0
+      }
+    },
+    "passed": true
+  },
+  "audio-levels.json": {
+    "stems": [
+      {
+        "instrument": "piano",
+        "velocity": 32,
+        "peak": 0.012421260587871075,
+        "rms": 0.002263730035429996
+      },
+      {
+        "instrument": "piano",
+        "velocity": 60,
+        "peak": 0.03473028913140297,
+        "rms": 0.006301932538533621
+      },
+      {
+        "instrument": "piano",
+        "velocity": 90,
+        "peak": 0.0666532814502716,
+        "rms": 0.011627946280844237
+      },
+      {
+        "instrument": "piano",
+        "velocity": 115,
+        "peak": 0.08825517445802689,
+        "rms": 0.016036152490404756
+      },
+      {
+        "instrument": "bass",
+        "velocity": 32,
+        "peak": 0.03146030008792877,
+        "rms": 0.004258761347907926
+      },
+      {
+        "instrument": "bass",
+        "velocity": 60,
+        "peak": 0.07585158199071884,
+        "rms": 0.010267981879502931
+      },
+      {
+        "instrument": "bass",
+        "velocity": 90,
+        "peak": 0.15063221752643585,
+        "rms": 0.016017562894753284
+      },
+      {
+        "instrument": "bass",
+        "velocity": 115,
+        "peak": 0.21230264008045197,
+        "rms": 0.022575321135177222
+      },
+      {
+        "instrument": "ride",
+        "velocity": 32,
+        "peak": 0.1161002591252327,
+        "rms": 0.004270395205132402
+      },
+      {
+        "instrument": "ride",
+        "velocity": 60,
+        "peak": 0.32078129053115845,
+        "rms": 0.014249467605337792
+      },
+      {
+        "instrument": "ride",
+        "velocity": 90,
+        "peak": 0.5505877137184143,
+        "rms": 0.024826276446177256
+      },
+      {
+        "instrument": "ride",
+        "velocity": 115,
+        "peak": 0.6317835450172424,
+        "rms": 0.03714507097752664
+      },
+      {
+        "instrument": "rideBell",
+        "velocity": 32,
+        "peak": 0.08910394459962845,
+        "rms": 0.005960677778532465
+      },
+      {
+        "instrument": "rideBell",
+        "velocity": 60,
+        "peak": 0.2108669877052307,
+        "rms": 0.012500306182679699
+      },
+      {
+        "instrument": "rideBell",
+        "velocity": 90,
+        "peak": 0.3619306683540344,
+        "rms": 0.02161266547348602
+      },
+      {
+        "instrument": "rideBell",
+        "velocity": 115,
+        "peak": 0.3710929751396179,
+        "rms": 0.0430932472794646
+      },
+      {
+        "instrument": "hat",
+        "velocity": 32,
+        "peak": 0.16727524995803833,
+        "rms": 0.003574617074314408
+      },
+      {
+        "instrument": "hat",
+        "velocity": 60,
+        "peak": 0.6423624753952026,
+        "rms": 0.011071463141729326
+      },
+      {
+        "instrument": "hat",
+        "velocity": 90,
+        "peak": 0.9677821397781372,
+        "rms": 0.01689666903948869
+      },
+      {
+        "instrument": "hat",
+        "velocity": 115,
+        "peak": 0.6137776970863342,
+        "rms": 0.02549204444729968
+      },
+      {
+        "instrument": "footHat",
+        "velocity": 32,
+        "peak": 0.10614467412233353,
+        "rms": 0.006043568481506178
+      },
+      {
+        "instrument": "footHat",
+        "velocity": 60,
+        "peak": 0.3046276569366455,
+        "rms": 0.01682928398515832
+      },
+      {
+        "instrument": "footHat",
+        "velocity": 90,
+        "peak": 0.5115766525268555,
+        "rms": 0.028498468362198003
+      },
+      {
+        "instrument": "footHat",
+        "velocity": 115,
+        "peak": 0.5193448066711426,
+        "rms": 0.03967269168725352
+      },
+      {
+        "instrument": "openHat",
+        "velocity": 32,
+        "peak": 0.23343928158283234,
+        "rms": 0.0060707444580147246
+      },
+      {
+        "instrument": "openHat",
+        "velocity": 60,
+        "peak": 0.25966447591781616,
+        "rms": 0.012885710141173852
+      },
+      {
+        "instrument": "openHat",
+        "velocity": 90,
+        "peak": 0.4459438920021057,
+        "rms": 0.022495707068152123
+      },
+      {
+        "instrument": "openHat",
+        "velocity": 115,
+        "peak": 0.3698408007621765,
+        "rms": 0.041268478116139734
+      },
+      {
+        "instrument": "kick",
+        "velocity": 32,
+        "peak": 0.059317849576473236,
+        "rms": 0.006893843402959605
+      },
+      {
+        "instrument": "kick",
+        "velocity": 60,
+        "peak": 0.1852707862854004,
+        "rms": 0.01616780658420333
+      },
+      {
+        "instrument": "kick",
+        "velocity": 90,
+        "peak": 0.3215472400188446,
+        "rms": 0.028109054875602054
+      },
+      {
+        "instrument": "kick",
+        "velocity": 115,
+        "peak": 0.4443052411079407,
+        "rms": 0.03893729353159596
+      },
+      {
+        "instrument": "snare",
+        "velocity": 32,
+        "peak": 0.093293696641922,
+        "rms": 0.004281842022064996
+      },
+      {
+        "instrument": "snare",
+        "velocity": 60,
+        "peak": 0.16277115046977997,
+        "rms": 0.011380276879962481
+      },
+      {
+        "instrument": "snare",
+        "velocity": 90,
+        "peak": 0.2838503420352936,
+        "rms": 0.019806535864835533
+      },
+      {
+        "instrument": "snare",
+        "velocity": 115,
+        "peak": 0.5488801598548889,
+        "rms": 0.031395636327422205
+      },
+      {
+        "instrument": "rim",
+        "velocity": 32,
+        "peak": 0.09879860281944275,
+        "rms": 0.005083351403542059
+      },
+      {
+        "instrument": "rim",
+        "velocity": 60,
+        "peak": 0.12383604794740677,
+        "rms": 0.007105135296904617
+      },
+      {
+        "instrument": "rim",
+        "velocity": 90,
+        "peak": 0.21559582650661469,
+        "rms": 0.012398881541157265
+      },
+      {
+        "instrument": "rim",
+        "velocity": 115,
+        "peak": 0.26957225799560547,
+        "rms": 0.014003789958948215
+      },
+      {
+        "instrument": "tom",
+        "velocity": 32,
+        "peak": 0.03419607877731323,
+        "rms": 0.00808513061424865
+      },
+      {
+        "instrument": "tom",
+        "velocity": 60,
+        "peak": 0.13313740491867065,
+        "rms": 0.018176514571130828
+      },
+      {
+        "instrument": "tom",
+        "velocity": 90,
+        "peak": 0.23480789363384247,
+        "rms": 0.032061364986745215
+      },
+      {
+        "instrument": "tom",
+        "velocity": 115,
+        "peak": 0.25864627957344055,
+        "rms": 0.04326465692973542
+      }
+    ],
+    "mixes": [
+      {
+        "style": "Medium Swing",
+        "fixture": "blues12",
+        "tempo": 60,
+        "duration": 195,
+        "peak": 0.2726842761039734,
+        "rms": 0.01261328321381374
+      },
+      {
+        "style": "Medium Swing",
+        "fixture": "blues12",
+        "tempo": 120,
+        "duration": 99,
+        "peak": 0.2604570686817169,
+        "rms": 0.017143131785128825
+      },
+      {
+        "style": "Medium Swing",
+        "fixture": "blues12",
+        "tempo": 180,
+        "duration": 67.00004535147393,
+        "peak": 0.22857579588890076,
+        "rms": 0.01975209055878332
+      },
+      {
+        "style": "Medium Swing",
+        "fixture": "blues12",
+        "tempo": 240,
+        "duration": 51,
+        "peak": 0.22763586044311523,
+        "rms": 0.021693168189475358
+      },
+      {
+        "style": "Medium Swing",
+        "fixture": "aaba32",
+        "tempo": 60,
+        "duration": 515,
+        "peak": 0.26453083753585815,
+        "rms": 0.012805789771788766
+      },
+      {
+        "style": "Medium Swing",
+        "fixture": "aaba32",
+        "tempo": 120,
+        "duration": 259,
+        "peak": 0.25172504782676697,
+        "rms": 0.017277378036843524
+      },
+      {
+        "style": "Medium Swing",
+        "fixture": "aaba32",
+        "tempo": 180,
+        "duration": 173.6667120181406,
+        "peak": 0.23227030038833618,
+        "rms": 0.01988649977725036
+      },
+      {
+        "style": "Medium Swing",
+        "fixture": "aaba32",
+        "tempo": 240,
+        "duration": 131,
+        "peak": 0.2338005155324936,
+        "rms": 0.021902781360608126
+      },
+      {
+        "style": "Ballad",
+        "fixture": "ballad16",
+        "tempo": 60,
+        "duration": 259,
+        "peak": 0.24874620139598846,
+        "rms": 0.011056439006154675
+      },
+      {
+        "style": "Ballad",
+        "fixture": "ballad16",
+        "tempo": 120,
+        "duration": 131,
+        "peak": 0.25641071796417236,
+        "rms": 0.015228891064641143
+      },
+      {
+        "style": "Ballad",
+        "fixture": "ballad16",
+        "tempo": 180,
+        "duration": 88.33333333333333,
+        "peak": 0.22567638754844666,
+        "rms": 0.01785375123162454
+      },
+      {
+        "style": "Ballad",
+        "fixture": "ballad16",
+        "tempo": 240,
+        "duration": 67,
+        "peak": 0.23012442886829376,
+        "rms": 0.019621758218485337
+      },
+      {
+        "style": "Bossa Nova",
+        "fixture": "bossa16",
+        "tempo": 60,
+        "duration": 259,
+        "peak": 0.3473121225833893,
+        "rms": 0.012792229731552073
+      },
+      {
+        "style": "Bossa Nova",
+        "fixture": "bossa16",
+        "tempo": 120,
+        "duration": 131,
+        "peak": 0.3366298973560333,
+        "rms": 0.016460427911658363
+      },
+      {
+        "style": "Bossa Nova",
+        "fixture": "bossa16",
+        "tempo": 180,
+        "duration": 88.33333333333333,
+        "peak": 0.3292946219444275,
+        "rms": 0.018889631043787578
+      },
+      {
+        "style": "Bossa Nova",
+        "fixture": "bossa16",
+        "tempo": 240,
+        "duration": 67,
+        "peak": 0.35039737820625305,
+        "rms": 0.020621906112142808
+      },
+      {
+        "style": "Waltz",
+        "fixture": "waltz16",
+        "tempo": 60,
+        "duration": 195,
+        "peak": 0.21290607750415802,
+        "rms": 0.011809026920180545
+      },
+      {
+        "style": "Waltz",
+        "fixture": "waltz16",
+        "tempo": 120,
+        "duration": 99,
+        "peak": 0.2320302575826645,
+        "rms": 0.015492039435620227
+      },
+      {
+        "style": "Waltz",
+        "fixture": "waltz16",
+        "tempo": 180,
+        "duration": 67,
+        "peak": 0.2495499849319458,
+        "rms": 0.017879726397706516
+      },
+      {
+        "style": "Waltz",
+        "fixture": "waltz16",
+        "tempo": 240,
+        "duration": 51,
+        "peak": 0.20968100428581238,
+        "rms": 0.019857845047801644
+      },
+      {
+        "style": "Funk",
+        "fixture": "funk16",
+        "tempo": 60,
+        "duration": 259,
+        "peak": 0.45384055376052856,
+        "rms": 0.013747219637493426
+      },
+      {
+        "style": "Funk",
+        "fixture": "funk16",
+        "tempo": 120,
+        "duration": 131,
+        "peak": 0.4003564119338989,
+        "rms": 0.01841605791864164
+      },
+      {
+        "style": "Funk",
+        "fixture": "funk16",
+        "tempo": 180,
+        "duration": 88.33333333333333,
+        "peak": 0.3954787850379944,
+        "rms": 0.021328712770040448
+      },
+      {
+        "style": "Funk",
+        "fixture": "funk16",
+        "tempo": 240,
+        "duration": 67,
+        "peak": 0.4160654842853546,
+        "rms": 0.023656010311704966
+      }
+    ],
+    "passed": true
+  },
+  "ab-levels.json": [
+    {
+      "fixture": "blues12",
+      "tempo": 60,
+      "match": {
+        "new": 1,
+        "original": 0.9272557083692085,
+        "measured": true,
+        "rms": {
+          "new": 0.009867694637612216,
+          "original": 0.010641826789038395
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.009867694636104148,
+        "original": 0.009867829930205815
+      },
+      "differenceDb": -0.00011908977963344137
+    },
+    {
+      "fixture": "blues12",
+      "tempo": 120,
+      "match": {
+        "new": 0.864054408566079,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.01686977099247266,
+          "original": 0.014576399997546159
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.014576560432664004,
+        "original": 0.014576399999803384
+      },
+      "differenceDb": 9.559935601750133e-05
+    },
+    {
+      "fixture": "blues12",
+      "tempo": 180,
+      "match": {
+        "new": 0.9308149873480704,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.019384101458035628,
+          "original": 0.018043012153415146
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.01804308249201091,
+        "original": 0.01804301214843789
+      },
+      "differenceDb": 3.386326606286666e-05
+    },
+    {
+      "fixture": "blues12",
+      "tempo": 240,
+      "match": {
+        "new": 0.8982613100127281,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.022126356891906937,
+          "original": 0.01987525032753348
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.019875341629769495,
+        "original": 0.019875250326320617
+      },
+      "differenceDb": 3.9901377136985415e-05
+    },
+    {
+      "fixture": "aaba32",
+      "tempo": 60,
+      "match": {
+        "new": 1,
+        "original": 0.9106091032336527,
+        "measured": true,
+        "rms": {
+          "new": 0.010543314871428778,
+          "original": 0.011578310423197553
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.010543314870439873,
+        "original": 0.010543469919907098
+      },
+      "differenceDb": -0.0001277333243711081
+    },
+    {
+      "fixture": "aaba32",
+      "tempo": 120,
+      "match": {
+        "new": 0.8640248200618339,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.018924879826698174,
+          "original": 0.01635156588695472
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.016351709295527605,
+        "original": 0.016351565884629327
+      },
+      "differenceDb": 7.617898993238632e-05
+    },
+    {
+      "fixture": "aaba32",
+      "tempo": 180,
+      "match": {
+        "new": 0.9223222516316049,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.020547711259690318,
+          "original": 0.018951611314913654
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.018951686301839094,
+        "original": 0.018951611311231242
+      },
+      "differenceDb": 3.436957651322947e-05
+    },
+    {
+      "fixture": "aaba32",
+      "tempo": 240,
+      "match": {
+        "new": 0.9485265595955129,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.021897663467291037,
+          "original": 0.020770515391809918
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.02077056119995968,
+        "original": 0.020770515393287295
+      },
+      "differenceDb": 1.915557966492479e-05
+    },
+    {
+      "fixture": "ballad16",
+      "tempo": 60,
+      "match": {
+        "new": 0.8386468041406782,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.01138096490412558,
+          "original": 0.009544609844882137
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.009544815111748413,
+        "original": 0.009544609847750747
+      },
+      "differenceDb": 0.00018679456654647136
+    },
+    {
+      "fixture": "ballad16",
+      "tempo": 120,
+      "match": {
+        "new": 0.8295925375679218,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.01562668961032696,
+          "original": 0.01296378508761742
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.012963942525754822,
+        "original": 0.012963785091687984
+      },
+      "differenceDb": 0.00010548204995241128
+    },
+    {
+      "fixture": "ballad16",
+      "tempo": 180,
+      "match": {
+        "new": 0.830704050700876,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.01720007079247317,
+          "original": 0.014288168479649288
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.014288310413064234,
+        "original": 0.014288168478625005
+      },
+      "differenceDb": 8.628262982694041e-05
+    },
+    {
+      "fixture": "ballad16",
+      "tempo": 240,
+      "match": {
+        "new": 0.8241123880595123,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.01942086885429784,
+          "original": 0.016004978609705997
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.016005110029549616,
+        "original": 0.01600497860576651
+      },
+      "differenceDb": 7.132329365923848e-05
+    },
+    {
+      "fixture": "bossa16",
+      "tempo": 60,
+      "match": {
+        "new": 0.8745822859414443,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.014286294919954244,
+          "original": 0.012494540468727226
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.012494689124155274,
+        "original": 0.012494540472500738
+      },
+      "differenceDb": 0.00010333826905932486
+    },
+    {
+      "fixture": "bossa16",
+      "tempo": 120,
+      "match": {
+        "new": 0.9569488514015803,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.016254264561880453,
+          "original": 0.01555449980286891
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.015554541216976575,
+        "original": 0.015554499797363201
+      },
+      "differenceDb": 2.312936554020579e-05
+    },
+    {
+      "fixture": "bossa16",
+      "tempo": 180,
+      "match": {
+        "new": 0.9637322507419263,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.0190262318788887,
+          "original": 0.018336193271779194
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.018336222651644533,
+        "original": 0.01833619327516443
+      },
+      "differenceDb": 1.3915683365417476e-05
+    },
+    {
+      "fixture": "bossa16",
+      "tempo": 240,
+      "match": {
+        "new": 1,
+        "original": 0.9862904662938604,
+        "measured": true,
+        "rms": {
+          "new": 0.020531405005779525,
+          "original": 0.020816793538448636
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.02053140501832236,
+        "original": 0.020531411781298255
+      },
+      "differenceDb": -2.8611024189149443e-06
+    },
+    {
+      "fixture": "waltz16",
+      "tempo": 60,
+      "match": {
+        "new": 0.9770249488919867,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.012900489172195814,
+          "original": 0.012604099774146242
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.012604129073699288,
+        "original": 0.012604099774048765
+      },
+      "differenceDb": 2.0191305975008026e-05
+    },
+    {
+      "fixture": "waltz16",
+      "tempo": 120,
+      "match": {
+        "new": 1,
+        "original": 0.9512897836381716,
+        "measured": true,
+        "rms": {
+          "new": 0.016786036808822364,
+          "original": 0.01764555564196727
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.016786036806206914,
+        "original": 0.01678611821972812
+      },
+      "differenceDb": -4.2127105614654444e-05
+    },
+    {
+      "fixture": "waltz16",
+      "tempo": 180,
+      "match": {
+        "new": 1,
+        "original": 0.9116049136605874,
+        "measured": true,
+        "rms": {
+          "new": 0.018391070878709483,
+          "original": 0.020174387613664097
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.0183910708706533,
+        "original": 0.018391206334417376
+      },
+      "differenceDb": -6.397773026282565e-05
+    },
+    {
+      "fixture": "waltz16",
+      "tempo": 240,
+      "match": {
+        "new": 1,
+        "original": 0.9086605625577232,
+        "measured": true,
+        "rms": {
+          "new": 0.02052513729381568,
+          "original": 0.022588343920243382
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.020525137291639028,
+        "original": 0.020525262402266032
+      },
+      "differenceDb": -5.294453193183236e-05
+    },
+    {
+      "fixture": "funk16",
+      "tempo": 60,
+      "match": {
+        "new": 0.9974800851346037,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.01311486789629046,
+          "original": 0.01308181954572089
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.013081819654091232,
+        "original": 0.01308181955532449
+      },
+      "differenceDb": 6.557780655987204e-08
+    },
+    {
+      "fixture": "funk16",
+      "tempo": 120,
+      "match": {
+        "new": 0.9910757841196611,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.017371279145962138,
+          "original": 0.017216254100745943
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.017216254866544274,
+        "original": 0.017216254112407875
+      },
+      "differenceDb": 3.8047448327036754e-07
+    },
+    {
+      "fixture": "funk16",
+      "tempo": 180,
+      "match": {
+        "new": 0.9949279423022221,
+        "original": 1,
+        "measured": true,
+        "rms": {
+          "new": 0.02013960380058619,
+          "original": 0.02003745456809923
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.02003745456422281,
+        "original": 0.020037454579875446
+      },
+      "differenceDb": -6.785146920474284e-09
+    },
+    {
+      "fixture": "funk16",
+      "tempo": 240,
+      "match": {
+        "new": 1,
+        "original": 0.9915960660526236,
+        "measured": true,
+        "rms": {
+          "new": 0.02258852906370764,
+          "original": 0.02277997043052899
+        },
+        "seconds": 8
+      },
+      "after": {
+        "new": 0.022588529072503635,
+        "original": 0.022588528680245478
+      },
+      "differenceDb": 1.5083368630231626e-07
+    }
+  ],
+  "nodeTests": {
+    "passed": 77,
+    "failed": 0
+  },
+  "build": {
+    "passed": true,
+    "type": "Next.js static export"
+  },
+  "installer": {
+    "dryRun": true,
+    "appliedAndHashVerified": 91,
+    "idempotent": true,
+    "originalFolderModified": false
+  },
+  "grooveStatsBytes": 48088
+}

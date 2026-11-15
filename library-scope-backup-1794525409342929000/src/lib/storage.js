@@ -1,0 +1,6 @@
+const DB='vesper-changes';let connection;
+export async function openDB(){if(!globalThis.indexedDB)throw Error('IndexedDB is unavailable');if(connection)return connection;connection=await new Promise((resolve,reject)=>{const r=indexedDB.open(DB,1);r.onupgradeneeded=()=>r.result.createObjectStore('state');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});return connection;}
+export async function readLibrary(){const db=await openDB();return new Promise((resolve,reject)=>{const r=db.transaction('state').objectStore('state').get('library');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
+export async function writeLibrary(value){const db=await openDB();return new Promise((resolve,reject)=>{const tx=db.transaction('state','readwrite');tx.objectStore('state').put(value,'library');tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error||Error('Storage transaction aborted'));});}
+export function download(name,content,type='application/json'){const blob=content instanceof Blob?content:new Blob([content],{type});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),10000);}
+export function envelope(kind,data){return {format:'vesper-changes',version:1,kind,exportedAt:new Date().toISOString(),data};}

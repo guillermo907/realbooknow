@@ -1,0 +1,26 @@
+.song-search-bar { position: absolute; top: 48px; left: 0; right: 0; height: 76px; padding: 8px 20px; z-index: 65; background: var(--bg); border-bottom: 1px solid var(--border-strong); }
+.song-search { position: relative; width: min(100%, 980px); margin: 0 auto; }
+.song-search-input { display: flex; align-items: center; gap: 14px; min-height: 58px; padding: 0 17px; background: var(--surface); border: 2px solid var(--accent); border-radius: var(--radius); color: var(--accent); box-shadow: 0 4px 20px #0002;
+ &:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+ input { width: 100%; min-width: 0; padding: 12px 0; border: 0; background: transparent; font-size: 16px; color: var(--text); &:focus-visible { outline: 0; } }
+ kbd { flex-shrink: 0; }
+}
+.song-search-results { position: absolute; top: calc(100% + 8px); left: 0; right: 0; max-height: min(440px, 55dvh); overflow-y: auto; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius); box-shadow: 0 12px 35px #0005;
+ &[hidden] { display: none; }
+ p { padding: 13px 18px; font-size: 12px; color: var(--muted); }
+ button { width: 100%; min-height: 62px; padding: 10px 18px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-align: left; border-top: 1px solid var(--border);
+ &[aria-selected='true'], &:hover { background: var(--accent-soft); }
+ strong { display: block; color: var(--text); font-size: 15px; }
+ small { display: block; margin-top: 5px; color: var(--muted); font-size: 11px; }
+ .search-result-key { color: var(--accent); text-align: right; flex-shrink: 0; }
+ }
+}
+.app { padding-top: 124px; }
+@media (max-width:760px) { .song-search-bar { padding-inline: 10px; } }
+@media print { .song-search-bar { display: none !important; } }
+
+@media (max-width:760px) { .app:has(.library[hidden]) .main { display: flex; } }
+
+.song-search-results button > span:first-child { min-width: 0; }
+.song-search-results strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.share-app-link { margin: 12px 0 20px; }

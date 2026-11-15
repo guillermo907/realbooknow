@@ -1,0 +1,125 @@
+# Accompaniment implementation decisions
+
+2026-11-14. This log covers the human-band implementation and the later Dark Stage/theme-deletion request. The two Phase 1 documents and our own three evaluation scripts/fixtures were the design inputs. No upstream accompaniment source, style, pattern or groove was opened for implementation.
+
+## Workspace and delivery
+
+The current application is `/Users/willy/Documents/ChatGPT/iRealAlternative`. A reversible write probe was denied by macOS. Work therefore uses a complete writable copy at `band-engine-work`, preserving the current Next.js app, chart layout, library/user scopes, samples, UI and dependencies. The original folder has not been changed. The deliverable includes the tested source and a guarded apply script with backups; running that script in a context with write access is still needed to update the original folder. No dependency installation, deployment or commit was performed.
+
+## Reference evidence
+
+1. The user explicitly authorized downloading and executing MMA for this run. MMA 25.05.3 was fetched from its official site and executed with the existing Python 3 runtime in `/tmp/accomp-research/runtime-study`. Archive links were excluded during extraction. No installation took place. Stock grooves were selected by their documented CLI names, never opened or copied. Original `.mma` chart inputs rendered all 24 style/tempo cases, four choruses, three exports each. Only aggregates enter the docs.
+2. MMA track roles come from its `-c` channel assignment report, not guessed GM programs. This matters: its bossa bass uses a guitar patch, and its ballad chord part uses a non-piano patch. Comp figures describe its CHORD tracks; arpeggio tracks are excluded. References are automatic generators, not human-performance standards.
+3. No `/data/reference-midi/<tool>/` directory was present. No extra reference source was invented. GMD is a separate human-drum statistics source, not a source of harmony or accompaniment phrases.
+4. GMD's MIDI-only archive checksum matched the official SHA-256. The app retains 48,088 bytes of statistics from 291 training-set, beat-only, 4/4 performances; no fills, held-out performances or note sequences are shipped. Drum velocities can inform every family; timing statistics mainly affect funk/rock/Latin/bossa. Swing keeps its own tempo curve. The raw dataset stays outside the app. Google LLC / CC BY 4.0 / Gillick et al. 2019 are credited.
+5. The original analyzer was adapted, not replaced by an upstream library. Forty-millisecond chord clustering handles MMA's strummed note-ons. A ±0.025-beat boundary association prevents a slightly early humanized bass note from being assigned to the previous bar or omitted from a last-beat test. MIDI 53 is included as ride bell. These corrections apply consistently to all sources; Phase 1's historical numbers are retained separately.
+
+## Engine and musical rules
+
+6. `planPerformance` is the shared, immutable, seeded 960-PPQ plan API. A bounded module cache shares plans across live audio, MIDI and WAV. Mixer levels are excluded from its musical cache key. Per-role/phrase/decision sub-seeds prevent a bass-feel change from replacing the drum part. The original generator is isolated solely for the requested A/B mode.
+7. Existing lookahead scheduling and sample loading remain. Whole-song composition, voicing searches, random choices and replacement-plan preparation occur before scheduling. A live musical edit swaps the prepared future queue at the next unscheduled bar. Mixer changes remain immediate. Practice tempo/key increments are compiled per performed bar; seek, pause/resume and loops reuse the plan. Chart highlighting uses authored positions.
+8. Nine original JSON families cover all 33 offered names: swing, ballad, jazz waltz, bossa, Latin, funk, rock, shuffle and compound Afro. Related names are explicitly mapped to these families, not sent to the old engine. JSON files contain original gestures; native validation rejects unknown fields, bad meters, pulse sums, event bounds, IDs, probabilities and role/instrument combinations.
+9. Bass anchors are planned before the connecting line, including their actual octave, so an approach resolves to the real future destination. Search retains at most 12 paths. The real next anchor is the arrival target; the second following bar adds a separate low-weight register/contour cost, so the two-bar lookahead actually participates in note selection. Walking/two-feel decisions have phrase-level persistence. Explicit Walk also works in ballads. Bossa/funk/Latin/rock prefer retained roots/fifths; their chromatic connections remain occasional rather than inheriting jazz's frequency. Sparse rests and phrase pickups are discretionary.
+10. Comping searches at most 24 original voicing candidates. It retains harmonic identity and guides, uses ordered voice-movement costs, supports shells/normal voicings and known-harmony anticipations, and permits complete rests. A half-beat activity map reduces discretionary drum support during comping. Optional harmony remains a separate muted-by-default part and MIDI channel; muting it does not alter the arrangement.
+11. Quarter/pulse anchors remain stable while optional skip notes/support vary. Jazz waltz has three-beat gestures; Afro has explicit compound pulse groups. Phrase/section boundaries determine fill eligibility. Fills replace conflicting support and use snare/tom transitions; silence is allowed. A chorus/section support-state arc changes density and emphasis without randomizing every anchor.
+12. Timing follows swing → correlated pulse → role offset → bounded variation → articulation/velocity → safety. Default role placement is slightly forward for bass/ride and back for piano. All performer knobs and H targets live in `src/lib/band-config.json`. Motif event coordinates, measured GMD data and measured sample gains are data, not duplicate tuning controls. Metronome/count-in are outside humanization.
+
+## Samples and rendering
+
+13. The existing curated bank initially lacked a recorded bell, open hat and tom. Twenty-one additional recordings were obtained from the *same pinned CC0 Virtuosity Drums library*, using the already installed ffmpeg for AAC conversion. The completed bank now has real ride bow/bell, closed/pedal/open hats, kick, snare, rim, low tom, bass and piano. Existing licenses/credits are retained. No sound from MMA/JJazzLab/Impro-Visor is used.
+14. Every included velocity layer/round-robin participates in selection. Last-used sample tracking is per instrument and pitch. Where the source has only one recorded strike at a layer (notably piano/tom), an adjacent velocity-layer recording supplies the alternative, normalized by calibration. We do not pretend these are extra recorded round robins.
+15. Raw decoded sample RMS was measured over the first 400 ms of every region, grouped by layer. Gains normalize layer energy before applying the configurable velocity curve; this corrects very quiet drum assets rather than masking them with fixed MIDI velocities. Individual region variation remains. A high bounded gain cap is necessary for the quietest rim samples. Mixer gain remains independent of velocity/timbre.
+16. Bass releases/chokes prevent overlapping monophonic attacks; open/closed/pedal hats share a choke group. Cymbals retain long decay. Per-role filters, a deterministic short room, gentle compression and a final safety compressor provide the master path. A/B renders the first eight seconds of both arrangements with the same samples/calibration/mixer and attenuates the louder excerpt to match RMS after the master chain. This is excerpt RMS matching, not whole-song LUFS normalization; later arrangement dynamics remain audible.
+
+## Evaluation and corrections
+
+The bounded loop included these substantive corrective passes; final aggregates, target checks and browser evidence are in `accompaniment-results.md`. Historical intermediate values are observations, not separate reference standards.
+
+| Pass | Weakest finding | Correction |
+| --- | --- | --- |
+| Initial generation | Swing connection choices did not consistently arrive in the next anchor's octave | Preplan absolute anchor notes and connect to those destinations |
+| Measurement correction | Early notes were excluded from last-beat counts; MMA strums appeared as many one-note chords | Consistent onset tolerance, strum grouping and actual track-role assignment |
+| Style separation | Bossa/funk inherited too many chromatic jazz connections | Root/fifth groove behavior and a separate low approach probability |
+| Sample response | Drum files had radically different raw levels; three articulations were missing | Complete the CC0 kit and measure velocity-layer gains |
+| Comping | Closest-note scoring underestimated actual voice movement | Ordered movement cost, guide retention and original anticipation gestures |
+| Scheduling/safety | Live tempo edits, harmonic release edges and export sizes needed explicit handling | Prepared future queues, offset-aware swaps, span clipping, bounded caches and chunked MIDI serialization |
+| Dynamics/support | Inner chord notes competed with the top voice; discretionary drums were too busy | Explicit inner attenuation, lower support probability, energy-shaped fills and stable pulse anchors |
+| Final validation | Guard against regressions across every offered style and rendering path | Seeded tests, full 24-case measurement/audio sweep, production UI checks and real-time scheduling soak |
+
+The last pass validates the resulting design rather than claiming statistical objectives alone prove human musicianship. No listening claim is fabricated; the controls are provided for the user's final audition.
+
+## Controls and later theme request
+
+17. Practice adds New take, Looseness, Intensity, Bass feel, Swing override and Original/New band. Your room → Advanced contains the band sliders, validated JSON import/export, reset and event-intent export. Settings persist locally. Credits are a visible settings tab.
+18. Dark Stage now follows the supplied midnight-violet/black/mint/ivory/violet/peach palette. The reference PNG’s LS27A800U ICC profile was converted to sRGB before sampling: background #19182b, surface #080808, accent #4fb793, chords #eee9df, section #6f6dd2 and highlight #edb78d. Color Neon remains the default. Saved/imported user themes receive an explicit Delete button; the current unsaved custom theme can also be deleted. Stock presets cannot be deleted. Deleting the active custom theme returns to Color Neon and persists that choice.
+
+## Limits carried into the report
+
+The writable-copy implementation can be tested and packaged, but sandbox permission prevents applying it to the original folder. Objective statistics and rendered-level checks do not certify that a machine accompaniment is indistinguishable from a human band. A/B matches its initial excerpt in RMS; it does not promise identical whole-song LUFS on every chart. These limits are disclosed instead of being marked as completed requirements.
+
+## Phrase band revision; scope updated at the user's request
+
+- Walk reached the planner, but a repeated-pitch cost cheaper than any movement plus an always-best-path choice made bass stick to the root. The replacement carries pitch, direction, contour, interval history and destination across bars and phrases. It samples among bounded legal paths and plans the next actual landing rather than an abstract next root.
+- `phrase-planner.js` is now the single production source for live, MIDI and WAV. `walking.js`, `comping.js`, and `drummer.js` author each role. The retired pattern helper is imported only by historical pure-function tests, never by the app. The Original audition saves the first take's options and seeds and runs them through the same planner; it no longer swaps in a second generator.
+- Live builds an eight-bar buffer with a separate phrase pump. The existing audio scheduling interval only consumes events. Settings edits fork at the next unscheduled bar, retaining earlier events/state and leaving sounding sources alone. Fixed/Live, New take and Keep this take are in practice. Each phrase has logged role-independent seeds.
+- Bass has seven authored phrase contours, scale-aware connectors, target-relative approaches, range and direction bounds, a history penalty, register movement and occasional Auto deviations. Forced Walk stays on the quarter pulse; forced Two-feel uses halves with occasional walking. The feel selector also works on non-swing styles.
+- Piano uses original JSON gesture sets, explicit long/medium/short durations, sparse bars and rests, eligible chord anticipations, statement/answer carries, guide-tone rootless voicings, modal quartal choices and remembered voice-leading. Density, holds, pushes, re-voicing and velocity shape can be tuned. Ballad prioritizes rolled holds.
+- Drums keep core pulses and cycle ride variants, support states, phrase-shaped ghost notes and boundary-only fills. The already shipped Groove aggregates, CC0 recordings, calibration and master chain stay in place; no new dataset or dependency was downloaded.
+- Piano releases now reach the sample renderer. Holds extending beyond a recording use a sustain tail; repeated pitches release independently. Optional reference harmony remains a separate muted-by-default part.
+- After the user's scope change, statistical gates, additional evaluation rounds, new MIDI evidence and result-report work were stopped. Existing regression tests and a short playback/build smoke check remain. Earlier result reports describe the earlier engine and are not evidence for this revision. Final musical judgment belongs to the user's listening.
+- The application directory outside the workspace is still not writable in this session. Changes are built in the writable copy and supplied as a guarded patch that checks the installed source before replacing files.
+
+## Bass and drums focus — long harmonic vamps
+
+- The installed application's `performance.js` still imported the older pattern engine and lacked `phrase-planner.js`. This revision's package therefore includes the full pending phrase update as well as the bass/drum work; applying only a changed modal helper would have no effect there.
+- Bass-and-drums focus is enabled for existing and new preferences. It mutes piano/reference-harmony parts in audio and MIDI while keeping their saved levels and arrangements. The practice checkbox can restore them later. No additional piano-comping work is part of this revision.
+- A long harmonic span now gets a four-bar musical sentence, not independent per-bar searches for maximum difference. Eight independently authored degree sentences develop an idea, answer it, and move through chord tones plus compatible ninth/sixth colors. The first landing of a real change respects root/slash bass; subsequent phrases can land on an inversion or a color. Phrase endings connect to the next actual planned landing. Root-register jumps and artificial approaches on every single bar are avoided. Auto decorations are sparse and at sentence ends; Walk remains quarters.
+- Drums commit to a phrase, preserve timekeeping anchors and change their supporting detail near the response. A smoothed energy envelope follows the form, the Intensity control, chorus position and restrained phrase accents. Drum velocity and supporting-note density both respond. Fills require a structural boundary and a cooldown; a continuous modal chord is not punctuated with a fill every four bars. A fill is followed by a small relaxation. No piano activity is consulted in bass-and-drums focus.
+- Dynamic range and support density have independent Advanced controls. They shape the performance; the drum mixer remains a separate playback level.
+- No upstream code, grooves or recordings were inspected or added. The work uses our own musical rules and the existing samples/humanization data. The listening-led scope remains in effect: ordinary regression/build and short runtime checks only.
+
+## User-supplied swing references
+
+Both supplied MIDI files are the requested musical standards, without any claimed iReal provenance. The second declares 3/4 at 132 BPM; it is handled as swung jazz waltz, not flattened to 4/4. Bass articulation now centers on approximately .93-beat quarters with a lower velocity center. Feathered kick stays near velocity 28 on each pulse, below the foot hat and ride; ride skips are softer than quarters. Swing interpolation at these tempos is closer to the supplied .63-.64-beat skip position. The user-requested listening-led scope remains: no metric-gate loop or new dataset.
+
+## Reference phrase arranger rebuild
+
+Replaced the Swing/Jazz Waltz barwise musical generator with complete four-bar performance grammars derived from the two user-provided MIDI standards. Bass realizes interval/scale functions against current harmony; piano realizes a phrase rhythm separately from explicit rootless and modal quartal voicings, remembering a voicing across attacks instead of picking new pitches each hit. Drums use whole measured phrase rhythms/velocity hierarchy instead of cycling a bar preset and appending random snare hits. No upstream source/pattern library is copied. The design follows documented Impro-Visor separation of style rhythm and harmony-aware voice-led realization, and JJazzLab phrase generation with variation/intensity postprocessing. These are design influences, not transplanted engines. Source notes: https://www.cs.hmc.edu/~keller/jazz/improvisor/ImproVisorTutorial4.htm and https://jjazzlab.gitbook.io/developer-guide/music-generation .
+
+Found and removed the forced barline release of held piano chords over unchanged harmony. The supplied modal example begins with a quartal color voicing; requiring the third and seventh in every modal voicing excluded precisely that sound. Modal quartal candidates now intentionally allow those colors; functional rootless voicings retain guide tones. Piano remains available through the existing Bass & drums only switch. No claim that matching a few metrics establishes perceived musical quality.
+
+## Harmonic note selection correction
+
+Reference inspection: So What begins D–E–F–A, C–B–A–G, F–A–D–C; these combine arpeggios and scalar connectors rather than quantizing a free melody. Reference boundary bar 16 ends on D into Eb; bar 24 ends on Eb into D: approaches can be diatonic in the current harmony and a semitone from the next target.
+
+Replaced nearest-scale snapping with harmonic target-and-connection planning. Bar/chord arrivals are reserved before searching a bounded path; the next bar consumes that exact absolute MIDI landing. New mid-bar chords receive their own root targets. Strong points prefer chord tones; scalar connectors fill between them, and chromatic approaches are admitted only into a planned resolution. Repeated harmony can land on different chord tones, retaining root/fifth function and the reference contour. Note lengths, instrument samples and drum rhythms were not retuned in this revision.
+
+Pedagogical inputs: Mark Smith, TalkingBass, Walking Bass Lines Over A Single Chord Explained (https://www.talkingbass.net/walking-bass-lines-over-a-single-chord-explained/); James Walker, Constructing Walking Bass Lines (https://www.malletjazz.com/lessons/bassline.html). Concepts only; no transcribed examples, upstream code or pattern files copied.
+
+## Drum conversation, after bass approval
+
+The user approved the harmonic bass and asked only for a less simple drummer. The new orchestration layer leaves the reference timekeeping/foot-hat anchors intact and adds authored two-bar snare/kick statements and answers, occasional answering ride skips, restrained bell colors and open-hat phrase lifts. Structural transitions use short snare/tom figures, including occasional triplet figures, with an eight-bar cooldown and conflicting support replaced. Ghosts stay below accents. Phrase seeds and memory control variation; beat-by-beat random snare additions are not used. Original grammar-fill relaxation of band energy is retained separately so these new drum fills cannot change the approved bass performance.
+
+Compared the installed version and this version on the same four-chorus modal fixture/seed: every bass event is identical, while drum events change from 1500 to 1580. This is a regression/arrangement check, not a claim of listening quality. Advanced adds Swing drum conversation and Swing transition fills. No samples, bass or piano pitch rules changed.
+
+## Per-instrument controls and bass palette
+
+Practice now exposes independent busyness and variation for bass, piano and drums. Neutral busyness (.5) preserves the approved arrangement; lower settings favor two-feel, sparse comping and timekeeping, while higher settings allow pickups, piano responses and drum support. Walk retains its quarter foundation. Lower variation reuses a role's phrase seed/vocabulary for longer; full variation preserves the prior per-phrase changes. These settings are part of the plan/cache key and replan at the existing future-bar boundary. Mixer levels remain separate.
+
+Bass sound choices are honest about their source: natural/warm/bright/muted upright reuse the existing recorded bass, while electric-finger/fretless/sub use original Web Audio harmonic synthesis. No new recordings, dependency or sound download is implied. The natural preset retains the existing cutoff/release. Synth voices use a native periodic oscillator, envelope, the existing bass tone/mixer/master path, and monophonic release handling. MIDI exports select the corresponding GM program, with the receiving instrument's sound determined by the user's synth. Preferences persist and reject unknown sound identifiers.
+
+## Deliberate breaks and expression
+
+The user noticed several-bar drum dropouts and requested a separate break slider, then requested bass ghost notes and more expressive dynamics throughout the band. Inspection found four phrase-bars without cymbal time in each supplied meter's corpus. A shared drum-break stage now distinguishes intentional rests from missing source timekeeping. Drum breaks defaults to zero; any source gap is supplied with timekeeping, while nonzero settings can schedule one- or two-bar breaks with a cooldown, never beginning at section entrances or continuing into a section-ending bar. Rest choices use a separate drum seed and preserve the existing band-energy update so muting drums does not regenerate bass notes.
+
+Practice gains Drum breaks, Bass ghost notes, and an Expression slider for each instrument. Bass ghosts are sparse, low-velocity, short muted pickups using the existing recorded bass's attack and fast release (including with synthesized bass presets); no dedicated recorded dead-note sample is claimed. Ghosts leave the main line's MIDI pitches/positions intact and shorten only the preceding note where needed. Phrase-shaped velocity envelopes supplement existing humanization for bass, piano and drums, with the ghost ceiling retained. Settings persist and apply at the existing future-bar boundary. No new dependencies or recordings.
+
+## Ballad arrangement and mixer room
+
+Ballad now uses a dedicated soft hi-hat pulse, side-stick backbeat, light kick and restrained boundary transitions rather than the Swing ride grammar. It defaults to a newly authored synthesized Precision-style bass voice, with sparse slap transients on existing off-downbeat notes. This is not a recorded Fender instrument. A Ballad override checkbox and slap-accent slider let the user retain the selected bass palette or adjust the articulation. Other style families retain their bass selection and orchestration.
+
+Mixer & Practice is now a native modal dialog with Levels, Bass, Piano, Drums, Practice, Record and Advanced tabs. Instrument pages group their own colored controls; the dialog scrolls internally on small screens without reserving chart space. Keyboard arrows switch tabs, Escape closes the dialog, and chart shortcuts are suspended while a dialog is open. Existing settings, sample loading and scheduler are retained.
+
+Comping instrument remains a select in Levels, currently offering Piano only. A separate Piano settings button opens its tab; Warm/Bright edits the existing persisted tone setting there. Future instruments can extend the selector when they are implemented.
+
+The comping selector and Piano settings link share a compact stacked card so the native dropdown stays immediately below its label rather than at the far edge of a wide modal.

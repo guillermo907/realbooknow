@@ -1,0 +1,4 @@
+@mixin panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+@mixin caption { font-size: 9px; font-weight: 650; letter-spacing: .16em; text-transform: uppercase; }
+@mixin focus { outline: 2px solid var(--accent); outline-offset: 4px; }
+@mixin scrollbar { scrollbar-width: thin; scrollbar-color: var(--border-strong) transparent; &::-webkit-scrollbar { width: 5px; height: 5px; } &::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 8px; } }

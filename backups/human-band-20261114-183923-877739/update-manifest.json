@@ -1,0 +1,86 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": "346996c3e40a9e9e5a6145a690addc7fac76825de9b1c85249891a037426e3cb",
+      "after": "a36c3b9b1877291ae6b7801440eb2e7638964c2239cfbfe1366a5577563512e3"
+    },
+    {
+      "path": "src/lib/walking.js",
+      "before": "3d76a1b13d75c3159fe29698bfa96b394f8b38f84c666706ddc913b1fcf7099e",
+      "after": "c66bfadcaa08bf2e4c560c7f40626b3d756e39972d85fbc7b2552d9318a027be"
+    },
+    {
+      "path": "src/lib/drum-conversation.js",
+      "before": "bb0d3f62025c4cd0d1e15d975b18b6cb2a537fb47b3ea918d8e0b6cf6559db19",
+      "after": "2941007e3db2cedb90a5adbb28b6d2854c2790c7239cd7e4f61f8697b4d602c1"
+    },
+    {
+      "path": "src/lib/comping.js",
+      "before": "b3a8f42f96b01cfd8bebe1f75393ae845ec3e04c17e323564d74b4f2a87564d8",
+      "after": "952b143a0312977e0f59d4fa4262268baae24e2631b92f647be1972459d8b448"
+    },
+    {
+      "path": "src/lib/swing-arranger.js",
+      "before": "09808dbf625695a82e69408e345551e26c046e527027c8e14bd54c050f688cf0",
+      "after": "ed46757d320caef5b25acb9fe1de96c6ab33c55b112e28cd4debd41250ba3fe9"
+    },
+    {
+      "path": "src/lib/studio.js",
+      "before": "9c7429d6d351d13ff01cad2b8ded41b4317a0df97254e60929bc232237dc16f3",
+      "after": "85fea5826f1e7d1639352c451cd54e8fa8c035b9d44e5aeb660a9c2e922617e8"
+    },
+    {
+      "path": "src/lib/bass-sounds.js",
+      "before": null,
+      "after": "f2206f2988d7e8355521d8ac9c0bd3f8394fe42ce9f30ce5cd959cfcfbc4d87e"
+    },
+    {
+      "path": "src/lib/audio.js",
+      "before": "e57c8a684eb72558af6f95d131499d21551a20f577a762b7d0da7baa15fcea05",
+      "after": "04827cb3c0eefa6e2283032351cdf6f8879136af50245c44b45fb8531f233a41"
+    },
+    {
+      "path": "src/lib/drummer.js",
+      "before": "34e537a73b609c6e7ac3c9ce140eea366e20a558283edc24ecbee5908b0633d9",
+      "after": "85b47860d7b74903ec537a0d5c34d9b2fd17ddcd0e9202d346a709fe23f0c47b"
+    },
+    {
+      "path": "src/lib/band-midi.js",
+      "before": "64de9a1bd220bdf22dcc9b3ba6420ec3e8afb0841bb7cf6ea48b087f9db7dfbd",
+      "after": "a6cd7ccf7e956257274032e7ebc68ab3a5fee7d4dccb9d0200db07fb8c33a9da"
+    },
+    {
+      "path": "src/lib/phrase-planner.js",
+      "before": "8f15cacb9f61c7866a06b3ef6f780be08ae48387b4a5c227ea7424abcb756e49",
+      "after": "d6c2f577c001c67421001aac123dc44f913a0d4e7bafc30ae35b02ed67a7c628"
+    },
+    {
+      "path": "src/store/themes.js",
+      "before": "d8b816923ed5bb049d397d137cc4b42e791539d64047150285ca4cf0862296e3",
+      "after": "d8d0cb8c9950d40dbc131d661a47f7f3b5e49bebd461997cde161a64961f89b2"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "b8a14d627d77fbd3961c49c233d59325b3961bf301055d0c68c419ed57fb6894",
+      "after": "4cbcd27ce3fe7135b47ed84ccc8a6e93677875b194ccec8f7197f6c020cf52d3"
+    },
+    {
+      "path": "tests/instrument-controls.test.js",
+      "before": null,
+      "after": "ec63d5804dbcef12fd4bc78b07d4cca7acdb788c48442d76406edcccb91b7a7f"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "94acacb6f4eb4dd9283df4ec7a3fd1a7ed17bce4a34ff6324f6c927a11554c86",
+      "after": "9fd2a7471888aaeeb629db21b7b8720c184b494cd39a145d6b2bab80c4b3fbdb"
+    },
+    {
+      "path": "README.md",
+      "before": "738b846b40429fa20c09db670586f706aafbeaadef13278aef8858906fd253ab",
+      "after": "5a34e7bc6b6045ae1df6fa630397ea9d61775f156032457cf36c3b82c3297525"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/lib/comping.js",
+      "before": "952b143a0312977e0f59d4fa4262268baae24e2631b92f647be1972459d8b448",
+      "after": "a8d3cb35c4acfeb50efeaa737a3fe4765bf9e83b290862a2a3d4ab2bf07891dd"
+    },
+    {
+      "path": "src/lib/swing-arranger.js",
+      "before": "ed46757d320caef5b25acb9fe1de96c6ab33c55b112e28cd4debd41250ba3fe9",
+      "after": "883842410e2072d8b5aad5609beb311d9b989faf747e0288ce7abfede3371dd8"
+    },
+    {
+      "path": "src/lib/band-config.json",
+      "before": "2a05c04758e3e7757bd32592cb401d50eaa9bcb813ca587c661a9e49452bd192",
+      "after": "7414572219b26564d452f265790d6813a21e60118f796f889298e16026fa8879"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "62b34a1238033f8dadaf621475e7d848e42fa242b3a6fc813e28d68f6db4b1c2",
+      "after": "ee46d3d79ca1031df59d3dcee6928a6d4c2bb35d67c77cd407ad1e79c8457598"
+    },
+    {
+      "path": "tests/piano-colors.test.js",
+      "before": null,
+      "after": "0c25be31bb6e450c6da10d76d8196f9cc9e0679c80a9ed63b35f4a9b937adf69"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "0293d8087ba5e1d84322abfbc6d9db67fa67725c4488294c8f8b8f36787f79ff",
+      "after": "d5eda040bf6342370fb73cba0b5252183dc92b4e25b7ae5afc41457be78f180e"
+    },
+    {
+      "path": "README.md",
+      "before": "8379bb01212b04793fa7829d0a991cdb30d773a197dbe0495ca66ff927600653",
+      "after": "fd6386ee084aa65b85d2e9f57ec5730c01162f66d2410b8a21909b386067ebac"
+    }
+  ]
+}

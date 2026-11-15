@@ -1,0 +1,46 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": "3df73bcbe0f94a82bfdb0adcdeadbf08b49b3752d8c8072709812b7c9b37a308",
+      "after": "346996c3e40a9e9e5a6145a690addc7fac76825de9b1c85249891a037426e3cb"
+    },
+    {
+      "path": "src/lib/drum-conversation.js",
+      "before": null,
+      "after": "bb0d3f62025c4cd0d1e15d975b18b6cb2a537fb47b3ea918d8e0b6cf6559db19"
+    },
+    {
+      "path": "src/lib/drummer.js",
+      "before": "5b7b1fdb5d68896632f151093d3b01fd0d6fa359540e2c93b286bdbbd77a9c9e",
+      "after": "34e537a73b609c6e7ac3c9ce140eea366e20a558283edc24ecbee5908b0633d9"
+    },
+    {
+      "path": "src/lib/band-config.json",
+      "before": "9815e0cf30dc3122690389b51aabdb3a55ab0754cb15d6a77a9460bc84f5e633",
+      "after": "90c5f50f9e6f73a029d9d1cd8443c2a7db063ff03371f0c3b272f3ef1cd7cba5"
+    },
+    {
+      "path": "src/lib/phrase-planner.js",
+      "before": "ede9f0dc995b6ede2122cbce961705cad8d957d23733cbd83e298a5be4fbec86",
+      "after": "8f15cacb9f61c7866a06b3ef6f780be08ae48387b4a5c227ea7424abcb756e49"
+    },
+    {
+      "path": "src/lib/band-config.js",
+      "before": "3fa010b105721bda4855240950edb07a965dc832b53f6fba9296ea4cb5f378a1",
+      "after": "b597968dd0417af7af8c23b9dae769d9eeb54dc5431b73179dd85dff761822a1"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "6f580b873a49306ac0bf6a891a8f770c00680ef3274cdd0d0a1df3629debc615",
+      "after": "b8a14d627d77fbd3961c49c233d59325b3961bf301055d0c68c419ed57fb6894"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "bfb7bac71679f60dac1569d7b8e56f07d5e707acfe59dc075a4b532219bc2d75",
+      "after": "94acacb6f4eb4dd9283df4ec7a3fd1a7ed17bce4a34ff6324f6c927a11554c86"
+    }
+  ]
+}

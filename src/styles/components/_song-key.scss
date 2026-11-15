@@ -1,0 +1,18 @@
+@use '../abstracts/variables' as v;
+@media (min-width:1101px) { .score-workspace { grid-template-columns: 196px minmax(0,1fr) 158px; } }
+.current-song-card { padding: 3px 3px 17px; border-bottom: 1px solid var(--border-strong); }
+.song-card-heading { display: flex; align-items: center; gap: 7px; font-size: 10px; color: var(--muted); svg { color: var(--accent); flex-shrink: 0; } }
+.current-song-card h2 { margin: 12px 0 7px; font: 400 23px/1.18 v.$serif; letter-spacing: -.02em; overflow-wrap: anywhere; color: var(--text); }
+.current-song-card p { margin: 0; font-size: 12px; line-height: 1.5; color: var(--muted); overflow-wrap: anywhere; }
+.song-style-pill { display: inline-block; max-width: 100%; margin-top: 12px; padding: 5px 8px; border: 1px solid var(--border-strong); border-radius: 20px; background: var(--surface); color: var(--accent); font-size: 10px; line-height: 1.4; overflow-wrap: anywhere; }
+.key-card { display: flex; flex-direction: column; gap: 9px; align-items: center; padding: 14px 6px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 22px; box-shadow: 0 6px 20px #0001; }
+.key-label { font-size: 15px; line-height: 1.3; font-weight: 500; color: var(--muted); }
+.key-stepper { display: grid; grid-template-columns: 31px minmax(0,1fr) 31px; align-items: center; gap: 8px; width: 100%; }
+.key-step { display: flex; align-items: center; justify-content: center; width: 31px; height: 31px; border-radius: 50%; border: 1px solid var(--border-strong); background: color-mix(in srgb,var(--bg) 25%,var(--surface)); color: var(--accent); font-size: 26px; line-height: 1; &:hover:not(:disabled) { border-color: var(--accent); } }
+.key-value { container-type: inline-size; width: 100%; max-width: 100%; position: relative; min-width: 0; min-height: 54px; display: flex; align-items: center; justify-content: center; border-radius: 7px; &:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; } select { position: absolute; inset: 0; opacity: 0; width: 100%; height: 100%; cursor: pointer; font-size: 16px; } }
+.key-current { width: 100%; min-width: 0; display: flex; flex-wrap: wrap; row-gap: 4px; justify-content: center; align-items: baseline; column-gap: 3px; color: var(--text); }
+.key-root { font: 600 44px/1 v.$serif; font-size: clamp(22px, 40cqi, 44px); max-width: 100%; white-space: nowrap; }
+.key-mode { flex: 0 0 auto; white-space: nowrap; font: 600 13px/1.2 v.$serif; }
+.key-original { max-width: 100%; font-size: 11px; line-height: 1.5; color: var(--muted); padding: 2px; &:hover { text-decoration: underline; } }
+@media (max-width:1100px) { .current-song-card h2 { font-size: 19px; } .key-stepper { grid-template-columns: 1fr 1fr; gap: 7px; justify-items: center; } .key-value { grid-column: 1 / -1; grid-row: 1; width: 100%; } .key-step { grid-row: 2; } .key-original { font-size: 10px; } }
+@media (max-width:760px) { .current-song-card { display: none; } .key-card { padding: 10px 2px; border-radius: 16px; gap: 7px; } .key-label { font-size: 12px; } .key-root { font-size: 29px; } .key-mode { font-size: 11px; } .key-current { flex-direction: column; align-items: center; gap: 2px; } .key-stepper { gap: 3px; } .key-step { width: 24px; height: 26px; font-size: 23px; } .key-original { font-size: 9px; } }

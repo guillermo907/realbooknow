@@ -1,0 +1,23 @@
+{
+  "name": "vesper-changes",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --webpack --hostname 127.0.0.1 --port 5173",
+    "build": "next build --webpack",
+    "test": "node --test tests/*.test.js",
+    "build:hostgator": "npm run build && python3 scripts/package-hostgator.py",
+    "catalog:import": "node scripts/import-global-catalog.mjs",
+    "eval:band": "node scripts/accompaniment-eval/render-fixtures.mjs && python3 scripts/accompaniment-eval/analyze-all.py",
+    "test:band-browser": "node scripts/accompaniment-eval/browser-band.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "sass": "^1.93.0"
+  }
+}

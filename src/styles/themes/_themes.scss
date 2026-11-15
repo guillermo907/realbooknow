@@ -1,0 +1,4 @@
+:root { --bg: #7649ca; --surface: #192423; --accent: #58bb8d; --chord: #eee9df; --section: #79a7ff; --highlight: #adee91; --text: #eee9df; --muted: #b6c1b9; --radius: 12px; --sidebar-width: 230px; --list-width: 310px; --border: color-mix(in srgb, var(--text) 9%, transparent); --border-strong: color-mix(in srgb, var(--text) 19%, transparent); --hover: color-mix(in srgb, var(--text) 5%, transparent); --accent-soft: color-mix(in srgb, var(--accent) 9%, transparent); }
+:root[data-background='gradient'] .main { background: radial-gradient(ellipse at 75% 0, var(--accent-soft), transparent 65%), var(--bg); }
+:root[data-background='texture'] .main { background-color: var(--bg); background-image: repeating-linear-gradient(0deg, transparent 0 3px, var(--hover) 3px 4px); }
+@media (forced-colors: active) { .measure, .song-row, .button, .theme-card { border: 1px solid CanvasText !important; } .playback-highlight { outline: 3px solid Highlight; } }

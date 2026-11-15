@@ -1,0 +1,51 @@
+// Size the score layout from the width left after the side panels.
+.app { min-height: 0; }
+.app .main { min-width: 0; min-height: 0; container: score-area / inline-size; }
+.app .score-workspace {
+  min-width: 0; min-height: 0;
+  grid-template-areas: 'song sheet actions';
+  grid-template-columns: minmax(128px, 196px) minmax(0, 1fr) minmax(90px, 158px);
+  grid-template-rows: minmax(0, 1fr);
+}
+.score-side-left { grid-area: song; }
+.score-center { grid-area: sheet; }
+.score-side-right { grid-area: actions; }
+.score-side > * { flex-shrink: 0; }
+// Wrapped controls contribute their real height; no fixed player slot.
+.app .transport { flex-wrap: wrap; min-height: 0; align-items: center; }
+.app .transport-main { flex: 1 1 180px; min-width: 0; }
+.app .transport-song { display: block; min-width: 0; }
+.app .transport-style { flex: 1 1 130px; min-width: 0; max-width: 260px; }
+.app .transport-style select { width: 100%; max-width: 100%; }
+.app .transport .chorus-control { display: flex; flex: none; }
+@container score-area (max-width: 900px) {
+  .app .score-workspace { grid-template-columns: 112px minmax(0, 1fr) 60px; gap: 6px; padding-inline: 8px; }
+  .score-side .song-actions .button span { display: none; }
+  .score-side .song-actions .button { padding-inline: 8px; }
+  .current-song-card h2 { font-size: 18px; }
+  .key-stepper { grid-template-columns: repeat(2, minmax(0, 1fr)); justify-items: center; }
+  .key-value { grid-column: 1 / -1; grid-row: 1; }
+  .key-step { grid-row: 2; }
+}
+@container score-area (max-width: 600px) {
+  .app .score-workspace {
+    grid-template-areas: 'sheet sheet' 'song actions';
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 8px; padding: 8px 8px 0;
+  }
+  .score-side { max-height: 160px; gap: 8px; padding: 0; }
+  .current-song-card { display: none; }
+  .key-card { padding: 8px; gap: 5px; border-radius: 14px; }
+  .key-label { font-size: 12px; }
+  .key-stepper { grid-template-columns: 30px minmax(0, 1fr) 30px; gap: 4px; }
+  .key-value { grid-area: auto; min-height: 36px; }
+  .key-current { flex-direction: row; justify-content: center; }
+  .key-root { font-size: clamp(22px, 38cqi, 36px); }
+  .key-mode { font-size: 11px; }
+  .key-step { grid-row: auto; width: 30px; height: 30px; }
+  .key-original { font-size: 10px; }
+  .score-side .song-actions, .score-side .chart-controls-right { flex-direction: row; flex-wrap: wrap; justify-content: flex-start; gap: 5px; }
+  .score-side .chart-controls-right .text-button span { display: none; }
+  .score-side .button { min-height: 34px; }
+}

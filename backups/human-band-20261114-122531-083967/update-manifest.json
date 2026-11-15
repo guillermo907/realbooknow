@@ -1,0 +1,461 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/App.jsx",
+      "before": "a654022ede916f3dab25de1ba5964ee7ebd63f13ab60070dfa5f0d91bfc500e3",
+      "after": "7627da7febb1e799a68e7ea06c10a569467935cd59bc768d0a2415cdba13c795"
+    },
+    {
+      "path": "src/styles/components/_dialogs.scss",
+      "before": "27b0566e0381f65237309dd937f1dbd6c45b6fc24b8f1916cc340c52610a481a",
+      "after": "91600176ac01b91d63f3c7b0488364b338bbb87bc41c95fd3ae39ab02dd7d92a"
+    },
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": null,
+      "after": "12cd3425b67287d95c4652ecd860704ddbf489e3032eadbeb106389b3435711c"
+    },
+    {
+      "path": "src/components/Player.jsx",
+      "before": "a1861dfc266cafcfe264d7c091b694a56c351245830a7c9aa6187c48ce0386b6",
+      "after": "78c4dbf0909c29b8fba78e37b877dcb0f321e06e755bf2b84d83b0d3232bd4e1"
+    },
+    {
+      "path": "src/components/Settings.jsx",
+      "before": "6b8525b3012c0cc82366fb1d520d28a7bf8635ea049c1a77676999b5b922610b",
+      "after": "00f80111c906506dd4935dceb20d4beb1d37e96aa879cef5720c9a752fa32a6c"
+    },
+    {
+      "path": "src/lib/export.js",
+      "before": "25bbdf5dd91a2bc6f51f6a63c0751e27e18850419d77c7917e8ccbfb4d66b56f",
+      "after": "93d64c4721ea108fc58a864c80a8d2b0144d7c1dbddd1be0e1a4c6b3a9b72692"
+    },
+    {
+      "path": "src/lib/plan.js",
+      "before": "58f6cede098bd5029d8d685c0406dbc656ec0b9e906834d59342a7404ddcfb4e",
+      "after": "5002417b747c50295cbf32c7dfce958c06dc282fc50e8b1548462e17918be916"
+    },
+    {
+      "path": "src/lib/band-loudness.js",
+      "before": null,
+      "after": "a6d1671aa7b95b86a5c53fda951b5dcce0b169c006500b1d4730a8c84d77ba02"
+    },
+    {
+      "path": "src/lib/sample-map.js",
+      "before": null,
+      "after": "f39c7a5f527b0a9ad01d76f1c77a6753195984f44c5ab18a51a07d864deb02bb"
+    },
+    {
+      "path": "src/lib/groove-stats.json",
+      "before": null,
+      "after": "757197310e282cfcddeb1b2de46c8e02eb70b4bd229cbf17bc89381392653219"
+    },
+    {
+      "path": "src/lib/studio.js",
+      "before": "7e78b342a1d63814d1fce2e0424ceaae6560dd496692b54e1205c3ee3f64d96f",
+      "after": "f28b5117ebb958772b7ec16137a5ed57abbe8f04a97a9037010cecda1c2c1725"
+    },
+    {
+      "path": "src/lib/accompaniment.js",
+      "before": "eca2209f36e31eb71ccabbcfb19376ca3c55bb64bebeee7dbe4408da1ea45f52",
+      "after": "19428501777a9db09d2d8b690e8b64260acda32dbe84a1990fe4eb98094cecdf"
+    },
+    {
+      "path": "src/lib/performance.js",
+      "before": null,
+      "after": "0124e51cc01f4cece67d1353e8437792a5bdc377c1c8976ae24be51318ebf8d1"
+    },
+    {
+      "path": "src/lib/audio.js",
+      "before": "e93c5174a0b67c7398b0ef319eb440b8ae32ba27fc1ec38a87bc0b2ff5f9faa7",
+      "after": "5f655590205bc4f70878a12556ec92a8d37e11cd6352137c09ccd6bd45e19d34"
+    },
+    {
+      "path": "src/lib/band-humanize.js",
+      "before": null,
+      "after": "e23d0e0c6fa85f1d20e60f71d98e72fca46e97f915ab1bd31d2329fac07f95ac"
+    },
+    {
+      "path": "src/lib/band-midi.js",
+      "before": null,
+      "after": "1de583db3e1ea8c4e82ed35b2ff2e04a7647b79c20ed756e67d238fb50372551"
+    },
+    {
+      "path": "src/lib/band-config.json",
+      "before": null,
+      "after": "194b33a41d0c31fd811b7235fce98214013fb543e6fbd2e5b866f8f3d1b201ca"
+    },
+    {
+      "path": "src/lib/original-band.js",
+      "before": null,
+      "after": "eca2209f36e31eb71ccabbcfb19376ca3c55bb64bebeee7dbe4408da1ea45f52"
+    },
+    {
+      "path": "src/lib/sample-calibration.json",
+      "before": null,
+      "after": "99b71bc509535197ccfa1c8d9b2f9e755f8fe25cce9ce84af4b57de93606b8a9"
+    },
+    {
+      "path": "src/lib/band-config.js",
+      "before": null,
+      "after": "6c0a1d9d996756defc3f6893fe4bfc48b9d8f1b1822ca3ab16569933b01f13ac"
+    },
+    {
+      "path": "src/lib/styles/waltz.json",
+      "before": null,
+      "after": "b9c030363156fc8192dc4b1c62d784c1549c9a0cd37a8a811d8c1800563cb2a1"
+    },
+    {
+      "path": "src/lib/styles/afro.json",
+      "before": null,
+      "after": "20907afd791e6dd643f09219e137f2cbdb15db18e67cfb5acbddbab2d739b596"
+    },
+    {
+      "path": "src/lib/styles/rock.json",
+      "before": null,
+      "after": "4f6cc45bc16b8bc197037871dc9f44b436f04ec5440a53d7c281beb59fc7001e"
+    },
+    {
+      "path": "src/lib/styles/index.js",
+      "before": null,
+      "after": "576904cbf6297c3f7cadc90aa8aab26bb7e417061e6070ceaa8ad7f354fc426a"
+    },
+    {
+      "path": "src/lib/styles/swing.json",
+      "before": null,
+      "after": "60e1eaac15523100d6511694d9731bbc69f8acbf5e90ce488d10b5eeb47d3e59"
+    },
+    {
+      "path": "src/lib/styles/ballad.json",
+      "before": null,
+      "after": "82593b548426f26036f2726239dbe2bf33ff9d8f290b5fa84e0bbdfd608defd8"
+    },
+    {
+      "path": "src/lib/styles/shuffle.json",
+      "before": null,
+      "after": "afd113bdd973fb67c7db6888b9191dfdedebb4270acd0a16d6707c609221ba86"
+    },
+    {
+      "path": "src/lib/styles/latin.json",
+      "before": null,
+      "after": "1b077287d3690b5592d2063d97064fdac5e691d4e2fe966b97ccec5261e97c44"
+    },
+    {
+      "path": "src/lib/styles/bossa.json",
+      "before": null,
+      "after": "416b3a4ad6a463277a5f8f9888890bc106f08bad11ac6ec75beca0f7f122ab5b"
+    },
+    {
+      "path": "src/lib/styles/funk.json",
+      "before": null,
+      "after": "3c8eb4db1ad6acd42dcf088075474e7832c945fefbc4be975d14931d547d78d9"
+    },
+    {
+      "path": "src/store/themes.js",
+      "before": "0fcb6c618832c48174cc311b0e8f6dad1f5d231f172bf3eecbde41c65ddd340f",
+      "after": "f3c4f37e1c7c0f2e18725fe47d7f82a91437fd357709298a6b0f9252e628f377"
+    },
+    {
+      "path": "public/audio/studio-v1/tom-0-112-0.m4a",
+      "before": null,
+      "after": "932e6ab115d8190bd62b4c226b53c0bbb8d350a2aefa516345f87cbc398c55b6"
+    },
+    {
+      "path": "public/audio/studio-v1/tom-0-75-0.m4a",
+      "before": null,
+      "after": "bce2275db13f76b0fd58a2b7c6e1b21fe6d2c59e38d1a13ecefcddcdb61a17b6"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-38-2.m4a",
+      "before": null,
+      "after": "285429766e0f3efbb650074a6758bb3bfb94c3b9dbd880a37d7120c86fb6b8de"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-38-0.m4a",
+      "before": null,
+      "after": "a26958b001b09c7473fe55f4c69224a6b80b20df178f649ce5ebd597b7876f17"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-38-1.m4a",
+      "before": null,
+      "after": "10d1dc5afd089804f035672944a89119075a4399a4eaef54cc52ee54d74fb605"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-38-0.m4a",
+      "before": null,
+      "after": "137191fa520776c3211307a7294918561b244164f8eb55f78472f554804103d6"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-38-1.m4a",
+      "before": null,
+      "after": "a81c6c9e9d0d03fc06c4a6626c92595fa685567531396351418b82e1e1b7ea30"
+    },
+    {
+      "path": "public/audio/studio-v1/CREDITS.md",
+      "before": "70538ba89fb4241c91b7215b5d922ffa33257a9f83740911c90ff20009811c8b",
+      "after": "ae2e915ddf4e089095d88cb2b8e4215b9dec64a708cb922550891f99cc70b720"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-38-2.m4a",
+      "before": null,
+      "after": "1a1af4042f3c9aa3365a7bdc1f2bb26cc7143f3a95cb8a7ebdf64089f36db0ae"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-75-0.m4a",
+      "before": null,
+      "after": "68fa6299570c8d9ac8a55941551e9f92a74f44c6d1239f5ed04637f36c581e65"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-75-1.m4a",
+      "before": null,
+      "after": "6f03a8ce50a8e1a7aabfc3d1c6a9fbd982adc29f56afd024a43469513644efb9"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-75-2.m4a",
+      "before": null,
+      "after": "76301cfc81c9dd0c6fc72c73bfb7beb818c7ebbd7a761b473b483e0235bad82f"
+    },
+    {
+      "path": "public/audio/studio-v1/manifest.json",
+      "before": "e5041abfa622e34b41036a79ef8be278d0ab09d22706b3cd05e78337662543a5",
+      "after": "81a8337859487a8e6185cfdcd44e14d8e67a3c45e9cf500a66dbaf6f20791084"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-112-2.m4a",
+      "before": null,
+      "after": "ebfed17fea9bd455a6fe76ae48b353f8f70599ac68c0cecb24f4a56c6c013354"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-112-0.m4a",
+      "before": null,
+      "after": "6e311330ed53803e5caefd27cb18bd40d57566a9a7e6b5289cfb89f840faa6c5"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-112-1.m4a",
+      "before": null,
+      "after": "7c183180e133762f71d128940ae8155e8f46cb319bd304caeb7b8c7b29f8d15a"
+    },
+    {
+      "path": "public/audio/studio-v1/tom-0-38-0.m4a",
+      "before": null,
+      "after": "a596b65fa3a597cf7ae161f3779a96e8478af8c9736dcc5f54ba1e7bd9dcdfb9"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-112-2.m4a",
+      "before": null,
+      "after": "829e0ede1db856477395ceb702b24fff7814b1053066921280b389c6097c15e8"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-75-2.m4a",
+      "before": null,
+      "after": "2ebd3f96c9866634e979713e3d28973095c9dd466f64507a0ca9230a06f3477f"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-75-0.m4a",
+      "before": null,
+      "after": "cfe6818db92610c4bf3d3483569141e948a03066d1a6df9a656b757d65d263bf"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-112-1.m4a",
+      "before": null,
+      "after": "512a39c566d80ad97a0f9e79f52fc9088f8e5abc61c16d47b43ec380121aa7fe"
+    },
+    {
+      "path": "public/audio/studio-v1/rideBell-0-112-0.m4a",
+      "before": null,
+      "after": "ac4d79f9e5021a13313271b3235036abbb308018caf5594aea7b01fc0a280c79"
+    },
+    {
+      "path": "public/audio/studio-v1/openHat-0-75-1.m4a",
+      "before": null,
+      "after": "e97fa7e7b6aa3d8eca6d26de6ed7a257d29f57c41e9a7942a93239b4f2f7f776"
+    },
+    {
+      "path": "scripts/build-groove-stats.mjs",
+      "before": null,
+      "after": "d2a07310bdbe69d506c26a4b5ac292b7fe238bd416a41e47080014facdf66c96"
+    },
+    {
+      "path": "scripts/browser-check-legacy-vite.mjs",
+      "before": null,
+      "after": "511a2a0a6d7ce86fb55e23270059d7071ef778ddc9640ffb08d857ee89a7bf45"
+    },
+    {
+      "path": "scripts/apply-band-update.py",
+      "before": null,
+      "after": "2e29c3e11daa5a2ed20d0cd0b1e5e65a777947f76e06dc335489671e61c96671"
+    },
+    {
+      "path": "scripts/browser-check.mjs",
+      "before": "511a2a0a6d7ce86fb55e23270059d7071ef778ddc9640ffb08d857ee89a7bf45",
+      "after": "4ec908f7c6177c3ace94616a73606b2b7711768346e8b0982df43ff150020a41"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": null,
+      "after": "156ac6a37c4fbe4f96872cdf48f8dcea050373dddceca681dd60ebfc8fb74853"
+    },
+    {
+      "path": "scripts/author-band-styles.mjs",
+      "before": null,
+      "after": "c61b1fb6b91b6509b53241947f7097ecfa33cab7971577594f64dba137a0f750"
+    },
+    {
+      "path": "scripts/accompaniment-eval/calibrate-samples.mjs",
+      "before": null,
+      "after": "ecc86bcd74e3fcc4e0406c0a255957629580f2933667a8047cc9092ee7391ab8"
+    },
+    {
+      "path": "scripts/accompaniment-eval/export-vesper-baseline.mjs",
+      "before": null,
+      "after": "19395ded3e730f2bdc9007c0de816f38c42285457f4dde887dfa718a8e8351be"
+    },
+    {
+      "path": "scripts/accompaniment-eval/render-mma.mjs",
+      "before": null,
+      "after": "224373200f0bdd1db5ec37ae895e09c362e87d951c9a4608b88d447f638b2bb3"
+    },
+    {
+      "path": "scripts/accompaniment-eval/browser-ui.mjs",
+      "before": null,
+      "after": "bbfc298a5ef57945f92be52b669767d7c02328465db21d2e4c12fadcef16f69e"
+    },
+    {
+      "path": "scripts/accompaniment-eval/complete-kit.py",
+      "before": null,
+      "after": "b182781f459d21ed1e11787cefbb986b1b3195ed3a998a22c635c7e19e7e0340"
+    },
+    {
+      "path": "scripts/accompaniment-eval/analyze-midi.py",
+      "before": null,
+      "after": "8e94127feb93dc694e05a2ca9e4269b6b7657cc63a61364fc4702b0b03f310f4"
+    },
+    {
+      "path": "scripts/accompaniment-eval/build-harness.mjs",
+      "before": null,
+      "after": "92dd68665d6a346ef49ae2aa4c2e932e203159d45b28634c1e789487ac1daf9d"
+    },
+    {
+      "path": "scripts/accompaniment-eval/map-mma-tracks.py",
+      "before": null,
+      "after": "c83687e273abe1ca06497e7031b5d62824252658e78bbc66fe1eef293ffa2ded"
+    },
+    {
+      "path": "scripts/accompaniment-eval/write-reports.py",
+      "before": null,
+      "after": "5959a0c19e62ff1b887d722414f998ba82ed37b9265fb36b2ca7b25f18146b22"
+    },
+    {
+      "path": "scripts/accompaniment-eval/render-fixtures.mjs",
+      "before": null,
+      "after": "73e9b410e48fc67034828295a877d8fb4ad4a2cd9368b92a2a36415144b3f387"
+    },
+    {
+      "path": "scripts/accompaniment-eval/analyze-all.py",
+      "before": null,
+      "after": "b5bac7372d75a4ae5498f44c40997b03fccd342214fd05a02a886dab6a3ac752"
+    },
+    {
+      "path": "scripts/accompaniment-eval/browser-band.mjs",
+      "before": null,
+      "after": "127e976eb64a5a1bf5076b1bc252552baf56dbce3ef5bca8e636901d84f7d7f3"
+    },
+    {
+      "path": "scripts/accompaniment-eval/smf.mjs",
+      "before": null,
+      "after": "b026d07ae90cfa6c44509486c579c16fc3309d0282ff441e6395805ca1f5185b"
+    },
+    {
+      "path": "scripts/accompaniment-eval/render-audio-checks.mjs",
+      "before": null,
+      "after": "4d778fbbe2e4317b3a1791f5d89e7dab2922236073fb04642892f3705afed3ae"
+    },
+    {
+      "path": "scripts/accompaniment-eval/download-references.py",
+      "before": null,
+      "after": "ad2b01a154dd2d25f99cff722f132515da7aff4f431eca1d4640666391457f7e"
+    },
+    {
+      "path": "scripts/accompaniment-eval/fixtures.json",
+      "before": null,
+      "after": "e96ae26fb224e223d51c0d25a42d870991a0792404a441ab289c288168dcd27c"
+    },
+    {
+      "path": "scripts/accompaniment-eval/browser-entry.js",
+      "before": null,
+      "after": "ce61779b15b03b4b99ff280704f441cef53f0671b489afcaa7b1642a4b398ec6"
+    },
+    {
+      "path": "scripts/accompaniment-eval/check-matching.mjs",
+      "before": null,
+      "after": "597ca66b27ac953373a5d65e0f087b3f0164175289306f3a49104e2e5f6856cf"
+    },
+    {
+      "path": "tests/band.test.js",
+      "before": null,
+      "after": "5c2589c36876f14a468cc3fcc361d87fabcd734add0ae1736a216147107db75b"
+    },
+    {
+      "path": "tests/music.test.js",
+      "before": "1e3005da7c7c6673d6635657f347cfea6497b717e82bd71717e48efbcb6d8242",
+      "after": "a4150616fab32d6f952ae1f7b0ab8b9b787e09678d5d8e969acc16f3ab6bd9f1"
+    },
+    {
+      "path": "docs/accompaniment-metrics.json",
+      "before": null,
+      "after": "4b470c0af1cb32dbab309511bf8dcd517fcab3ca7f6bd6c73b9f8e241d21c95a"
+    },
+    {
+      "path": "docs/implementation-status.md",
+      "before": "e6cbd6c127b9f43f724a4c791c98f75cde68ceadae61e12a4be35b11e12f9d7d",
+      "after": "e292d74763ce38cc3ee4760afa7b6511d351fbb50f7cfef22d92282c9e9e4308"
+    },
+    {
+      "path": "docs/accompaniment-target-checks.json",
+      "before": null,
+      "after": "0ce5d6f00b0dbeda7608238d2b725f3fdd6044d28e2881896276c8570644912d"
+    },
+    {
+      "path": "docs/accompaniment-measurements.md",
+      "before": null,
+      "after": "96a2dc34bbf772627c01b8e4f406d32735c90ef096ede3539c6c72ad921e70e9"
+    },
+    {
+      "path": "docs/accompaniment-browser-checks.json",
+      "before": null,
+      "after": "f9f423236c51053e972785449193d81af094675525cc6613d27538a86d79d44a"
+    },
+    {
+      "path": "docs/accompaniment-spec.md",
+      "before": null,
+      "after": "676fd576074a0be073368b6d8acb297665e4da2abdab1d81c6dca840332a10c0"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": null,
+      "after": "0bf3dd902aad3f3eeb0f16438eaa6404bd0aefb7646432b1d3e45f626b8f8f2e"
+    },
+    {
+      "path": "docs/accompaniment-results.md",
+      "before": null,
+      "after": "1984068ba4b39c0defc91fc48a666f32c37ad0ed3c11d767d3c92dac847914f7"
+    },
+    {
+      "path": "package.json",
+      "before": "10d3dbe00a08346b3f267e3d97a450215fcc04735204b7651be8237645d70b54",
+      "after": "8a8e531e37d91f50bde3ef12a35a0defd1d2ef00d8368be5db3df893b998016c"
+    },
+    {
+      "path": "next.config.mjs",
+      "before": "9bc6c08a2a41ad8f863a37a27e93c55f780345274d04088246c6e7b6b5e5d0fa",
+      "after": "47ee36f2c2572ee75930d332ef8e918187a34cf58e418df3082c66bac5a37086"
+    },
+    {
+      "path": "README.md",
+      "before": "35f9d5445284efb0eb2c30a5eaa1d99a73615996bde08790d8d7d5fa0c337208",
+      "after": "2fe901acb0cdc4f4f5abb806b2664d48064437eea1244a7caa98249d6d645ba4"
+    }
+  ]
+}

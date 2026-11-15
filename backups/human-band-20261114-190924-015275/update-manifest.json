@@ -1,0 +1,26 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": "a7ee8ae736ed0af31b03730243d7bd415a633b0690c5a03e4c459c70ff78bd5c",
+      "after": "a64033ce2408a888cfb3293ea04f94374f56204a8dae90aae4aab9271c6ce6f2"
+    },
+    {
+      "path": "src/components/Player.jsx",
+      "before": "28f61702d0187da3d30e2132bf920fd5f23c7c5a2efb92130d50b78956e09eae",
+      "after": "99a326a99e87bc7933d6fe538ff2db2c5b3c554f7a91cda793fe16a7dc5cd62f"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "c7eed47a46200b919c9e4a526ea5712a262e745c244f3d7c233bef1212194752",
+      "after": "1c3d91b1931d509fcd7e38851b22753aec5e03998d636ccc07cd0db9ce94d5f1"
+    },
+    {
+      "path": "docs/accompaniment-decisions.md",
+      "before": "02b6a08dfdf392f9293f70cb89c42033d8ee6d99513c8523ea4fe49ab3bfffce",
+      "after": "5c910824f1a2ff7272d0d5956559fef0339d796acbbcd85cb8e79ba7ccd1160b"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+// The paper and its controls share the same top edge.
+.score-workspace { flex: 1; min-height: 0; display: grid; grid-template-columns: 164px minmax(0, 1fr) 158px; gap: 8px; padding: 10px 12px 0; }
+.score-side { min-width: 0; overflow-y: auto; padding: 3px; display: flex; flex-direction: column; gap: 22px; align-items: stretch; }
+.score-side .breadcrumbs { flex-wrap: wrap; gap: 6px; font-size: 10px; > span, > svg { display: none; } }
+.score-side .song-identity { align-items: flex-start; gap: 0; > .song-style-dot { display: none; } strong { white-space: normal; font-size: 13px; } span:not(.song-style-dot) { font-size: 10px; line-height: 1.5; } }
+.score-side .transpose-control { flex-wrap: wrap; gap: 6px; justify-content: center; .control-caption { width: 100%; text-align: center; margin-bottom: 4px; } > select { max-width: 82px; } }
+.score-side .song-actions, .score-side .chart-controls-right { display: flex; flex-direction: column; align-items: stretch; gap: 8px; }
+.score-side .song-actions .button { justify-content: center; }
+.score-side .top-actions { flex-wrap: wrap; justify-content: center; gap: 7px; }
+.score-side .saved-label { width: 100%; margin: 0; justify-content: center; font-size: 8px; }
+.score-side .icon-button, .score-side .text-button { min-height: 36px; }
+.score-side .chart-controls-right > button { display: flex; align-items: center; justify-content: center; gap: 7px; }
+.score-center { min-height: 0; min-width: 0; display: flex; flex-direction: column; }
+.score-center > .warning { flex: none; }
+.app .score-center .chart-scroll { padding: 0 5px 8px; }
+.score-center .paper-viewport { align-items: flex-start; }
+.score-center .chart-hint { display: none; }
+@media (max-width:1100px) { .score-workspace { grid-template-columns: 112px minmax(0,1fr) 86px; gap: 5px; padding-inline: 7px; } .score-side .saved-label { font-size: 0; } .score-side .song-actions .button span { display: none; } .score-side .transpose-control > select { width: 100%; max-width: none; text-align: center; order: 1; } .score-side .transpose-control > button { order: 2; } }
+@media (max-width:760px) { .score-workspace { grid-template-columns: 58px minmax(0,1fr) 42px; gap: 3px; padding: 6px 3px 0; } .score-side { padding: 0; gap: 12px; } .score-side .song-identity { display: none; } .score-side .breadcrumbs > strong { display: none; } .score-side .top-actions { flex-direction: column; } .score-side .chart-controls-right .text-button span { display: none; } .score-side .transpose-control { gap: 2px; } .score-side .transpose-control > select { font-size: 10px; padding-inline: 0; } .score-side .transpose-control > button:not(.transpose-reset) { width: 25px; } .score-side .button { padding-inline: 5px; } }
+@media print { .score-workspace, .score-center { display: block !important; padding: 0 !important; } .score-side { display: none !important; } }

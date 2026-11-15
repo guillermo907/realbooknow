@@ -1,0 +1,1396 @@
+{
+  "version": 1,
+  "instruments": {
+    "piano": [
+      {
+        "root": 40,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-40-32-0.m4a",
+        "sha256": "8ead4ef2380ae9f56390639031ef1e3f7c58eee5d00b26594396d3ba867fce61",
+        "bytes": 153116
+      },
+      {
+        "root": 43,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-43-32-0.m4a",
+        "sha256": "3565bb0c8fce8ee5602e41cf4d5226a4ade9bee34c1dbae4e0461cb33f9755c2",
+        "bytes": 103960
+      },
+      {
+        "root": 45,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-45-32-0.m4a",
+        "sha256": "20dfeb4a6026b6c60a1bd6a46a99c7acd2d64e456f2c3f04ad3186f93280a973",
+        "bytes": 121615
+      },
+      {
+        "root": 48,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-48-32-0.m4a",
+        "sha256": "4e087e9bc304c80ef37df89e0846412fb8aa99c3271d4897b00eabbf689e4c42",
+        "bytes": 120494
+      },
+      {
+        "root": 52,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-52-32-0.m4a",
+        "sha256": "14c9151e70284bdd1122f8126667f6ab1638a8a00eb8e4bb654ec74e014e1fd3",
+        "bytes": 98945
+      },
+      {
+        "root": 55,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-55-32-0.m4a",
+        "sha256": "4fe63ca532b01458a6ad938bfd468221a7368735440f78cab5a1283640b45c12",
+        "bytes": 111764
+      },
+      {
+        "root": 58,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-58-32-0.m4a",
+        "sha256": "72b7443fa2e4e60e7c2f153f377bf9565d85f94f57bd8e100a1f4889b81977c0",
+        "bytes": 81049
+      },
+      {
+        "root": 60,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-60-32-0.m4a",
+        "sha256": "78bb4ff62019ecd3f490af26d5d4ac71eeaa4f673ea848f7d715ec6698b1cc29",
+        "bytes": 83229
+      },
+      {
+        "root": 64,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-64-32-0.m4a",
+        "sha256": "3eaf109443be68be4e57941dee18ab343f01dc3b61fd865a0419e5fb0881f15d",
+        "bytes": 92267
+      },
+      {
+        "root": 67,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-67-32-0.m4a",
+        "sha256": "62a46f709c8e0505d5c62a7c09b9260d10071eb2c550379fc31125e3aefc274a",
+        "bytes": 88792
+      },
+      {
+        "root": 69,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-69-32-0.m4a",
+        "sha256": "b8f29d3e00b70e925a55944d887cd5a2b1fad1eb012807e042405ca6e5386526",
+        "bytes": 94564
+      },
+      {
+        "root": 72,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-72-32-0.m4a",
+        "sha256": "eda43f897e51e6ca6ac642faa319abbb76dec0921f6a730cb65e1ee8f3b7e27a",
+        "bytes": 68116
+      },
+      {
+        "root": 76,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-76-32-0.m4a",
+        "sha256": "75e68894a3edc32deaa40d6e9b8e7545e8f6b7ee9229f11b0666a5a3f9c497b9",
+        "bytes": 68848
+      },
+      {
+        "root": 79,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-79-32-0.m4a",
+        "sha256": "29e4604920e9a914347ba6d42cc7cbfc1bc34081691c51186de9518ca4e0245a",
+        "bytes": 61471
+      },
+      {
+        "root": 82,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-82-32-0.m4a",
+        "sha256": "1260eb579f7b66ae328de0fe334e63bc1ffcc4d31a383ad1cdb9d2d13bb85aad",
+        "bytes": 40734
+      },
+      {
+        "root": 85,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-85-32-0.m4a",
+        "sha256": "2f52f23ffe2f0d740c88f0b26ae9d4d8cb233c4436de010e8220b9267165cf9a",
+        "bytes": 45308
+      },
+      {
+        "root": 87,
+        "velocity": 32,
+        "rr": 0,
+        "file": "piano-87-32-0.m4a",
+        "sha256": "ace003483f298a06f38ac26f3161a8dc4b3cf351a2604d3a882a986f575442f8",
+        "bytes": 36993
+      },
+      {
+        "root": 40,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-40-60-0.m4a",
+        "sha256": "9d9a7a797c1d0b897b39388bde61842d45400798d3ab45666365e8ad85ab69e5",
+        "bytes": 201055
+      },
+      {
+        "root": 43,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-43-60-0.m4a",
+        "sha256": "ff707099a4d9a4b95950d27af4cb5caef9210b76b26dab5237dd8e5f181d1812",
+        "bytes": 157312
+      },
+      {
+        "root": 45,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-45-60-0.m4a",
+        "sha256": "40a5111bedbee8261a1b5d68ac9e4e51a1ff1c7b86d026ea6c13980411419966",
+        "bytes": 194894
+      },
+      {
+        "root": 48,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-48-60-0.m4a",
+        "sha256": "b768d12e83424a8c322ebe93d03ae28b2a7b2baffcb6fb4f7106587a1d954f52",
+        "bytes": 148633
+      },
+      {
+        "root": 52,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-52-60-0.m4a",
+        "sha256": "8bbff570781e9e2098f81959f6a815bc50ac97af92e6911b65d718e11eca19fe",
+        "bytes": 151294
+      },
+      {
+        "root": 55,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-55-60-0.m4a",
+        "sha256": "070b017ae471eab35865abe754dd19df15966260ca26456acfa7fbe2682104a8",
+        "bytes": 155169
+      },
+      {
+        "root": 58,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-58-60-0.m4a",
+        "sha256": "96762e0d551c476bd6525b8d54df3327c50d1d00c9cbff92e9a3eeaa4cf84efa",
+        "bytes": 166064
+      },
+      {
+        "root": 60,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-60-60-0.m4a",
+        "sha256": "2d45d6a09cb4cf57cf040264beff9a926c08e3fe2516671d06b1d185b9d91cbd",
+        "bytes": 130734
+      },
+      {
+        "root": 64,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-64-60-0.m4a",
+        "sha256": "a820f38506bda8a1169e23400d27192d4e98bc3fd3ee9bd8e398153b29cfcf03",
+        "bytes": 123105
+      },
+      {
+        "root": 67,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-67-60-0.m4a",
+        "sha256": "2fd5bb0aed0662240d46955284cabbf6e2235e24ad7d55bb517af31dbc92e2f5",
+        "bytes": 97582
+      },
+      {
+        "root": 69,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-69-60-0.m4a",
+        "sha256": "1a6890dbfc05b642fc60118569ece07a959d1342171e321ad05721402a3b251f",
+        "bytes": 103563
+      },
+      {
+        "root": 72,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-72-60-0.m4a",
+        "sha256": "ecc288a15b0f36e2cf6c52c5a25dab56768d5d1028f9648d004b209ccbb2aaf8",
+        "bytes": 64165
+      },
+      {
+        "root": 76,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-76-60-0.m4a",
+        "sha256": "c01c8fc81d6934e637bc83b7fe485e5d5765616c588162126ccdb1fe34b73ec6",
+        "bytes": 97280
+      },
+      {
+        "root": 79,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-79-60-0.m4a",
+        "sha256": "15f25e6f4d034325ce6092ea861cd19d7ccb7fc733814bc850c1571e610aa796",
+        "bytes": 78856
+      },
+      {
+        "root": 82,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-82-60-0.m4a",
+        "sha256": "ed864a5589f5a3ebb7e9cfe93482bcbd3233d6e1db361e49763e7faec99d496b",
+        "bytes": 66009
+      },
+      {
+        "root": 85,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-85-60-0.m4a",
+        "sha256": "3a3dc979eeda21945c5e975e12baab9c7723d53053912054c1b87bc6fa368042",
+        "bytes": 57139
+      },
+      {
+        "root": 88,
+        "velocity": 60,
+        "rr": 0,
+        "file": "piano-88-60-0.m4a",
+        "sha256": "bf79b7899aa05562bff55428975355bd23c36abb4513b9e1beac130e2ae1d218",
+        "bytes": 54018
+      },
+      {
+        "root": 40,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-40-87-0.m4a",
+        "sha256": "3e7a1ce0302842cd1a774eb20a4a5a3e8725bfa20c48afac5c2ed23da19929b3",
+        "bytes": 211182
+      },
+      {
+        "root": 43,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-43-87-0.m4a",
+        "sha256": "617b8a9667c36e4fb92125e1336bbced645856b664357a43245ba9d552dc3058",
+        "bytes": 213792
+      },
+      {
+        "root": 45,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-45-87-0.m4a",
+        "sha256": "a243d5e9de3ebbc24e5e9e0ddb1b16a72dcb7029ef440898423871c633efb085",
+        "bytes": 171184
+      },
+      {
+        "root": 48,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-48-87-0.m4a",
+        "sha256": "f83ca5a58610cfdd0628b08dcfb07897e843500b7fec9d69126001a62ef3a5be",
+        "bytes": 184936
+      },
+      {
+        "root": 52,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-52-87-0.m4a",
+        "sha256": "7c6b0e013a0921e8aee7917f17aca9b8c108d8de2c428f3aa1f93d9b592cf942",
+        "bytes": 168614
+      },
+      {
+        "root": 55,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-55-87-0.m4a",
+        "sha256": "19d5bafde1c37d715f1ffb5a7a5e2ac44172c2895b25b3ee71980137a5985597",
+        "bytes": 175409
+      },
+      {
+        "root": 58,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-58-87-0.m4a",
+        "sha256": "902a18334458b5738f81cca17091c2e260b64e7adde0e8b7aaae78dac435bade",
+        "bytes": 154309
+      },
+      {
+        "root": 60,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-60-87-0.m4a",
+        "sha256": "42d4d5dcf205f54e18b92481749ec21290ce1f5fcd6c228d3c90a0ff54a1df73",
+        "bytes": 119106
+      },
+      {
+        "root": 64,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-64-87-0.m4a",
+        "sha256": "f1c8dc8e12419f861eb84d7b17c07e9dd3586155fbc6d7bf3e4c04f6001b8709",
+        "bytes": 137283
+      },
+      {
+        "root": 67,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-67-87-0.m4a",
+        "sha256": "f91f7d17836330e3d850b9ca7847864920f934f10332bc631ac9a7b7cce57dd3",
+        "bytes": 120547
+      },
+      {
+        "root": 69,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-69-87-0.m4a",
+        "sha256": "a514fa5908e3aa98771080b89e09d71b6cc5d72b1cdcfa68781b56f8278101ce",
+        "bytes": 107773
+      },
+      {
+        "root": 72,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-72-87-0.m4a",
+        "sha256": "87d38de30449443992798997203442f705be6aed557ee59c9e48f9ec396fada4",
+        "bytes": 70841
+      },
+      {
+        "root": 76,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-76-87-0.m4a",
+        "sha256": "7854d29215ef8f28f136b1b3db6f4881a6ebb4ab4399f9446667a22df0b84548",
+        "bytes": 88230
+      },
+      {
+        "root": 79,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-79-87-0.m4a",
+        "sha256": "3164e0648e9246347ab10d649d14a928d92e535af9b2252d08807a63590e9f7b",
+        "bytes": 93764
+      },
+      {
+        "root": 82,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-82-87-0.m4a",
+        "sha256": "073de70d10c89b064d252eea21ffc5f21a662fedd0444bc0e647780799f8f0a4",
+        "bytes": 87890
+      },
+      {
+        "root": 85,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-85-87-0.m4a",
+        "sha256": "efb6dc61b44124048287485c7e8a8b5e6d6eb77cbc7b1a34997e295f2911025c",
+        "bytes": 63731
+      },
+      {
+        "root": 88,
+        "velocity": 87,
+        "rr": 0,
+        "file": "piano-88-87-0.m4a",
+        "sha256": "40b044ea6b6678c90b5758d8de476b86086fe3f1ea749f8231d952aa0709b614",
+        "bytes": 70006
+      },
+      {
+        "root": 40,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-40-115-0.m4a",
+        "sha256": "d19004d26fdd6fd158664b074c153aa1826b2bf110b98e0f1e93f7efa2edff7e",
+        "bytes": 197607
+      },
+      {
+        "root": 43,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-43-115-0.m4a",
+        "sha256": "a7b01040b2f14735f4bd439e5525b5e6a8d68af648d3f011024c19b485f26c8d",
+        "bytes": 186620
+      },
+      {
+        "root": 45,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-45-115-0.m4a",
+        "sha256": "1a2a7dd1e6f33837a9f48f284db6749f342093b6bd165d6286f9d2dd0e783b51",
+        "bytes": 205845
+      },
+      {
+        "root": 48,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-48-115-0.m4a",
+        "sha256": "ae58dfbc0f1d463bee31b244041b8619e21d2f5de4152dc1857433179b8c06e5",
+        "bytes": 191909
+      },
+      {
+        "root": 52,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-52-115-0.m4a",
+        "sha256": "902adc7104ab89f80fc2241b0e8c259357fb0fbd2e1c008a6df5989a50f55857",
+        "bytes": 195288
+      },
+      {
+        "root": 55,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-55-115-0.m4a",
+        "sha256": "c8d42ecc368b9e2cebb213278b2429affcd90a918c23aa62c574c93ca1a2c413",
+        "bytes": 136686
+      },
+      {
+        "root": 58,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-58-115-0.m4a",
+        "sha256": "cf5d55549b475c8037b400341238088d74fb15df913f4ccfdc7d1836412fd6e4",
+        "bytes": 179140
+      },
+      {
+        "root": 60,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-60-115-0.m4a",
+        "sha256": "d2895a5cd181875dc0e737c9e9ffbc281ca8f502b4e555c1a7558ab81e9ad769",
+        "bytes": 104343
+      },
+      {
+        "root": 64,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-64-115-0.m4a",
+        "sha256": "297fdde84f5179ee59826e2e8532d648786c7a9a316aa86dd7081c1ee68af672",
+        "bytes": 126973
+      },
+      {
+        "root": 67,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-67-115-0.m4a",
+        "sha256": "76f0d845b18c056c1a1d898caf4a64a649a4a7924537e358b64cc726c5b7da68",
+        "bytes": 93833
+      },
+      {
+        "root": 69,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-69-115-0.m4a",
+        "sha256": "76b848aa83e4642475378862eb3a66d77b74082ea59ed33d1d421a5342f07c3b",
+        "bytes": 100201
+      },
+      {
+        "root": 72,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-72-115-0.m4a",
+        "sha256": "70a4adf2118591e1085f7e1c748aa04e2c06904e8eecad8fc9a3b17207d0112a",
+        "bytes": 62220
+      },
+      {
+        "root": 76,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-76-115-0.m4a",
+        "sha256": "7f47f70ebbcab7ee2e1e500796416530a8eb5eccfab1d90bc2c9d00eb87acbd0",
+        "bytes": 84905
+      },
+      {
+        "root": 79,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-79-115-0.m4a",
+        "sha256": "e6705997446078069a95f7a943e66616e6f281624b4b59ffdd1fcb86ff39e751",
+        "bytes": 58536
+      },
+      {
+        "root": 82,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-82-115-0.m4a",
+        "sha256": "d736821c23a6a820475f3efc90a8ba4fbe9f07dab6d534959142fe3243de434f",
+        "bytes": 60050
+      },
+      {
+        "root": 85,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-85-115-0.m4a",
+        "sha256": "835a542c101081fae99bbe2f28272a4068d7e02531ff43a86eefa179f79b0e10",
+        "bytes": 62225
+      },
+      {
+        "root": 88,
+        "velocity": 115,
+        "rr": 0,
+        "file": "piano-88-115-0.m4a",
+        "sha256": "6a393d83463a307e7b55732732f254a3adb58b8e685047e18deeaf006b9253b1",
+        "bytes": 49847
+      }
+    ],
+    "bass": [
+      {
+        "root": 24,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-24-50-0.m4a",
+        "sha256": "a2bd822e981b81cd98eb3b344317d7ad4940a6a61f30ac7798dc693c99f9898f",
+        "bytes": 90109
+      },
+      {
+        "root": 24,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-24-50-1.m4a",
+        "sha256": "1f09c65b121d6d827b9571e053c78b5c09fa461843d915a6e370deda499a0eac",
+        "bytes": 84997
+      },
+      {
+        "root": 24,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-24-100-0.m4a",
+        "sha256": "9832bed025be8bddcaa1b986a4fa3a5a3e61ff2bf60b32a422bd8e25d37e5eab",
+        "bytes": 84801
+      },
+      {
+        "root": 24,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-24-100-1.m4a",
+        "sha256": "2fd0595b716abe12a4b37e2f67ca897243b4d481b265cb2f9bd14cc1b227f430",
+        "bytes": 81257
+      },
+      {
+        "root": 27,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-27-50-0.m4a",
+        "sha256": "0bd57dcb9b3845d40f7eddeb2b19746f76e1ec3cc94f048723c5fb8c60a69a0d",
+        "bytes": 36267
+      },
+      {
+        "root": 27,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-27-50-1.m4a",
+        "sha256": "1246a0c8b1901182f021270685bc546dad011008afc935be71c2215e43fe377d",
+        "bytes": 38433
+      },
+      {
+        "root": 27,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-27-100-0.m4a",
+        "sha256": "3f6f560ba63db91053048da841c276666c5e2f65ad9ef229967d999e70c3230f",
+        "bytes": 38926
+      },
+      {
+        "root": 27,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-27-100-1.m4a",
+        "sha256": "570f98e494adff69f06ba7152fd691fa970a13264cebfa7e433c8e3848337fcc",
+        "bytes": 38015
+      },
+      {
+        "root": 31,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-31-50-0.m4a",
+        "sha256": "c4bc0ce392f592aa868909994faa12e7504321057f64d18e7ebb247e428fd25e",
+        "bytes": 84285
+      },
+      {
+        "root": 31,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-31-50-1.m4a",
+        "sha256": "d144c7840f1536c0b8cea68777a2371169aa161a95963bb1a5270d1e1a274c0d",
+        "bytes": 78659
+      },
+      {
+        "root": 31,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-31-100-0.m4a",
+        "sha256": "2366956c4107c2a40453154c7f938413b23a64704957b33f82d6ed400c898003",
+        "bytes": 81625
+      },
+      {
+        "root": 31,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-31-100-1.m4a",
+        "sha256": "74ad668aed715301ef98aca8f8f9bb865cd4d0bbaf381fb4fb6fc25d086ea4b7",
+        "bytes": 63830
+      },
+      {
+        "root": 34,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-34-50-0.m4a",
+        "sha256": "cf40a831822b2e6dde69e4b096a904f09ae0723bddbabc59913e894f3ec0cec0",
+        "bytes": 41012
+      },
+      {
+        "root": 34,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-34-50-1.m4a",
+        "sha256": "70933a4fed15a2858e6dc9c749d61e4419e222f2fd63281a07e06ba744fdf4b2",
+        "bytes": 37912
+      },
+      {
+        "root": 34,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-34-100-0.m4a",
+        "sha256": "7b0ed1f2e9b775f1767b10a9fd5cbbefb5e9485ed6f556e8c80d9418b16a8b67",
+        "bytes": 39635
+      },
+      {
+        "root": 34,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-34-100-1.m4a",
+        "sha256": "44de2a0cc156e5b176ead8074fc36032f99766003748747611b6118f10a1667f",
+        "bytes": 37223
+      },
+      {
+        "root": 38,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-38-50-0.m4a",
+        "sha256": "bd3402cadbcc866438ec2f601e2a0d62637086523f53c6f7a18ef473fab5dc35",
+        "bytes": 88214
+      },
+      {
+        "root": 38,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-38-50-1.m4a",
+        "sha256": "5198e5abe14973768bfc423d1d12da95833150905d983e4f036bc5f2272f6363",
+        "bytes": 91494
+      },
+      {
+        "root": 38,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-38-100-0.m4a",
+        "sha256": "387d1baefed3c34293d14ec314daf8f1a834b1c2ea9997454abedece16c2db29",
+        "bytes": 97665
+      },
+      {
+        "root": 38,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-38-100-1.m4a",
+        "sha256": "e71a50115255b435fab6464d0d49677e4e455d243826aa3957765ea38b069ec2",
+        "bytes": 87481
+      },
+      {
+        "root": 41,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-41-50-0.m4a",
+        "sha256": "0ae1b1c8fd0f9a5a0b3b6f0fa76d3b563df768d48d097d3d7cf62b366ffec629",
+        "bytes": 30923
+      },
+      {
+        "root": 41,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-41-50-1.m4a",
+        "sha256": "5da771c133676ecbcd9ef53bbf221a3434395792da4fca697677a8f1ec77667e",
+        "bytes": 33637
+      },
+      {
+        "root": 41,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-41-100-0.m4a",
+        "sha256": "e4669bddd273eae7b5ab3256bb54b180ffb07d63fe863812f1861c1a049ca199",
+        "bytes": 37720
+      },
+      {
+        "root": 41,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-41-100-1.m4a",
+        "sha256": "7a58b60ffa334e280536302f57c702eb87aeb64f06795ebb0a9d2ed0d94a814d",
+        "bytes": 38031
+      },
+      {
+        "root": 45,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-45-50-0.m4a",
+        "sha256": "52503a41c52f9948b008743177b1105878e5678d714769f190409b04c65e4323",
+        "bytes": 41344
+      },
+      {
+        "root": 45,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-45-50-1.m4a",
+        "sha256": "ac8825ce3005baac136697cf1a686096c31d10710a773e992ce863457f451319",
+        "bytes": 41681
+      },
+      {
+        "root": 45,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-45-100-0.m4a",
+        "sha256": "5c4abfc471ef1145b23d2521c3a2a006906907ce8fc889487c13b8ccc1579add",
+        "bytes": 56646
+      },
+      {
+        "root": 45,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-45-100-1.m4a",
+        "sha256": "9b016de21308f2ac0cb595611c58ba5f0a5a41fb7ff3aaea150c2591b716fb06",
+        "bytes": 54415
+      },
+      {
+        "root": 48,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-48-50-0.m4a",
+        "sha256": "6c442eb1fb13a4bd74842c1a12a491cf87fbe3d0369827aaef2990461fcf3e40",
+        "bytes": 36229
+      },
+      {
+        "root": 48,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-48-50-1.m4a",
+        "sha256": "879f4262ecd548462f94c3cc1da916afca5114e221a8b2521a8f65ad4e19488f",
+        "bytes": 35523
+      },
+      {
+        "root": 48,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-48-100-0.m4a",
+        "sha256": "f03bf58771d44674f63403c6a13f0608c037f0e6ba3ba2c33390a9dac9506f79",
+        "bytes": 40737
+      },
+      {
+        "root": 48,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-48-100-1.m4a",
+        "sha256": "219a264dfe27aa5589b0833e95b0d07282f23bd9465bed13b3239cfd70c22406",
+        "bytes": 42923
+      },
+      {
+        "root": 52,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-52-50-0.m4a",
+        "sha256": "cceef9d376578a1e039153d897301ffec85307ff2595babd7a95f2bc76092c46",
+        "bytes": 24392
+      },
+      {
+        "root": 52,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-52-50-1.m4a",
+        "sha256": "31a2035a1644f8dffb856b6353122533493b6a0f407e7a96e4f5c9c3735de104",
+        "bytes": 26413
+      },
+      {
+        "root": 52,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-52-100-0.m4a",
+        "sha256": "10263f4e7f96b3d5544b890494c818d07cd81057acf7b6ec4fc32ead61574057",
+        "bytes": 32071
+      },
+      {
+        "root": 52,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-52-100-1.m4a",
+        "sha256": "c65f15dbb3dcb22fda31f1022375393ed9713e0188027b7bf8762ce59bef3130",
+        "bytes": 31529
+      },
+      {
+        "root": 55,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-55-50-0.m4a",
+        "sha256": "0d1193ce70e87cc5d130ddac0bd9731d49b05edb46abdc1371514ab46f68a788",
+        "bytes": 22408
+      },
+      {
+        "root": 55,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-55-50-1.m4a",
+        "sha256": "7e9c372dbc8f1cceb61eca845aef33f6bb76619cdd9977c5137e137405b58e75",
+        "bytes": 24105
+      },
+      {
+        "root": 55,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-55-100-0.m4a",
+        "sha256": "8ad7322794e45985d2c2a309728dbda4ad0a7bebe856cdfde8676f7d010a46b1",
+        "bytes": 30629
+      },
+      {
+        "root": 55,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-55-100-1.m4a",
+        "sha256": "6e3a811eaeb8242ad0627f6fa515753d0fd73a7266400ff999cedf0b50f5b523",
+        "bytes": 28433
+      },
+      {
+        "root": 57,
+        "velocity": 50,
+        "rr": 0,
+        "file": "bass-57-50-0.m4a",
+        "sha256": "5948cf5340673c8ce7214459b8ee243dd54c9ba95d79232d4f1c290b49476dfb",
+        "bytes": 18652
+      },
+      {
+        "root": 57,
+        "velocity": 50,
+        "rr": 1,
+        "file": "bass-57-50-1.m4a",
+        "sha256": "51ae564c287b06c4b5379b463831cd0197fd014b4302464693cc52c29454a688",
+        "bytes": 17518
+      },
+      {
+        "root": 57,
+        "velocity": 100,
+        "rr": 0,
+        "file": "bass-57-100-0.m4a",
+        "sha256": "0f284ce0a4915b098c5879b297d0bf9e449b4e1c9d0a59a8f49dd9445d1e5e50",
+        "bytes": 16812
+      },
+      {
+        "root": 57,
+        "velocity": 100,
+        "rr": 1,
+        "file": "bass-57-100-1.m4a",
+        "sha256": "d1796448234e2827af368f5575a6675b262a2ec9dc8506ddecb5ab09d9407d7c",
+        "bytes": 17086
+      }
+    ],
+    "ride": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "ride-0-38-0.m4a",
+        "sha256": "a174689ca58603110ff895dc6c608afb00a7a5759cdb1fb3939714e7ad993c0f",
+        "bytes": 217491
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 1,
+        "file": "ride-0-38-1.m4a",
+        "sha256": "e8f305c40b7e7f51fbd153de23a827d34045df6cf1ef6f42ec2bf14092e36035",
+        "bytes": 162115
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "ride-0-75-0.m4a",
+        "sha256": "c7b0dd243c270cc422823ed6f3a68474f93eac19d38f0d53d7019537ce58a0f4",
+        "bytes": 169192
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 1,
+        "file": "ride-0-75-1.m4a",
+        "sha256": "5c03614561f39b6b0097529b735382c7c3f531a6a44a385ee2442cb4259b4d97",
+        "bytes": 168950
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 0,
+        "file": "ride-0-112-0.m4a",
+        "sha256": "cb13b7c6ff02194ef1054ade0bed1365e6152e7cf6547732eea21136dd9670eb",
+        "bytes": 154799
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 1,
+        "file": "ride-0-112-1.m4a",
+        "sha256": "0a5b085386a6602c9a396ba37dd4e8c4cab9d68c2e07c1be60152e1d6807a4d1",
+        "bytes": 126301
+      }
+    ],
+    "hat": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "hat-0-38-0.m4a",
+        "sha256": "ddfd4d58ccc64ab608af7dbbfee732e6bfe59c7855b06f42596f4339a54e0d9e",
+        "bytes": 15406
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 1,
+        "file": "hat-0-38-1.m4a",
+        "sha256": "633f36af2bacaa81a9239b37b81958310934b9eea9d8a92dbe41a28adb40f489",
+        "bytes": 11305
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "hat-0-75-0.m4a",
+        "sha256": "d8469e94a095ce9d7302e0da15989cd146d698c33622a364063056b9c356b9d0",
+        "bytes": 12956
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 1,
+        "file": "hat-0-75-1.m4a",
+        "sha256": "d59bff48d00f7f1c8ada327fc299206e37519140679abcfc7749684006231357",
+        "bytes": 12403
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 0,
+        "file": "hat-0-112-0.m4a",
+        "sha256": "368ad5dbb443eab424eebcd12eb1c23f63881f3a5f583413017bdb332e58fa73",
+        "bytes": 14606
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 1,
+        "file": "hat-0-112-1.m4a",
+        "sha256": "1bb517505af78604f14509e4f48a3df778a3c1feffa4ead2712c2e958d6d536b",
+        "bytes": 14622
+      }
+    ],
+    "pedal": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "pedal-0-38-0.m4a",
+        "sha256": "62ea975b26e8808ea6079c36cb10bfb55d8e3b7920f9e65661bad68e42c6beee",
+        "bytes": 39037
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 1,
+        "file": "pedal-0-38-1.m4a",
+        "sha256": "73a66895b38488e6994278b63f6124afac7aa66ca3be47f52926ad2149a36ab3",
+        "bytes": 34758
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "pedal-0-75-0.m4a",
+        "sha256": "6a66ee2b94e29332678f4a0c286b165d3e6e8b2ddcfa62f3b47d90922b69852e",
+        "bytes": 39500
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 1,
+        "file": "pedal-0-75-1.m4a",
+        "sha256": "8cf14b0fcf6bf28830dad809a748104998902d22ba23e11ece0d7775724a0ae0",
+        "bytes": 36656
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 0,
+        "file": "pedal-0-112-0.m4a",
+        "sha256": "809f12a09fed27f5d70c30184c833e7e69e3c1ae0f8f524f737d1b3f99723af9",
+        "bytes": 47106
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 1,
+        "file": "pedal-0-112-1.m4a",
+        "sha256": "1d0725c9daf0cca647e32c5b027a83735be4f16667f426188d3134c6e539f7bd",
+        "bytes": 48569
+      }
+    ],
+    "snare": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "snare-0-38-0.m4a",
+        "sha256": "d8a7805844ed737f6a8d1b8815bbefd91739c50392ca00dcbaff2ec2581aca1d",
+        "bytes": 37128
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 1,
+        "file": "snare-0-38-1.m4a",
+        "sha256": "6199c12b58b03a3cb0d6bff6d1ebe61c2ad0c458d8c214525c6e315e6aa2ab65",
+        "bytes": 32696
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "snare-0-75-0.m4a",
+        "sha256": "cb85f23cf3e79f9578fb8a9e353f9de043a14d4d8583d8e38543f71aa6f2fff1",
+        "bytes": 33435
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 1,
+        "file": "snare-0-75-1.m4a",
+        "sha256": "5462990f8d19908c316abcc52ff3dd34d73981bb144aece801e5f0b30793f737",
+        "bytes": 32472
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 0,
+        "file": "snare-0-112-0.m4a",
+        "sha256": "7ba5fb07a21424f7720522e0654bf6c24faa9728ff7587df66651759d6d3be2e",
+        "bytes": 33527
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 1,
+        "file": "snare-0-112-1.m4a",
+        "sha256": "2285f3864a774aaf0494cca10e3a4e10e5806d2e88b3bdb253ba04ad5ea66960",
+        "bytes": 39479
+      }
+    ],
+    "kick": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "kick-0-38-0.m4a",
+        "sha256": "af8733b7b1b0a8121a624985d3a9a0a5f445b080aa00f4a9b50029c0c0900c19",
+        "bytes": 41611
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 1,
+        "file": "kick-0-38-1.m4a",
+        "sha256": "b744d750f3e8c38ee5026d4f1b8d1f3243b9493f2ee7a6e253be1fe184f63fcb",
+        "bytes": 39455
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "kick-0-75-0.m4a",
+        "sha256": "962ba0fd41a0f41b370f8e2c800c0a1e5cd3940206219f290058b3410bc6cccf",
+        "bytes": 47390
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 1,
+        "file": "kick-0-75-1.m4a",
+        "sha256": "e405dcf85599468c1e6d1438f471501ae0eba7867e204ac959a1aecf3a5a65b9",
+        "bytes": 49899
+      }
+    ],
+    "rim": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "rim-0-38-0.m4a",
+        "sha256": "5ab2aabc0ef11a593f1b445784fa2694800f52191335550fe13048cd6ebc5608",
+        "bytes": 49959
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 1,
+        "file": "rim-0-38-1.m4a",
+        "sha256": "a64ad6864b85061ac9f38bef7256e5c286496d392fe62255338a57383e26eb01",
+        "bytes": 47751
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "rim-0-75-0.m4a",
+        "sha256": "a64ad6864b85061ac9f38bef7256e5c286496d392fe62255338a57383e26eb01",
+        "bytes": 47751
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 1,
+        "file": "rim-0-75-1.m4a",
+        "sha256": "5f3e84301cb89af02c8fc8197fbef739330b8ecb6ba4ce417c885d747af4740d",
+        "bytes": 49718
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 0,
+        "file": "rim-0-112-0.m4a",
+        "sha256": "5f3e84301cb89af02c8fc8197fbef739330b8ecb6ba4ce417c885d747af4740d",
+        "bytes": 49718
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 1,
+        "file": "rim-0-112-1.m4a",
+        "sha256": "dec17c6c0284bc5942dd34012f6c7ca49881e31557f184737c8637f437ebca3f",
+        "bytes": 57957
+      }
+    ],
+    "rideBell": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "rideBell-0-38-0.m4a",
+        "bytes": 113294,
+        "sha256": "137191fa520776c3211307a7294918561b244164f8eb55f78472f554804103d6"
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 1,
+        "file": "rideBell-0-38-1.m4a",
+        "bytes": 94067,
+        "sha256": "a81c6c9e9d0d03fc06c4a6626c92595fa685567531396351418b82e1e1b7ea30"
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 2,
+        "file": "rideBell-0-38-2.m4a",
+        "bytes": 107088,
+        "sha256": "1a1af4042f3c9aa3365a7bdc1f2bb26cc7143f3a95cb8a7ebdf64089f36db0ae"
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "rideBell-0-75-0.m4a",
+        "bytes": 117019,
+        "sha256": "68fa6299570c8d9ac8a55941551e9f92a74f44c6d1239f5ed04637f36c581e65"
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 1,
+        "file": "rideBell-0-75-1.m4a",
+        "bytes": 113074,
+        "sha256": "6f03a8ce50a8e1a7aabfc3d1c6a9fbd982adc29f56afd024a43469513644efb9"
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 2,
+        "file": "rideBell-0-75-2.m4a",
+        "bytes": 118717,
+        "sha256": "76301cfc81c9dd0c6fc72c73bfb7beb818c7ebbd7a761b473b483e0235bad82f"
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 0,
+        "file": "rideBell-0-112-0.m4a",
+        "bytes": 143076,
+        "sha256": "ac4d79f9e5021a13313271b3235036abbb308018caf5594aea7b01fc0a280c79"
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 1,
+        "file": "rideBell-0-112-1.m4a",
+        "bytes": 150412,
+        "sha256": "512a39c566d80ad97a0f9e79f52fc9088f8e5abc61c16d47b43ec380121aa7fe"
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 2,
+        "file": "rideBell-0-112-2.m4a",
+        "bytes": 162288,
+        "sha256": "829e0ede1db856477395ceb702b24fff7814b1053066921280b389c6097c15e8"
+      }
+    ],
+    "openHat": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "openHat-0-38-0.m4a",
+        "bytes": 174646,
+        "sha256": "a26958b001b09c7473fe55f4c69224a6b80b20df178f649ce5ebd597b7876f17"
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 1,
+        "file": "openHat-0-38-1.m4a",
+        "bytes": 149174,
+        "sha256": "10d1dc5afd089804f035672944a89119075a4399a4eaef54cc52ee54d74fb605"
+      },
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 2,
+        "file": "openHat-0-38-2.m4a",
+        "bytes": 152955,
+        "sha256": "285429766e0f3efbb650074a6758bb3bfb94c3b9dbd880a37d7120c86fb6b8de"
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "openHat-0-75-0.m4a",
+        "bytes": 191356,
+        "sha256": "cfe6818db92610c4bf3d3483569141e948a03066d1a6df9a656b757d65d263bf"
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 1,
+        "file": "openHat-0-75-1.m4a",
+        "bytes": 203002,
+        "sha256": "e97fa7e7b6aa3d8eca6d26de6ed7a257d29f57c41e9a7942a93239b4f2f7f776"
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 2,
+        "file": "openHat-0-75-2.m4a",
+        "bytes": 206120,
+        "sha256": "2ebd3f96c9866634e979713e3d28973095c9dd466f64507a0ca9230a06f3477f"
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 0,
+        "file": "openHat-0-112-0.m4a",
+        "bytes": 229158,
+        "sha256": "6e311330ed53803e5caefd27cb18bd40d57566a9a7e6b5289cfb89f840faa6c5"
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 1,
+        "file": "openHat-0-112-1.m4a",
+        "bytes": 245450,
+        "sha256": "7c183180e133762f71d128940ae8155e8f46cb319bd304caeb7b8c7b29f8d15a"
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 2,
+        "file": "openHat-0-112-2.m4a",
+        "bytes": 229461,
+        "sha256": "ebfed17fea9bd455a6fe76ae48b353f8f70599ac68c0cecb24f4a56c6c013354"
+      }
+    ],
+    "tom": [
+      {
+        "root": 0,
+        "velocity": 38,
+        "rr": 0,
+        "file": "tom-0-38-0.m4a",
+        "bytes": 62161,
+        "sha256": "a596b65fa3a597cf7ae161f3779a96e8478af8c9736dcc5f54ba1e7bd9dcdfb9"
+      },
+      {
+        "root": 0,
+        "velocity": 75,
+        "rr": 0,
+        "file": "tom-0-75-0.m4a",
+        "bytes": 69031,
+        "sha256": "bce2275db13f76b0fd58a2b7c6e1b21fe6d2c59e38d1a13ecefcddcdb61a17b6"
+      },
+      {
+        "root": 0,
+        "velocity": 112,
+        "rr": 0,
+        "file": "tom-0-112-0.m4a",
+        "bytes": 84179,
+        "sha256": "932e6ab115d8190bd62b4c226b53c0bbb8d350a2aefa516345f87cbc398c55b6"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Splendid Grand Piano",
+      "author": "AKAI; SFZ mapping by kinwie; web conversion by smpldsnds",
+      "license": "Public Domain",
+      "repository": "smpldsnds/sfzinstruments-splendid-grand-piano",
+      "revision": "009793ebf849aee57f9a213aeaf8f2d1e2178f4f"
+    },
+    {
+      "name": "D. Smolken Double Bass",
+      "author": "D. Smolken / Karoryfer Samples",
+      "license": "CC0-1.0",
+      "repository": "smpldsnds/sfzinstruments-dsmolken-double-bass",
+      "revision": "0d093e8baf1ca8ce6ae0c7d250a0465f2c70774c"
+    },
+    {
+      "name": "Virtuosity Drums",
+      "author": "Versilian Studios / Karoryfer Samples; Austin McMahon, drums",
+      "license": "CC0-1.0",
+      "repository": "sfzinstruments/virtuosity_drums",
+      "revision": "9f04cf9a734527edfbb0a4eee1f674e45bbf71bc"
+    }
+  ],
+  "articulationSource": {
+    "repository": "sfzinstruments/virtuosity_drums",
+    "revision": "9f04cf9a734527edfbb0a4eee1f674e45bbf71bc",
+    "license": "CC0-1.0",
+    "added": [
+      "rideBell",
+      "openHat",
+      "tom"
+    ]
+  }
+}
