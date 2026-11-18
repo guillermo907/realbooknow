@@ -8,7 +8,7 @@ export function makeDrumState(){return {lastFill:-99,history:[],energy:null,phra
 export function planDrumBar(bar,state,options,rng,c){
  if(bar.family==='ballad')return balladDrums(bar,state,options,c);
  if(['swing','waltz'].includes(bar.family))return orchestrateSwing(drumPhrase(bar,state,c),bar,state,c);
- const d=c.drumFeel,jazz=['swing','ballad','waltz','shuffle'].includes(bar.family),events=[];
+ const d=c.drumFeel,jazz=['swing','ballad','waltz'].includes(bar.family),events=[];
  // A drummer commits to a phrase. Keep a stable pulse for its opening and
  // answer near its end; choosing a new preset every bar sounded like a loop.
  if(state.phrase!==bar.phraseId){
@@ -34,14 +34,16 @@ export function planDrumBar(bar,state,options,rng,c){
   const value=velocity+phraseDynamic+(intent==='time'?accent*d.dynamicDepth:0);
   events.push({role:'drums',instrument,midi:drumMidi[instrument],at,length:.1,velocity:Math.round(clamp(value,1,127)),intent,gesture,shape:'phrase-support-'+bar.supportState,energy});
  };
- for(const at of pulses.filter(x=>x<bar.beats))push(jazz?'ride':'hat',at,Number.isInteger(at)?jazz?c.drums.rideMain:c.drums.hatMain:jazz?c.drums.rideSkip:c.drums.hatSkip,'time','pulse-'+index);
+ const softLatin=['bossa','latin','afro'].includes(bar.family);
+ for(const at of pulses.filter(x=>x<bar.beats))push(jazz?'ride':'hat',at,(Number.isInteger(at)?jazz?c.drums.rideMain:c.drums.hatMain:jazz?c.drums.rideSkip:c.drums.hatSkip)-(softLatin?12:0),'time','pulse-'+index);
  if(jazz){
   for(const at of bar.beats===3?[1,2]:[1,3])push('footHat',at,c.drums.foot,'anchor','foot');
   for(let beat=0;beat<bar.beats;beat++)push('kick',beat,c.drums.kick+(beat%2?-2:0),'anchor','feather');
  }else{
-  for(const at of [0,2])push('kick',at,c.drums.kick+15,'anchor','kick-cycle');
-  if(bar.family==='rock'||bar.family==='funk')for(const at of [1,3])push('snare',at,c.drums.backbeat,'anchor','backbeat');
-  else for(const at of bar.sectionBar%2?[.5,2]:[1,2.5])push('rim',at,c.drums.rim,'anchor','two-bar-clave');
+  const kicks=bar.family==='bossa'?[0,1.5,2,3.5]:bar.family==='funk'&&bar.phraseBar%2===1?[0,1.75,2.5]:[0,2];
+  for(const at of kicks)push('kick',at,c.drums.kick+(softLatin?9:15),'anchor','kick-cycle');
+  if(['rock','funk','shuffle'].includes(bar.family))for(const at of [1,3])push('snare',at,c.drums.backbeat,'anchor','backbeat');
+  else {const clave=bar.family==='bossa'?(bar.sectionBar%2?[.5,2]:[1,2.5]):bar.family==='afro'?[0,2,10/3,14/3]:(bar.sectionBar%2?[1,2]:[0,1.5,3]);for(const at of clave)push('rim',at,c.drums.rim-8,'anchor','two-bar-clave');}
  }
  // A repeated chord does not need a drum announcement every four bars.
  const structural=bar.sectionEnd||bar.harmonicEnd||(bar.sectionBar+1)%d.minimumFillGap===0;

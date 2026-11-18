@@ -1,4 +1,4 @@
-// Original Vesper gestures. No upstream pattern/groove files are inputs.
+// Original Jazzbook gestures. No upstream pattern/groove files are inputs.
 import fs from 'node:fs';
 const ppq=960;
 const event=(beat,len,intent,accent=0,instrument)=>({at:Math.round(beat*ppq),length:Math.round(len*ppq),intent,accent,...(instrument?{instrument}:{})});

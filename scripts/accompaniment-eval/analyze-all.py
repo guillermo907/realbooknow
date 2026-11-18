@@ -1,7 +1,7 @@
 """Independent aggregate evaluation; sources are never pooled."""
 import pathlib,json,importlib.util
 here=pathlib.Path(__file__).resolve().parent
-spec=importlib.util.spec_from_file_location('vesper_midi_analysis',here/'analyze-midi.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+spec=importlib.util.spec_from_file_location('jazzbook_midi_analysis',here/'analyze-midi.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
 namespace={'analyze':module.analyze}
 paths=[here/'output/baseline',here/'output/new',pathlib.Path('/tmp/accomp-research/runtime-study/mma-renders')]
 external=pathlib.Path('/data/reference-midi')

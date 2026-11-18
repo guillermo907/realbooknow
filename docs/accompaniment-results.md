@@ -1,6 +1,6 @@
 # Accompaniment implementation results
 
-2026-11-14. These are reproducible measurements of the original Vesper generator, the new Vesper band, and **MMA 25.05.3 separately**. MMA is an automatic generator, not a human reference. GMD supplies independent human drum statistics; it supplies no harmony, bass lines or comping gestures. No source is pooled with another.
+2026-11-14. These are reproducible measurements of the original Jazzbook generator, the new Jazzbook band, and **MMA 25.05.3 separately**. MMA is an automatic generator, not a human reference. GMD supplies independent human drum statistics; it supplies no harmony, bass lines or comping gestures. No source is pooled with another.
 
 The new band, controls, samples and theme updates are implemented in the writable `band-engine-work` copy. The original app folder remains blocked by macOS write permissions. The prepared apply package is required to update that folder. This deployment limitation is distinct from the tested implementation.
 

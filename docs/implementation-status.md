@@ -1,8 +1,12 @@
+# Jazzbook naming update
+
+Fresh-install database/API tables now use jazzbook_ throughout. Package metadata, account cookie, browser keys, exports, catalog format, page title, visible app text, release archives and deployment guide use Jazzbook. No database migration is included because the user has not created tables. The rename passed 87 Node tests, the production build and PHP API contract checks. The browser could not be relaunched in this session, so the earlier browser results below are historical, not a new visual verification. Read compatibility for existing device data/backups is retained to avoid losing local practice data. The symbol/logo redesign is deferred.
+
 # Current deployment update
 
 The app now supports a static Next.js frontend plus native PHP 8.2+/PDO MySQL API. Google code-flow login, server-authorized global publication, isolated user libraries, optimistic sync and a private-config example/schema are implemented. See [hostgator-rollout.md](hostgator-rollout.md).
 
-Validation: Node tests and production builds; PHP syntax checks; local PHP API contract checks with a temporary SQLite dialect adapter (authorization, isolation, CSRF, conflicts, publication, ETags, logout). The installed MySQL binary crashed before database initialization, so native MySQL DDL/locking are not locally certified. Browser checks passed for regular/admin UI, favorite sync, conflict resolution, offline-edit recovery across reload, account switching, admin publication and mobile controls at 320/390/760 px. A /vesper subfolder build also loaded its scripts, catalog and audio manifest. Real Google token exchange and HostGator configuration require the documented deployment steps. No hosted site, OAuth client or production database has been changed.
+Validation: Node tests and production builds; PHP syntax checks; local PHP API contract checks with a temporary SQLite dialect adapter (authorization, isolation, CSRF, conflicts, publication, ETags, logout). The installed MySQL binary crashed before database initialization, so native MySQL DDL/locking are not locally certified. Browser checks passed for regular/admin UI, favorite sync, conflict resolution, offline-edit recovery across reload, account switching, admin publication and mobile controls at 320/390/760 px. A /jazzbook subfolder build also loaded its scripts, catalog and audio manifest. Real Google token exchange and HostGator configuration require the documented deployment steps. No hosted site, OAuth client or production database has been changed.
 
 Mobile tonalities/actions share one compact horizontal row, approximately half-width each. Print remains available in More actions. The paper coordinate system and audio planner are unchanged in this hosting update.
 
@@ -10,7 +14,7 @@ Mobile tonalities/actions share one compact horizontal row, approximately half-w
 
 # Implementation and verification status
 
-11 November 2026. Vesper Changes runs locally at `http://127.0.0.1:5173/` in this workspace. No hosted deployment, paid app, account, library scraping, native-app modification or original-asset reuse was performed.
+11 November 2026. Jazzbook runs locally at `http://127.0.0.1:5173/` in this workspace. No hosted deployment, paid app, account, library scraping, native-app modification or original-asset reuse was performed.
 
 ## Delivered and exercised
 
@@ -78,7 +82,7 @@ Implemented in the writable `band-engine-work` copy, preserving the current Next
 - Live, MIDI and WAV share immutable cached plans; authored positions drive chart highlighting. Bass lookahead, guide-aware voice leading, sparse comping, form-based fills, independent role seeds and bounded expression replace tick-time composition.
 - Practice controls and Advanced tuning persist locally and support validated JSON import/export. Initial-excerpt RMS matching makes Original/New comparisons fairer without flattening the arrangement's dynamics.
 - GMD's verified MIDI-only archive produced 48,088 bytes of human drum aggregates. Twenty-one additional CC0 recordings complete the existing kit's bell/open-hat/tom articulations. Velocity-layer calibration, per-pitch alternate samples, releases/chokes, room and gentle compression are active.
-- MMA 25.05.3 ran uninstalled under existing Python: 24 original-fixture cases, three exports each. Its reference statistics remain separate from Vesper/GMD. No upstream generator code/groove/style library or note sequence is shipped.
+- MMA 25.05.3 ran uninstalled under existing Python: 24 original-fixture cases, three exports each. Its reference statistics remain separate from Jazzbook/GMD. No upstream generator code/groove/style library or note sequence is shipped.
 - 77 Node tests and the production static build pass. All 33 styles pass live-plan/MIDI note parity and stop checks. Two ten-minute, 240-BPM development soaks observed zero scheduling lateness and zero tracked voices after Stop; the current build also has a separate final parity check. Complete audio sweeps cover all 24 cases. See the results/measurement docs for measured levels, A/B matching and validation limits.
 - Dark Stage now uses the supplied midnight palette. User-created/imported themes have Delete; deleting an active custom theme safely selects Color Neon. Stock presets remain available. Production UI checks cover this, tuning persistence/export, credits, mobile overflow and real playback.
 
@@ -93,3 +97,16 @@ The user canceled further metric loops, reports, MIDI evidence and dataset work.
 ### Bass/drums focus and modal sentences
 
 Long single-chord spans use remembered four-bar degree sentences with chord-tone/color landings and real phrase-end approaches. Drums have smoothed phrase/form dynamics, stable timekeeping, conversational support and sparse structural fills. Practice defaults to Bass & drums only, with saved piano levels retained. Advanced adds Drum dynamic range and Drum support density. The complete package is required because the installed folder still contains the earlier generator. No new dependency, upstream-source analysis or statistical evaluation loop.
+
+Shared configuration support: inspected the calculator’s Config loader and deployment layout. Jazzbook can discover that private runtime.php, map its credentials/admin list and keep a separate app URL/database/session. Pure PHP mapping/discovery checks and the PHP API contract harness pass; production discovery and DB grants need checking on HostGator. The calculator project was read only and was not changed.
+
+
+## Administration and mobile navigation
+- Server-authorized public playlists, stock theme overrides, global chart editing/hiding and plain-text site content. Shared ADMIN_EMAILS identity reused. Revision conflicts and CSRF enforced.
+- Three uploaded collections imported into the deduplicated global catalog and public seed lists.
+- Mobile navigation toolbar removed; search hamburger controls song tools, player and hide/show all without opening Mixer.
+- Existing accounts require additive SQL 002; no account or playlist data removed.
+
+Validation for this update: 90 Node tests pass; PHP syntax checks and shared-config checks pass; the local PHP API contract harness passes using a temporary SQLite adapter. MySQL DDL and browser/real OAuth checks require the deployment environment; neither is claimed here.
+
+Mobile control cards: key selector and song actions now stretch to equal height with matching corners/borders. Actions use equal buttons with short labels and theme-derived colors; very narrow phones use a two-by-two action grid. Desktop layout and chart sizing are unchanged.

@@ -14,5 +14,5 @@ export function humanize(event,instrument,styleGroup,rng,context){
  // Structural velocity categories remain intact even after dataset blending.
  if(event.intent==='ghost')velocity=Math.min(velocity,role==='bass'?c.expression.bassGhostCeiling:c.drums.backbeat-c.drums.ghost);
  const duration=Math.round(event.duration*(1+(rng()*2-1)*h.lengthSpread*looseness));
- return {...event,performedTick:Math.max(0,Math.round(event.authoredTick+offset*tempo*c.ppq/60000)),duration:Math.max(1,duration),velocity:Math.round(clamp(velocity,1,127))};
+ return {...event,performedTick:Math.max(0,Math.round(event.authoredTick+offset*tempo*c.ppq/60000)),duration:Math.max(1,duration),velocity:Math.round(clamp(velocity,event.velocityMin??1,event.velocityMax??127))};
 }

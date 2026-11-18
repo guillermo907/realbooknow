@@ -1,10 +1,10 @@
-# Vesper Changes: original accompaniment design
+# Jazzbook: original accompaniment design
 
 Phase 1 research and specification • 2026-11-14 • **Review draft; no application implementation**
 
 The biggest opportunity is musical decision-making before sample playback: phrases with direction, coherent voicings, a drummer who knows the form, and role-specific expression. Better samples cannot supply those decisions. This specification describes a small original engine using native JavaScript and JSON. It does not reproduce any upstream generator, style, phrase library or sound set.
 
-Read [accompaniment-measurements.md](accompaniment-measurements.md) alongside this document. Its **B** results are measured from existing Vesper exports; **S** findings are source observations; **H** values are original listening hypotheses. Upstream MIDI measurements are **NM**, because the applications were not already installed. Proposed numbers below are not presented as observations of musicians or the researched applications.
+Read [accompaniment-measurements.md](accompaniment-measurements.md) alongside this document. Its **B** results are measured from existing Jazzbook exports; **S** findings are source observations; **H** values are original listening hypotheses. Upstream MIDI measurements are **NM**, because the applications were not already installed. Proposed numbers below are not presented as observations of musicians or the researched applications.
 
 ## 1. Research scope and clean-room boundary
 
@@ -240,7 +240,7 @@ Implement only after review. First make generation observable: event intent, cho
 
 Then compare old/new audio with identical samples and loudness. Listen for an uninterrupted form, bass direction, comping space, clear chord identity, drum presence, controlled dynamics and a stable groove. Use a small set of alternate seeds; a single lucky take is not sufficient. Accept original H targets only when listening supports them. For style-specific metrics, compare like with like; do not reward fills in every ballad phrase or novelty in every bossa bar.
 
-If the upstream applications later become available under the user's installation constraint, fill the NM matrix with real renders. Export each style/tempo repeatedly, retain exact version/style identifiers and annotate phrase boundaries. Prefer known MIDI track assignments over guessed channels; measure notes/controllers separately. Add rendered-audio checks for brush samples and mixer gains. Do not overwrite this Vesper baseline or describe inferred source rules as measured data.
+If the upstream applications later become available under the user's installation constraint, fill the NM matrix with real renders. Export each style/tempo repeatedly, retain exact version/style identifiers and annotate phrase boundaries. Prefer known MIDI track assignments over guessed channels; measure notes/controllers separately. Add rendered-audio checks for brush samples and mixer gains. Do not overwrite this Jazzbook baseline or describe inferred source rules as measured data.
 
 ## 12. Primary-source reading map
 

@@ -1,4 +1,4 @@
-# Install only in Vesper's document root. Do not replace the parent site's rules.
+# Install only in Jazzbook's document root. Do not replace the parent site's rules.
 Options -Indexes
 DirectoryIndex index.html
 <IfModule mod_headers.c>

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "src/styles/layout/_mobile-score.scss": {
+      "before": "c5c0cbe5313c13a8b8897304508c29ed1f23f279956ba1c432593919aa8a3760",
+      "after": "e2b2aae2e6b6f8566cd828a61c975c936b6c37841e257aa77dc2c242e7424e8a"
+    },
+    "docs/accompaniment-decisions.md": {
+      "before": "2c5f33e432bc9c28c3d1c5fed840a21d194a3acd08d19c2b90cb3006b843a700",
+      "after": "25f753ed9da6519b5e562a1cfe676d03daa256d03f5536cdcbf54feca1faa939"
+    }
+  }
+}

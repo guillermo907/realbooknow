@@ -1,4 +1,4 @@
-# Vesper Changes — behavior and implementation contract
+# Jazzbook — behavior and implementation contract
 
 Phase 1 review draft · 11 November 2026. No app implementation has started. This document separates observed declarations, published behavior and independent product choices. See [feature-inventory.md](feature-inventory.md) for the evidence ledger and [format-spec.md](format-spec.md) for interchange.
 

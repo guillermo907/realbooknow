@@ -1,0 +1,26 @@
+{
+  "format": "vesper-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "server/private/config.example.php",
+      "before": "e6e5368338fa9a661a95491ef56c3d18ba18f29dc03f6f5b6950cce0d65ac29f",
+      "after": "1d1cd0d0383fac611171d09a2449bc4e72ee1b48e8ab6d0ac6bca176ef6932f8"
+    },
+    {
+      "path": "server/private/config-path.example.php",
+      "before": "6661785efa111874a83182f452fd0a5de2b6a16fbdf47994b25f7a752a1ac7c3",
+      "after": "f66f11abe4fa31e7675fa92de6ea1376ce597e068c160db561a551a97a4c003d"
+    },
+    {
+      "path": "docs/HOSTGATOR_DEPLOY.md",
+      "before": "971d5097048a00ab368cd9d2f579f50e76c00d59e58b3cf420ca5bc991201357",
+      "after": "9d470dc736c3ebad31fad850da0d5a83dd7c2b4f9a713ae2d9c2d895fd5a01a5"
+    },
+    {
+      "path": "docs/hostgator-rollout.md",
+      "before": "bd2aa9ab3c5767b247252be3a6e3639d672fab396315c01900098863abc8a83c",
+      "after": "d92a88b8084a7d84cb42f1be0c54417a7665dffc0e540d92490f097e3dc8647a"
+    }
+  ]
+}

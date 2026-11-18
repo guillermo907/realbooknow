@@ -1,0 +1,28 @@
+{
+  "files": {
+    "src/lib/mixer-balance.js": {
+      "before": null,
+      "after": "28328dc13bf64f7cd6a6ddf00a3e9476b1e3f5164f1ef69c2391eebd7e530ad6"
+    },
+    "src/lib/studio.js": {
+      "before": "84d3cf459769c322fd1328357ddda458ab9363f2c724423cece0dd8f9a43f6a2",
+      "after": "58ee4812a3987281bd224fa3b4ad80779567d36ac382b55be2b177fa6b010890"
+    },
+    "src/store/themes.js": {
+      "before": "d8516db55286f8ddba9ac0c668567799d2d816055be0b5d2df48beee78a92070",
+      "after": "7bf78cec8072c4d162892f5dcd22c54a597feb2afe905bb87650191aacad90bc"
+    },
+    "src/components/Player.jsx": {
+      "before": "319a6745e589356869b286f199f468f6a9e1b533314c2ff7fb8fb800da7ff870",
+      "after": "20e69e9819c55158c7f3cc8be515091dc0e6639b62111dd10caa3baf4c4427cc"
+    },
+    "docs/accompaniment-decisions.md": {
+      "before": "b25e551ff53fa0308abedc79adb26b6db8c8ec40c78a8972cd35fd7b2c90e4ea",
+      "after": "a16d3fe624654fc46e44941b0478d56d94681076f04fe4ce5bc3d08c6b1c44dd"
+    },
+    "tests/mixer-balance.test.js": {
+      "before": null,
+      "after": "c49b7db36e1008fcda190416487f7bd263d946dc0328733975b409ec6023d178"
+    }
+  }
+}

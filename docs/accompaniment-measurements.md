@@ -1,6 +1,6 @@
 # Accompaniment measurements — current implementation update
 
-2026-11-14. The user subsequently authorized downloading and running MMA. Its 24 original-fixture renders now replace the previous **MMA runtime unavailable** status. JJazzLab/Toolkit and Impro-Visor were not executed and remain unmeasured. MMA is an automatic generator, not a human band. Sources below are kept separate; no groove or note sequence has been copied into Vesper.
+2026-11-14. The user subsequently authorized downloading and running MMA. Its 24 original-fixture renders now replace the previous **MMA runtime unavailable** status. JJazzLab/Toolkit and Impro-Visor were not executed and remain unmeasured. MMA is an automatic generator, not a human band. Sources below are kept separate; no groove or note sequence has been copied into Jazzbook.
 
 MMA 25.05.3 official archive: https://www.mellowood.ca/mma/mma-devl.25.05.3.tar.gz . Python was already installed; no package installation occurred. The source archive was executed for measurements only. Groove choices: blues/AABA `stdlib/swing:Swing`; ballad `stdlib/ballad:Ballad`; bossa `stdlib/bossanova:BossaNova`; waltz `stdlib/jazzwaltz:JazzWaltz`; funk `stdlib/bvfunk:BVFunk`. All tempos below rendered successfully; extreme tempos are stress cases, not endorsements of musical suitability. Original chart labels and bar metadata match the historical fixture definitions.
 
@@ -105,7 +105,7 @@ No `/data/reference-midi/<tool>/` directory was present. Additional tools were n
 <!-- PHASE_1_HISTORICAL -->
 # Accompaniment measurements — Phase 1
 
-Research date: 2026-11-14. No application code changed. This document distinguishes **U: upstream runtime measurements (unavailable)**, **S: inspected source behavior**, **B: measurements of Vesper's existing MIDI exporter**, and **H: proposed hypotheses for Phase 2**. B is a diagnostic baseline, not an upstream or human-performance reference. Read with [the specification](accompaniment-spec.md).
+Research date: 2026-11-14. No application code changed. This document distinguishes **U: upstream runtime measurements (unavailable)**, **S: inspected source behavior**, **B: measurements of Jazzbook's existing MIDI exporter**, and **H: proposed hypotheses for Phase 2**. B is a diagnostic baseline, not an upstream or human-performance reference. Read with [the specification](accompaniment-spec.md).
 
 ## U — Runtime availability and missing measurements
 
@@ -118,7 +118,7 @@ Exactly what a later runtime study needs:
 | Target | Missing prerequisite |
 | --- | --- |
 | JJazzLab / Toolkit | A runnable compatible JJazzLab installation or standalone Toolkit JAR; for the inspected current Toolkit, Java 25+; a configured rhythm generator and legally usable original test rhythm data. Do not extract/reuse Yamaha styles, bundled style libraries or sounds. |
-| Impro-Visor | Compatible application/JAR and its runtime files; the installed Java 8 may support the selected release, to be checked against that release. Authorized test styles may be run in the app, never copied into Vesper. |
+| Impro-Visor | Compatible application/JAR and its runtime files; the installed Java 8 may support the selected release, to be checked against that release. Authorized test styles may be run in the app, never copied into Jazzbook. |
 | MMA | An already installed/otherwise authorized MMA executable and its Python modules; Python is present. No need for new MIDI-analysis dependencies. |
 
 NM below means **not measured**, never zero. All requested upstream bass, comping, drums and variation statistics are NM for each case:
@@ -154,7 +154,7 @@ No claim about what the upstream apps sound like at these tempos follows from st
 
 ## B — Baseline method and original test charts
 
-The existing Vesper pure MIDI-export API was imported read-only. Actual generation currently resides in `src/lib/accompaniment.js`, alongside `plan.js`, `midi.js`, `audio.js` and `samples.js`. The study did not call the sampler or change the app. Each case used four choruses and three separate exports: 6 fixtures × 4 tempos × 3 = **72 MIDI files**. Statistics below use run 0; runs 1 and 2 were checked for byte identity. All three exports matched within every case.
+The existing Jazzbook pure MIDI-export API was imported read-only. Actual generation currently resides in `src/lib/accompaniment.js`, alongside `plan.js`, `midi.js`, `audio.js` and `samples.js`. The study did not call the sampler or change the app. Each case used four choruses and three separate exports: 6 fixtures × 4 tempos × 3 = **72 MIDI files**. Statistics below use run 0; runs 1 and 2 were checked for byte identity. All three exports matched within every case.
 
 Count-in 0; metronome off; embellishments on; swing control 0.6; harmony setting 0; no practice tempo/transposition increments. MIDI type 1, 480 ticks/quarter. Channels: keys 0, bass 1, drums 9. A standard-library SMF parser paired note-on/off events FIFO; no unmatched notes. MIDI ticks were converted into quarter-note beats. None of these results measure sample loudness, decay, loading failures or the live audio mix.
 
@@ -170,9 +170,9 @@ Original fixtures (not downloaded songs): each slash-separated item is a bar; a 
 
 **waltz16** — Waltz, 3/4: Cmaj7 / Am7 / Dm7 / G7 / Em7 / A7 / Dm7 / G7 / Fmaj7 / Fm6 / Em7 / A7 / Dm7 / G7 / C6 / G7
 
-**funk16** — Funk, 4/4: `T44*A[C-9    / F9    / C-9    / C-9    / Ab^7    / G7alt    / C-9    / G7alt    / *BC-9    / F9    / C-9    / C-9    / Ab^7    / G7alt    / C-9    / G7alt   Z` (Vesper chart notation; original fixture)
+**funk16** — Funk, 4/4: `T44*A[C-9    / F9    / C-9    / C-9    / Ab^7    / G7alt    / C-9    / G7alt    / *BC-9    / F9    / C-9    / C-9    / Ab^7    / G7alt    / C-9    / G7alt   Z` (Jazzbook chart notation; original fixture)
 
-Sections: blues has three four-bar groups; AABA has four eight-bar section instances; remaining fixtures have two eight-bar groups. Section-instance labels used for analysis are retained independently of Vesper's single-letter section notation. All tempos are quarter-note BPM.
+Sections: blues has three four-bar groups; AABA has four eight-bar section instances; remaining fixtures have two eight-bar groups. Section-instance labels used for analysis are retained independently of Jazzbook's single-letter section notation. All tempos are quarter-note BPM.
 
 ### Metric definitions and limits
 
@@ -391,7 +391,7 @@ Impro-Visor's selected native text styles contain the following alternative coun
 | ballad | 8 | 15 | 4 |
 | waltz | 4 | 2 | 3 |
 
-Vesper's live sampler applies additional per-note gain/timing/articulation behavior not represented by these exported MIDI statistics. This was established by source inspection, not audio measurement. MIDI cannot establish whether drums are audible. Phase 2 must measure the final shared event plan and listen to the rendered samples before attributing an acoustic fault to composition alone.
+Jazzbook's live sampler applies additional per-note gain/timing/articulation behavior not represented by these exported MIDI statistics. This was established by source inspection, not audio measurement. MIDI cannot establish whether drums are audible. Phase 2 must measure the final shared event plan and listen to the rendered samples before attributing an acoustic fault to composition alone.
 
 ## Measurement anchors for implementation decisions
 
@@ -429,7 +429,7 @@ These are design hypotheses, **not measurements of JJazzLab, Impro-Visor, MMA or
 
 Research working directory: `/tmp/accomp-research`. No research tree was committed. The source quarantine contains selected source-only archives, source/provenance hashes, manual pages, REA JSON inventories/observations and no extracted sounds or Yamaha rhythm data. These are research inputs, not Phase 2 implementation materials.
 
-The independent scripts `export-vesper-baseline.mjs` and `analyze-midi.py` generated `fixtures.json`, `baseline-manifest.json`, `baseline-measurements.json` and `baseline-midi/`. The MIDI files contain only the six original fixtures rendered by existing Vesper. Analysis has no third-party Python dependencies. Raw files are temporary; all decision-critical aggregates, charts, definitions and limitations are included above so the two final documents stand alone.
+The independent scripts `export-jazzbook-baseline.mjs` and `analyze-midi.py` generated `fixtures.json`, `baseline-manifest.json`, `baseline-measurements.json` and `baseline-midi/`. The MIDI files contain only the six original fixtures rendered by existing Jazzbook. Analysis has no third-party Python dependencies. Raw files are temporary; all decision-critical aggregates, charts, definitions and limitations are included above so the two final documents stand alone.
 
 REA README was read before invocation. No MCP registration was available; the installed CLI was used with documented `inspect-artifact`, `list-browser-targets` and `inspect-web-page` commands. Artifact inventories establish contents/hashes; inert local HTML source views establish observed source text. Manual source following supplies the musical interpretation. These are **not REA execution traces of the accompaniment apps**, semantic Java decompilation, or proof of runtime MIDI behavior.
 
@@ -444,6 +444,6 @@ Before/after SHA-256 comparison: 47 application source files checked; all unchan
 - `baseline-measurements.json` SHA-256: `69d8726d2d8790c36fd2f246c5fbf786fb04c4c23e2e09a39c14e3116f8131d0`.
 - `fixtures.json` SHA-256: `e96ae26fb224e223d51c0d25a42d870991a0792404a441ab289c288168dcd27c`.
 - `analyze-midi.py` SHA-256: `fad4fcf1573f97975f2b8e84e12558f3c977fde148dc09e55d9b2b43b6b09656`.
-- `export-vesper-baseline.mjs` SHA-256: `a6f0a91dda5f76fb7d34f5bf9d1983b4ba79597b965e77f590f20cf961637570`.
+- `export-jazzbook-baseline.mjs` SHA-256: `a6f0a91dda5f76fb7d34f5bf9d1983b4ba79597b965e77f590f20cf961637570`.
 
 Source provenance: [pinned source reading map](accompaniment-spec.md#12-primary-source-reading-map); [Toolkit prerequisites](https://github.com/jjazzboss/JJazzLabToolkit/blob/4d38b923166a43b0ca573093e235f0461b72f606/README.md); [MMA downloads](https://www.mellowood.ca/mma/downloads.html).

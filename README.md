@@ -1,4 +1,4 @@
-# Vesper Changes
+# Jazzbook
 
 An independent, local-first chord-chart studio and practice room. React function components, Next.js static export, plain SASS, and a hand-written Web Audio rhythm section. Guest mode works locally; optional Google accounts sync private libraries through a small PHP/MySQL API. No UI kits or paid services.
 
@@ -10,7 +10,7 @@ npm ci
 npm run dev
 ```
 
-Open **http://127.0.0.1:5173/**. Run these commands in the project folder. If npm's default cache is not writable on your Mac, use `npm ci --cache /tmp/vesper-npm-cache`; do not change ownership or install other software on the app's behalf.
+Open **http://127.0.0.1:5173/**. Run these commands in the project folder. If npm's default cache is not writable on your Mac, use `npm ci --cache /tmp/jazzbook-npm-cache`; do not change ownership or install other software on the app's behalf.
 
 ```sh
 npm test          # dependency-free node:test checks
@@ -22,7 +22,7 @@ Node 24.22.1 was used. Application dependencies are Next.js, React and ReactDOM,
 
 ## Your first session
 
-Nine original Vesper Lab charts are included. Select a chart, choose a key, then press Space or Play. First playback loads the audio feature and unlocks the browser's AudioContext. The original trio is synthesized, not sampled.
+Nine original Jazzbook Lab charts are included. Select a chart, choose a key, then press Space or Play. First playback loads the audio feature and unlocks the browser's AudioContext. The original trio is synthesized, not sampled.
 
 - **Library:** full-text search, sort and filters; favorites, recently played, recently edited/imported; virtual rows; multiple playlists, folders, drag order and keyboard move controls; bulk favorite/trash/membership actions.
 - **Chart:** four measures per desktop row, two on phones; standard/Nashville/Roman/solfège notation; sections, repeats, endings, comments, time changes and alternate symbols; transpose; playback cursor; stage/print modes.
@@ -43,7 +43,7 @@ Supported input: public `irealbook://` plain links; recognized `irealb://` obfus
 
 ```json
 {
-  "format": "vesper-changes",
+  "format": "jazzbook",
   "version": 1,
   "kind": "song",
   "exportedAt": "2026-11-11T00:00:00.000Z",
@@ -107,13 +107,13 @@ Optional integration check, only when the existing Chrome debug window is open:
 node scripts/browser-check.mjs
 ```
 
-It opens an isolated browser context, checks actual UI interactions/Web Audio/exports, loads 5,000 synthetic records, then closes that context. It never edits your normal browser library. It expects the existing REA Playwright module; do not install a new browser service or paid application. `VESPER_CDP`, `VESPER_BROWSER_MODULE`, and `VESPER_QA_OUTPUT` optionally override the debugging endpoint/module/report path.
+It opens an isolated browser context, checks actual UI interactions/Web Audio/exports, loads 5,000 synthetic records, then closes that context. It never edits your normal browser library. It expects the existing REA Playwright module; do not install a new browser service or paid application. `JAZZBOOK_CDP`, `JAZZBOOK_BROWSER_MODULE`, and `JAZZBOOK_QA_OUTPUT` optionally override the debugging endpoint/module/report path.
 
 See [implementation-status.md](docs/implementation-status.md) for measured results and partial parity. Lighthouse >90 has **not** been measured; do not treat a small build or a fast local check as that score.
 
 ## Provenance
 
-Phase 1 used read-only local REA metadata/UI-archive inspection and public specifications. Phase 2 used only the resulting specifications and independent code. No native executable was decompiled, modified or distributed. All nine bundled charts are original Vesper Lab exercises; all icons, branding and synthesis are independently written. Platform names appear only for interoperability. No song copyright or third-party performance license is inferred from a successful import.
+Phase 1 used read-only local REA metadata/UI-archive inspection and public specifications. Phase 2 used only the resulting specifications and independent code. No native executable was decompiled, modified or distributed. All nine bundled charts are original Jazzbook Lab exercises; all icons, branding and synthesis are independently written. Platform names appear only for interoperability. No song copyright or third-party performance license is inferred from a successful import.
 
 ## HostGator deployment and accounts
 
@@ -130,7 +130,7 @@ See [library-storage.md](docs/library-storage.md) for the storage split, migrati
 
 The top search stays visible with panels hidden. Type to search title, composer, style or key, use arrows/Enter to select, and Escape to close. `/` and Cmd/Ctrl+K focus it. The optional song list starts collapsed; its visibility is remembered after the initial layout migration. The global panel toggle never opens the mixer.
 
-Selections update `?song=<stable-id>&title=<title>` using browser history. Shared catalog links resolve after catalog loading and work with static HostGator export: no server rewrite is needed. Share → Copy Vesper song link copies the app URL. Personal links include a validated chart snapshot in the URL fragment so they work on another browser without an account; they exclude owner IDs, favorites and playlists. Opening one adds a personal chart when an equivalent chart is not already present. Anyone holding the link can read the chart. Chart links over 64,000 characters must use JSON export instead. Unknown local-only IDs display an explanatory message. Back/forward navigation restores chart selection without autoplay.
+Selections update `?song=<stable-id>&title=<title>` using browser history. Shared catalog links resolve after catalog loading and work with static HostGator export: no server rewrite is needed. Share → Copy Jazzbook song link copies the app URL. Personal links include a validated chart snapshot in the URL fragment so they work on another browser without an account; they exclude owner IDs, favorites and playlists. Opening one adds a personal chart when an equivalent chart is not already present. Anyone holding the link can read the chart. Chart links over 64,000 characters must use JSON export instead. Unknown local-only IDs display an explanatory message. Back/forward navigation restores chart selection without autoplay.
 
 ## Human rhythm section
 
@@ -171,3 +171,10 @@ Open Mixer in the top bar for a tabbed modal: Levels, Bass, Piano, Drums, Practi
 Piano on sustained minor harmony develops rootless 9th/11th/13th and relative-major upper structures, including Fmaj9 over D minor. Its reference-informed phrase rhythms mix holds, rolled voicings, offbeat answers and rests; Piano Variation, Busyness and Advanced Voicing variation shape the part.
 
 Piano touch separates selected shell and upper-hand entrances, softly voices inner notes, and gives stabs a short damper release. Occasional upper-voice neighbor/return figures develop sustained harmony. The Piano tab includes its volume and shows when Bass & drums only mutes it. Levels distinguishes rhythmic Piano from the separate Held chord guide.
+
+Jazzbook can reuse the calculator’s private `app/calculadora-insulina/backend/config/runtime.php` directly. Its uppercase OAuth/admin/MySQL keys are mapped without copying secrets. The Jazzbook database and URL remain independent; assign the existing database user access to the Jazzbook database in cPanel. See the rollout guide.
+
+
+### Public administration
+
+The shared `ADMIN_EMAILS` allowlist controls the Administration dialog. Its tabs edit public playlists, global charts, stock themes and plain-text site content. Public settings use one versioned `jazzbook_site` row; private libraries remain separate. Existing installations import `server/sql/002_site_admin.sql` before deploying this update. Three bundled public collections contain Jazz 1400, Latin 50 and Brazilian 220. On mobile the search hamburger replaces the navigation toolbar and can hide/show the player and song controls independently. See `docs/hostgator-rollout.md`.

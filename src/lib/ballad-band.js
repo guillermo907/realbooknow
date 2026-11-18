@@ -6,5 +6,5 @@ export function balladDrums(bar,state,options,c){const d=c.balladBand,r=rngFor(b
  if(activity>.4&&bar.phraseBar%2===1&&r()<d.ghostChance*activity)push('snare',38,bar.beats-1.5,d.ghost,'ghost');
  let fill=null;if(bar.phraseEnd&&bar.sectionEnd&&bar.absolute-(state.lastFill??-99)>=d.fillCooldown&&r()<d.fillChance){fill={start:bar.beats-.5,length:.5};state.lastFill=bar.absolute;push('snare',38,bar.beats-.5,d.fill,'fill');}
  return {events,fill,index:0,energy:bar.energy,dynamic:delta,grammar:true};}
-export function balladBass(events,bar,options,c){if(bar.family!=='ballad'||options.balladPrecision===false)return events;const d=c.balladBand,r=rngFor(bar.roleSeeds?.bass??bar.phraseSeed,'bass','ballad-slap',bar.absolute),amount=options.balladSlaps??d.slapChance;let chosen=-1;if(!bar.isSection&&bar.phraseBar%2===1&&r()<amount)chosen=events.findLastIndex(e=>e.intent!=='ghost'&&e.at>0);
- return events.map((e,i)=>({...e,bassSound:'precision',...(i===chosen?{articulation:'slap',length:Math.min(e.length,d.slapLength),velocity:Math.min(d.slapMaxVelocity,e.velocity+d.slapAccent)}:{})}));}
+// Instrument selection belongs to the renderer/style preset. Do not invent synthesized slap accents.
+export function balladBass(events){return events;}

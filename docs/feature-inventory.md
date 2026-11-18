@@ -1,4 +1,4 @@
-# Vesper Changes — feature inventory
+# Jazzbook — feature inventory
 
 Phase 1 review draft · 11 November 2026 · Target: installed macOS app 2026.6.1 (build 20260611).
 
@@ -6,7 +6,7 @@ Phase 1 review draft · 11 November 2026 · Target: installed macOS app 2026.6.1
 
 ## Identity and clean-room boundary
 
-Working product name: **Vesper Changes**. Identity: a midnight practice room with copper, teal and warm paper accents. Proposed original logo: four short rhythmic strokes rising into an open V; draw independently with inline SVG in Phase 2. This is a working name, not trademark clearance. Original branding appears only in compatibility documentation, never as this product's identity.
+Working product name: **Jazzbook**. Identity: a midnight practice room with copper, teal and warm paper accents. Proposed original logo: four short rhythmic strokes rising into an open V; draw independently with inline SVG in Phase 2. This is a working name, not trademark clearance. Original branding appears only in compatibility documentation, never as this product's identity.
 
 The installed target is `/Applications/iReal Pro.app`. Its Info.plist declares NSApplication, MainMenu, macOS 12.4 minimum, HTML documents, and the `irealb` / `irealbook` schemes. `file` reports a universal x86_64/arm64 Mach-O executable. Both `LC_BUILD_VERSION` commands report platform 1 (macOS), and linked frameworks include AppKit and native audio frameworks. **Classification: native macOS AppKit application, not Electron or Catalyst.** SwiftUI linkage does not establish that every view uses SwiftUI.
 

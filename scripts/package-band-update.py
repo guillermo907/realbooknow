@@ -1,7 +1,7 @@
 """Package only independently authored changes and CC0 audio assets; no research inputs."""
 from pathlib import Path
 import json,hashlib,zipfile,shutil,subprocess
-root=Path(__file__).resolve().parents[1];original=Path('/Users/willy/Documents/ChatGPT/iRealAlternative');destination=root.parent/'outputs';destination.mkdir(exist_ok=True);stage=root.parent/'band-hostgator-account-package';stage.mkdir(exist_ok=True);payload=stage/'payload';payload.mkdir(exist_ok=True)
+root=Path(__file__).resolve().parents[1];original=Path('/Users/willy/Documents/ChatGPT/iRealAlternative');destination=root.parent/'outputs';destination.mkdir(exist_ok=True);stage=root.parent/'jazzbook-hostgator-package';stage.mkdir(exist_ok=True);payload=stage/'payload';payload.mkdir(exist_ok=True)
 entries=[]
 allowed=['src','public','server','scripts','tests','docs']
 for folder in allowed:
@@ -14,12 +14,12 @@ for folder in allowed:
   target=original/rel;new=hashlib.sha256(p.read_bytes()).hexdigest();old=hashlib.sha256(target.read_bytes()).hexdigest() if target.exists() else None
   if old==new:continue
   dest=payload/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest);entries.append({'path':str(rel),'before':old,'after':new})
-for name in ['package.json','next.config.mjs','README.md']:
+for name in ['package.json','package-lock.json','next.config.mjs','README.md']:
  p=root/name;target=original/name;new=hashlib.sha256(p.read_bytes()).hexdigest();old=hashlib.sha256(target.read_bytes()).hexdigest() if target.exists() else None
  if new!=old:shutil.copy2(p,payload/name);entries.append({'path':name,'before':old,'after':new})
-(stage/'manifest.json').write_text(json.dumps({'format':'vesper-band-update','version':1,'files':entries},indent=2)+'\n')
+(stage/'manifest.json').write_text(json.dumps({'format':'jazzbook-band-update','version':1,'files':entries},indent=2)+'\n')
 shutil.copy2(root/'scripts/apply-band-update.py',stage/'apply-band-update.py')
-(stage/'README-APPLY.md').write_text('''# Vesper Changes hosting, accounts and mobile controls update
+(stage/'README-APPLY.md').write_text('''# Jazzbook hosting, accounts and mobile controls update
 
 Unzip this folder and run, using the Python already on your Mac:
 
@@ -33,7 +33,7 @@ The working implementation was tested in a writable copy because macOS denied th
 
 For the current changes and controls, see `payload/docs/accompaniment-decisions.md` and `payload/README.md`. The user canceled further metric/evidence/report work for this revision. This includes the PHP/MySQL account API, Google login integration, private-library sync, admin global publication, HostGator build/SQL/config guide, and compact mobile key/action row. See docs/hostgator-rollout.md before enabling the production backend. Prior theme changes are preserved.
 ''')
-archive=destination/'vesper-hostgator-account-update.zip'
+archive=destination/'jazzbook-hostgator-account-update.zip'
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
  for p in stage.rglob('*'):
   if p.is_file():z.write(p,p.relative_to(stage))

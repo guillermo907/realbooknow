@@ -1,3 +1,4 @@
+import {readDeviceKey} from './legacy-storage.js';
 const BASE=process.env.NEXT_PUBLIC_BASE_PATH||'';
 export const apiURL=action=>`${BASE}/api/index.php?action=${encodeURIComponent(action)}`;
 export async function accountRequest(action,{method='GET',body,csrf,signal}={}){
@@ -5,8 +6,8 @@ export async function accountRequest(action,{method='GET',body,csrf,signal}={}){
  let value;try{value=await response.json();}catch{throw Object.assign(Error('Account service is not configured or reachable.'),{status:response.status});}
  if(!response.ok)throw Object.assign(Error(value.error||'Account request failed.'),{status:response.status});return value;
 }
-export async function accountSession(){try{const session=await accountRequest('session',{signal:AbortSignal.timeout(8000)});if(session.user)localStorage.setItem('vesper-last-account',JSON.stringify(session.user));return session;}catch{
- let cached;try{cached=JSON.parse(localStorage.getItem('vesper-last-account')||'null');}catch{}return {available:false,offline:!!cached,user:cached?{...cached,admin:false}:null};
+export async function accountSession(){try{const session=await accountRequest('session',{signal:AbortSignal.timeout(8000)});if(session.user)localStorage.setItem('jazzbook-last-account',JSON.stringify(session.user));return session;}catch{
+ let cached;try{cached=JSON.parse(readDeviceKey('jazzbook-last-account')||'null');}catch{}return {available:false,offline:!!cached,user:cached?{...cached,admin:false}:null};
 }}
 // One coalesced write, optimistic revision and no silent last-writer-wins overwrite.
 export class LibrarySync {

@@ -70,3 +70,8 @@
 .main-topbar { height: 42px; padding-block: 6px; }
 .song-toolbar { padding-block: 10px; }
 .chart-controls { padding-bottom: 8px; }
+
+// Sidebar sections must keep their content height; scroll the whole column.
+.sidebar > * { flex-shrink: 0; }
+.sidebar .playlists { min-height: max-content; flex-shrink: 0; }
+.sidebar .nav-item { flex-shrink: 0; }

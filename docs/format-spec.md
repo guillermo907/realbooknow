@@ -1,4 +1,4 @@
-# Vesper Changes — format and parser specification
+# Jazzbook — format and parser specification
 
 Phase 1 review draft · 11 November 2026. **No production parser has been written. Real-app export comparison is pending.**
 
@@ -117,7 +117,7 @@ Use an AST independent of all third-party parsers. Proposed major records:
 | Playlist | Stable id, parent folder, ordered memberships; each membership holds song id plus key/tempo/style/chorus overrides |
 | Settings/theme | Versioned device preferences, CSS variables/layout, audio defaults; separate from song data |
 
-Envelope: `format: "vesper-changes"`, `version: 1`, `kind: "song" | "playlist" | "backup" | "theme"`, `exportedAt`, `data`. Own song keys and themes are not shoehorned into native URI fields. Backups contain deduplicated songs and playlist references, favorites/trash, themes/settings and timestamp; omit browser file handles, microphone grants and ephemeral transport state.
+Envelope: `format: "jazzbook"`, `version: 1`, `kind: "song" | "playlist" | "backup" | "theme"`, `exportedAt`, `data`. Own song keys and themes are not shoehorned into native URI fields. Backups contain deduplicated songs and playlist references, favorites/trash, themes/settings and timestamp; omit browser file handles, microphone grants and ephemeral transport state.
 
 Validate imported values, ids and references; reject unsupported future major versions with a readable message. Limit nesting and input size, with explicit override/workflow for legitimate larger libraries. Import preview offers merge/replace for backups; replacement requires confirmation and a recoverable snapshot. IndexedDB transactions commit complete changes atomically; quota failures leave the previous library intact. Detect id collisions using origin/revision/content, not title alone.
 
@@ -127,7 +127,7 @@ These are **test definitions**, not files exported by the installed app and not 
 
 | Fixture | Input / expected assertion |
 | --- | --- |
-| F01 Plain turnaround | `irealbook://Copper%20Turnaround=Vesper%20Lab=Medium%20Swing=C=n=T44%5BC%5E7%20%7CA-7%20%7CD-7%20%7CG7%20Z`; four measures Cmaj7/Am7/Dm7/G7, key C, 4/4. |
+| F01 Plain turnaround | `irealbook://Copper%20Turnaround=Jazzbook%20Lab=Medium%20Swing=C=n=T44%5BC%5E7%20%7CA-7%20%7CD-7%20%7CG7%20Z`; four measures Cmaj7/Am7/Dm7/G7, key C, 4/4. |
 | F02 Alterations | `T44[Db^7/Ab |C-7b5 F7b9 |Bb-6 |Eb7alt Z`; retain slash bass and half-bar changes. |
 | F03 Alternate | `T44[C^7(Db^7) |A-7 |D-7 G7 |C6 Z`; alternate retained/transposed, not scheduled. |
 | F04 Endings | `T44{C |N1G7 }[N2C6 Z`; intended visits 1,2,1,3. Verify this syntax in the real editor before calling native parity. |

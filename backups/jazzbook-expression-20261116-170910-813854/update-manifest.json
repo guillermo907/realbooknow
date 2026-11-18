@@ -1,0 +1,16 @@
+{
+  "files": {
+    "src/App.jsx": {
+      "before": "f924ba05532edb8c7f56b0526e6ec942a4e5d38a255ee62ccc4eb27d083d9315",
+      "after": "0e29920f301cde0ef89838f91d42813ce3e669c5e38262ea56dc5fdfff38c8b4"
+    },
+    "src/styles/layout/_mobile-score.scss": {
+      "before": "a7910fbbde1d547a37dfe9bd08814c8b420262e9b7c20b8fd0bb9e302b874664",
+      "after": "1f905d02091f6bdccd98aaa2f108219932f01a123ddc08cab6941cddd3f05b39"
+    },
+    "src/hooks/useIntentionalSnap.js": {
+      "before": null,
+      "after": "1103f54e28ad5a6beb37d6a76327eb2ef9707885db8fc3fee224f6b29d89e452"
+    }
+  }
+}

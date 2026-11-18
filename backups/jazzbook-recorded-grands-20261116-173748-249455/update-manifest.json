@@ -1,0 +1,2452 @@
+{
+  "files": {
+    "src/components/BandTuning.jsx": {
+      "before": "6d2d5109cfd9eb563a6744d9a6db64debe256b40ee1b1e42bab537386293a25c",
+      "after": "8a80a710a55d1b3f67d29caa21935b078c971dd18adf4f84874ed9b878e69eb4"
+    },
+    "src/lib/audio.js": {
+      "before": "df984b3337c01a8c3e2d581a9d7457c7805e4e7eaeb1810117cf908a4b3f6c89",
+      "after": "c6f6c90c6fd0241a439ec35a0aa573370a3a0596ae8aba664e867892cf419c5e"
+    },
+    "src/lib/ballad-band.js": {
+      "before": "dca3633b1ae3be007080239f96a750e8b037be2649e82468e2b30190748da4fb",
+      "after": "70552a7929c5d851fd45a068a90dcf717f53a1146f06bc89bcb967eec9ad277f"
+    },
+    "src/lib/bass-sounds.js": {
+      "before": "019c7b04b7a17fb8be586aee8da1f0d0b571de42e6e43497dc0fed2cadf57a80",
+      "after": "ef5483b33e64245a8955acf26b1a0335f72a411df559172d478a57276c1e2a64"
+    },
+    "src/lib/control-help.js": {
+      "before": "16ea4eff5d0384b870a3bdde2414307dd9cccf0d14c3b1ba35d10374542486f1",
+      "after": "2628d06ec0afdda78a04775473109e6ec971a837e7eea94e041f5c3693b6bacf"
+    },
+    "src/lib/piano-sounds.js": {
+      "before": "d293edf7f7f517654c60825e26075bb08cb045d23e5ecbdc212a74d8fdbb1f4d",
+      "after": "fd9cced742e59c96cc8965490a0a5ee84ad7a5ffd7e14c42c4e7d8b3ca92cf40"
+    },
+    "src/lib/sample-map.js": {
+      "before": "eb5a496631af79fa4932f3d56a8a2fc4cbadda87d87f611530c0989e3940a858",
+      "after": "77ac1e0921dfd0db5d64fdf18526891f3dcb45592e385564f685296c311e7d8d"
+    },
+    "src/lib/studio.js": {
+      "before": "58ee4812a3987281bd224fa3b4ad80779567d36ac382b55be2b177fa6b010890",
+      "after": "e5e45481e001ad7c9150b4693feeea90ce790a065ec34af5dbd00eb953bd54b3"
+    },
+    "src/lib/style-band.js": {
+      "before": "c2324ba2b6f676fbdd8ef63f4a66251ea08a9502342c8440d260a83799f3f2c0",
+      "after": "c63a9af11b161c22827f5f9d75eba3fef5e05d0a69f666473296a7e6acae4567"
+    },
+    "src/store/themes.js": {
+      "before": "7bf78cec8072c4d162892f5dcd22c54a597feb2afe905bb87650191aacad90bc",
+      "after": "5e19e6c46c11eacaf56a6a5614fd7cbd40175b88a36aff90e5fddf01199bb413"
+    },
+    "tests/ballad-band.test.js": {
+      "before": "d0f26227475cdf08d7b0afa9edac22931772a793e66eb893a958449769ddccdc",
+      "after": "5d41b21462767122e6ed26bab72531dc2776c9a1d0dfeda0bc4653354f9ec876"
+    },
+    "tests/band-refinements.test.js": {
+      "before": "bf435c0352819d37d4bdee2715830be9bd1d611f57dde020496103357349106b",
+      "after": "d33c6b480175504e37e479fb60639e15bb25fa371645d801bdb09bd546e680e9"
+    },
+    "tests/instrument-controls.test.js": {
+      "before": "b8cab84837548ac57d0d91cfea8303950b29d348ef2c55ad44070e8d1b100b71",
+      "after": "49b655c0b01f5503881270aee3118800e91256440775f67d81c8efc267cf69fb"
+    },
+    "tests/recorded-instruments.test.js": {
+      "before": "5fd626a12ea19fc69082d12e9d01302afe3ff26360b75deb3f3aa89132b083eb",
+      "after": "7c7c7df567e8925a374fd302a00a28d4c84361f5a46df0635c42178ee5eeabc8"
+    },
+    "docs/accompaniment-decisions.md": {
+      "before": "a16d3fe624654fc46e44941b0478d56d94681076f04fe4ce5bc3d08c6b1c44dd",
+      "after": "55fcc07a4a7d5a2954df33b38cf76b18b7f72508b30b83736aa8caf18360c502"
+    },
+    "scripts/build-recorded-grands.py": {
+      "before": null,
+      "after": "3c91c33bb65ff8654d4cb29ed61876b3d04f420e67be3dae55b843a10152b1d9"
+    },
+    "scripts/studio-real-source-regions.json": {
+      "before": null,
+      "after": "e040ede50f2f1747ac67d1c52f7c13f2f647f3ce05fdca9857de8c7472ac63be"
+    },
+    "public/audio/studio-v2/CREDITS.md": {
+      "before": "40211cff3d54989ae82549a923eefd86cfa53a9304249211e002a0ec7beb1bd2",
+      "after": "c9a2451c49b752401059c88358299de7be3c21a33ff16ed65a8766198b4584fd"
+    },
+    "public/audio/studio-v2/LICENSE-CC-BY-4.txt": {
+      "before": null,
+      "after": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "public/audio/studio-v2/LICENSE-Salamander.txt": {
+      "before": null,
+      "after": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    },
+    "public/audio/studio-v2/bassJazz-a2_f_rr1.m4a": {
+      "before": null,
+      "after": "5157503972b4f4d4ef31eaa878f015158e3f4a6e0e1e074e0a4dce5a9cfe2335"
+    },
+    "public/audio/studio-v2/bassJazz-a2_f_rr2.m4a": {
+      "before": null,
+      "after": "ee32c58f5f6e09c08ca2bd32e9ca385f4da5f1aaa2e22c275f1235550c93ffa4"
+    },
+    "public/audio/studio-v2/bassJazz-a2_f_rr3.m4a": {
+      "before": null,
+      "after": "006d4ad6007c2ee369510fc4ffe9a61f5e7f109eebae6b12dbed976c1402dd63"
+    },
+    "public/audio/studio-v2/bassJazz-a2_f_rr4.m4a": {
+      "before": null,
+      "after": "ae78bb85dc014f5989900237c67b14bc77df883317fdde17bcdedbc08ad281b1"
+    },
+    "public/audio/studio-v2/bassJazz-a2_ff_rr1.m4a": {
+      "before": null,
+      "after": "b07d2c06ee9f8e80b90472df45aaf0856d325c6ac5b99938d14fa96dcf2ea507"
+    },
+    "public/audio/studio-v2/bassJazz-a2_ff_rr2.m4a": {
+      "before": null,
+      "after": "f268487052d27e3c50240ad3827ef45a896d4913002ec4e8eb490b170eeba6ed"
+    },
+    "public/audio/studio-v2/bassJazz-a2_ff_rr3.m4a": {
+      "before": null,
+      "after": "38b774fdc0c0a1fb9dc7188546c991781ef2d3bcc261d36eeca4238859b862d5"
+    },
+    "public/audio/studio-v2/bassJazz-a2_ff_rr4.m4a": {
+      "before": null,
+      "after": "6c2dce40178f73af9d436b90de1471d5a6dfac1029e7e7e9d5228e7091a4840f"
+    },
+    "public/audio/studio-v2/bassJazz-a2_p_rr1.m4a": {
+      "before": null,
+      "after": "5935791344edbf9cb17baeb5b20026cf180883d8fe5405f7decc872fa4833430"
+    },
+    "public/audio/studio-v2/bassJazz-a2_p_rr2.m4a": {
+      "before": null,
+      "after": "c3e8f1a16e6841fd6072ff6ec3e0ec8faa0bfe692858c10c2e4967fbbfb243f1"
+    },
+    "public/audio/studio-v2/bassJazz-a2_p_rr3.m4a": {
+      "before": null,
+      "after": "47ec65b0843760e327d17a38ddb50a9ca576014d24ca5119b7687c0ccd982c60"
+    },
+    "public/audio/studio-v2/bassJazz-a2_p_rr4.m4a": {
+      "before": null,
+      "after": "f312b70896f1319d45ce571bb3f5ee5b2795eb17fa39529ac48dd58729a05bf4"
+    },
+    "public/audio/studio-v2/bassJazz-a2_pp_rr1.m4a": {
+      "before": null,
+      "after": "739a4c0da567b0b3f819e5bea2be2c802b761e5cc0834c6757240a24e148fee3"
+    },
+    "public/audio/studio-v2/bassJazz-a2_pp_rr2.m4a": {
+      "before": null,
+      "after": "6daa791e0959e6df7668db2abed29b41cecdc55cbf6fb0cff643260df3f02e59"
+    },
+    "public/audio/studio-v2/bassJazz-a2_pp_rr3.m4a": {
+      "before": null,
+      "after": "6a663a6541a9eede01cf42152c432bff8fe734a11bbd1156e9d3c706a939a727"
+    },
+    "public/audio/studio-v2/bassJazz-a2_pp_rr4.m4a": {
+      "before": null,
+      "after": "4a4c6a02105c8a1d454b18c9b152d1405bba075cfa3c251e7fe75d5711e54948"
+    },
+    "public/audio/studio-v2/bassJazz-a3_f_rr1.m4a": {
+      "before": null,
+      "after": "174ee1d4455b60eed95eaee59d46c1e276c665b179f06146ff78fa7a3c38e207"
+    },
+    "public/audio/studio-v2/bassJazz-a3_f_rr2.m4a": {
+      "before": null,
+      "after": "4759d0205bf21e1c92cf49a537e5c56f9c1f508ba85a39ddafb039497a5cb9b0"
+    },
+    "public/audio/studio-v2/bassJazz-a3_f_rr3.m4a": {
+      "before": null,
+      "after": "d23ab84a32c6765c2baded944c1dd141e8f215a7ae28f97f760057b60c44dcc1"
+    },
+    "public/audio/studio-v2/bassJazz-a3_f_rr4.m4a": {
+      "before": null,
+      "after": "cc73e32ac227d06cf83156d51248e30bc921d2499ebef6b6c486375b93253f65"
+    },
+    "public/audio/studio-v2/bassJazz-a3_ff_rr1.m4a": {
+      "before": null,
+      "after": "963d86f962f2d1eb61476729adde090333089c3e123f08a20ccb1133b87a3d0f"
+    },
+    "public/audio/studio-v2/bassJazz-a3_ff_rr2.m4a": {
+      "before": null,
+      "after": "7810fbd2d8ce060b78121b6bf9fc7d577edbc3dfc1f25587e0a0be93546e1ec3"
+    },
+    "public/audio/studio-v2/bassJazz-a3_ff_rr3.m4a": {
+      "before": null,
+      "after": "965196fe6ad1a46ad839febe9cba4b79de6377dd4bda883edbf042d6b7e62ffb"
+    },
+    "public/audio/studio-v2/bassJazz-a3_ff_rr4.m4a": {
+      "before": null,
+      "after": "9258c94bb4a1eee3631bb804fed3f88bf1ac07c97d03b619a2c70bd161d22c89"
+    },
+    "public/audio/studio-v2/bassJazz-a3_p_rr1.m4a": {
+      "before": null,
+      "after": "535551d99e2033bf64f0d656fcd2ca2a58a42ae94b038029d84dde37abfc90cb"
+    },
+    "public/audio/studio-v2/bassJazz-a3_p_rr2.m4a": {
+      "before": null,
+      "after": "486f8cdfed2d9881a0a9224f1ad7ebb9d0a724c14182e8b2cb2305dc6ab61b59"
+    },
+    "public/audio/studio-v2/bassJazz-a3_p_rr3.m4a": {
+      "before": null,
+      "after": "8bfb2527182b374d9e8793355220b04a8a2f24c60f2eadd2d0cc25896b47e766"
+    },
+    "public/audio/studio-v2/bassJazz-a3_p_rr4.m4a": {
+      "before": null,
+      "after": "3e7737562057e227ac9815df59059ad59945fbac62bcdfaa3e0b691616395941"
+    },
+    "public/audio/studio-v2/bassJazz-a3_pp_rr1.m4a": {
+      "before": null,
+      "after": "162e19534f329b92ce48e257ae944e5e251c76ffd76dd0faae255883626eafe1"
+    },
+    "public/audio/studio-v2/bassJazz-a3_pp_rr2.m4a": {
+      "before": null,
+      "after": "19dbe4b4368e54a8ebaeec14a13aea99199a98c629c3c03c3722c853e56ce187"
+    },
+    "public/audio/studio-v2/bassJazz-a3_pp_rr3.m4a": {
+      "before": null,
+      "after": "6e857705e0ca8d8d7fb299a7063ae32ca64f3ea29d542862c5cf068b09702c95"
+    },
+    "public/audio/studio-v2/bassJazz-a3_pp_rr4.m4a": {
+      "before": null,
+      "after": "f535db5f1535e6c7af9ecc234c8ca92f2312a5c643fee7d7e57883854e868aa4"
+    },
+    "public/audio/studio-v2/bassJazz-c3_f_rr1.m4a": {
+      "before": null,
+      "after": "a9327e049a201efe618b700a6ab7bc6844aa9520bd4768fd197a2f892e7a98cb"
+    },
+    "public/audio/studio-v2/bassJazz-c3_f_rr2.m4a": {
+      "before": null,
+      "after": "9adec4c1456713eb5ea08b67d8256a30a1bb7b1413a5c730568678cb7d7691ef"
+    },
+    "public/audio/studio-v2/bassJazz-c3_f_rr3.m4a": {
+      "before": null,
+      "after": "34156fe63d3ae293505df3a63278a00398295f4e5bb90c3626ebdba1462b2226"
+    },
+    "public/audio/studio-v2/bassJazz-c3_f_rr4.m4a": {
+      "before": null,
+      "after": "400ffca5b464a688702bf42e351476de08d7f44323d195daada664714c07ed28"
+    },
+    "public/audio/studio-v2/bassJazz-c3_ff_rr1.m4a": {
+      "before": null,
+      "after": "05ab2195f875936047e65dceba7825a4943bbecce707b8c2b99f6b56f36d6c9f"
+    },
+    "public/audio/studio-v2/bassJazz-c3_ff_rr2.m4a": {
+      "before": null,
+      "after": "d0c892baad314537aeeb841fcf3dfc0d36726cbb29a0761f1804d9012d4e4ddc"
+    },
+    "public/audio/studio-v2/bassJazz-c3_ff_rr3.m4a": {
+      "before": null,
+      "after": "f595d55412037cfb9b9c3f7d3f6d339a67afeff7cb4e19253a8dd50161dd993e"
+    },
+    "public/audio/studio-v2/bassJazz-c3_ff_rr4.m4a": {
+      "before": null,
+      "after": "a0d4d31b1e487c782ee3b987f180bbb58d2f20588c692adf91e9d85e6bd2346b"
+    },
+    "public/audio/studio-v2/bassJazz-c3_p_rr1.m4a": {
+      "before": null,
+      "after": "81b19f0242fa41fdeac77aa5d6c8bae42b1cd92cbe6fb048edea545142842778"
+    },
+    "public/audio/studio-v2/bassJazz-c3_p_rr2.m4a": {
+      "before": null,
+      "after": "a46526c7721141c1c1755a834acef4734eee80384e1926ea221b5ee7bd761e31"
+    },
+    "public/audio/studio-v2/bassJazz-c3_p_rr3.m4a": {
+      "before": null,
+      "after": "5e24d638891b888df4c2fc70fb66f194cfade55504746fcbc8b570cb87bedf05"
+    },
+    "public/audio/studio-v2/bassJazz-c3_p_rr4.m4a": {
+      "before": null,
+      "after": "7883c223667615112b7a36f33c0cc46374f434bf36052e83bbd3ae66517b4dc8"
+    },
+    "public/audio/studio-v2/bassJazz-c3_pp_rr1.m4a": {
+      "before": null,
+      "after": "b9e82293bddc208f67749464e5f66f6933f2777e17583f45c69ce3c4b19488de"
+    },
+    "public/audio/studio-v2/bassJazz-c3_pp_rr2.m4a": {
+      "before": null,
+      "after": "d9137f1b9cec426437cbcde54eb430f7608e582154b2c32dcb8dc805d3314207"
+    },
+    "public/audio/studio-v2/bassJazz-c3_pp_rr3.m4a": {
+      "before": null,
+      "after": "86140f73e37195fe64c4edb2164ce4bd6eb9b33f9e38915b8a09d843cfdceaf2"
+    },
+    "public/audio/studio-v2/bassJazz-c3_pp_rr4.m4a": {
+      "before": null,
+      "after": "7b96a267629ff7a60ad999e71f730c79de99520f74fde35aa41428c1f2e1ce27"
+    },
+    "public/audio/studio-v2/bassJazz-c4_f_rr1.m4a": {
+      "before": null,
+      "after": "ef1c7e10d814228cd5949edaf8705b42aab9d988b44c1c6d6ab1f39aefaeea23"
+    },
+    "public/audio/studio-v2/bassJazz-c4_f_rr2.m4a": {
+      "before": null,
+      "after": "9df8f0e0b679a16b17e5b1331424aabd46d1c3a568a89d096ddd0aa39f9123bd"
+    },
+    "public/audio/studio-v2/bassJazz-c4_f_rr3.m4a": {
+      "before": null,
+      "after": "586819d216e1579403405b4fcf4f45227fb00fd21bdc125abe498818bc1b1f25"
+    },
+    "public/audio/studio-v2/bassJazz-c4_f_rr4.m4a": {
+      "before": null,
+      "after": "b4c4550424f307bd6cd9f9f8b5252b53f6fdc9fee745423ce4cda14f4ddfb460"
+    },
+    "public/audio/studio-v2/bassJazz-c4_ff_rr1.m4a": {
+      "before": null,
+      "after": "0a79ee614f5c92799b2a62fc11b0e312aabc576b5728dfda42b6c84142ccb8ef"
+    },
+    "public/audio/studio-v2/bassJazz-c4_ff_rr2.m4a": {
+      "before": null,
+      "after": "7e7ade1657e557a7008dadca98318ed7ecbc5d718b0d624c5a6197684693e589"
+    },
+    "public/audio/studio-v2/bassJazz-c4_ff_rr3.m4a": {
+      "before": null,
+      "after": "b1ec11f7b14a87b4192208e5378ec99428f40aaad934b1ef55e6d357ed334d90"
+    },
+    "public/audio/studio-v2/bassJazz-c4_ff_rr4.m4a": {
+      "before": null,
+      "after": "5b30296a7758ca5a713afba02526454829c5bcac51432ceb884db848b4e6fd60"
+    },
+    "public/audio/studio-v2/bassJazz-c4_p_rr1.m4a": {
+      "before": null,
+      "after": "53f9f890698353db5d01b13ef8742005a3eba575f4f41b5d9d64b3607289b4af"
+    },
+    "public/audio/studio-v2/bassJazz-c4_p_rr2.m4a": {
+      "before": null,
+      "after": "5a794653b84ee1522cc8d704735278a930a8b57a66c768926748886e0fa016d6"
+    },
+    "public/audio/studio-v2/bassJazz-c4_p_rr3.m4a": {
+      "before": null,
+      "after": "b7be0ef3670a4b2e7016434deefe32f3a3ef4b6446fda65cd9933ed7111774e6"
+    },
+    "public/audio/studio-v2/bassJazz-c4_p_rr4.m4a": {
+      "before": null,
+      "after": "641992764dc17cdc87599680583b521729a210cc2c69beee4fc750ed912c428f"
+    },
+    "public/audio/studio-v2/bassJazz-c4_pp_rr1.m4a": {
+      "before": null,
+      "after": "05445c75d65f7fe079f4d18f4727105ef8b00dfcd6c371573836bba80d405171"
+    },
+    "public/audio/studio-v2/bassJazz-c4_pp_rr2.m4a": {
+      "before": null,
+      "after": "23464855905f8f79e664f41ddf3133b3c673f6dcddeb47d5ccbfd4cecaa47202"
+    },
+    "public/audio/studio-v2/bassJazz-c4_pp_rr3.m4a": {
+      "before": null,
+      "after": "12144fbb43ca5f5814ed5011705c4b1105b10a4e81864c523ad74d777124f7dc"
+    },
+    "public/audio/studio-v2/bassJazz-c4_pp_rr4.m4a": {
+      "before": null,
+      "after": "a388182f64c3a993973184370b219eea5c6c79a894b7145767df503f6884af50"
+    },
+    "public/audio/studio-v2/bassJazz-e2_f_rr1.m4a": {
+      "before": null,
+      "after": "bddd3d74494b269e045150fd0a6cfc8bc61932553e4161eedf3fcdfe0f41946e"
+    },
+    "public/audio/studio-v2/bassJazz-e2_f_rr2.m4a": {
+      "before": null,
+      "after": "80c062e29bfe150be660318d7853f65d21b2b8efd0f7acae8564145f7bcc068a"
+    },
+    "public/audio/studio-v2/bassJazz-e2_f_rr3.m4a": {
+      "before": null,
+      "after": "28fa8c9f6cca94eba49ca93edfd4513a6b76c0b48148d61d60ff0400b35b54e8"
+    },
+    "public/audio/studio-v2/bassJazz-e2_f_rr4.m4a": {
+      "before": null,
+      "after": "07042e5d43eaef285cb41a2f3b92eb343c441dc317e041067afce1d0c5fffde6"
+    },
+    "public/audio/studio-v2/bassJazz-e2_ff_rr1.m4a": {
+      "before": null,
+      "after": "866bd79074ff2a70b20ac693f47d51f212bb8326369da2a51697ac04ace88bba"
+    },
+    "public/audio/studio-v2/bassJazz-e2_ff_rr2.m4a": {
+      "before": null,
+      "after": "60c130edbbd574506491fe0b88a2a5ff1ae1ae20b90712441002390bbd81a175"
+    },
+    "public/audio/studio-v2/bassJazz-e2_ff_rr3.m4a": {
+      "before": null,
+      "after": "f14f2ee965e27e595dcded9bc03d6014f9e9914f489ea48e376bd0eebc665924"
+    },
+    "public/audio/studio-v2/bassJazz-e2_ff_rr4.m4a": {
+      "before": null,
+      "after": "18a39249da4ad60a37f8b33d3d545c7f9b5caca015f018fbf8e93ed435a7ece5"
+    },
+    "public/audio/studio-v2/bassJazz-e2_p_rr1.m4a": {
+      "before": null,
+      "after": "f6654fd6e664d5d781453c4572961dedcbcc59faf0e4d723abb1b69e7876ebf5"
+    },
+    "public/audio/studio-v2/bassJazz-e2_p_rr2.m4a": {
+      "before": null,
+      "after": "38669e53bb4dc5d9e5d8aa83a288a480b21fd13f3d1bc7a22d4e1f923c967d44"
+    },
+    "public/audio/studio-v2/bassJazz-e2_p_rr3.m4a": {
+      "before": null,
+      "after": "4b4b716d3fe4702f1bd2a489d7a6dbc6699cc5034301866cdac2f9558dc24c5e"
+    },
+    "public/audio/studio-v2/bassJazz-e2_p_rr4.m4a": {
+      "before": null,
+      "after": "0f46d238c5a71c5e0cd17becf43d1221b4a0e5d43ba77d6103f0350af498770a"
+    },
+    "public/audio/studio-v2/bassJazz-e2_pp_rr1.m4a": {
+      "before": null,
+      "after": "f6a50f9dd1290216701d5f4cc112581362081b61e0b1f4e9964337bedcaf7a28"
+    },
+    "public/audio/studio-v2/bassJazz-e2_pp_rr2.m4a": {
+      "before": null,
+      "after": "2cd2a9d38d78df1cc7bb365dde93d7234d15abfb157c5f4eef5fca1eab91611f"
+    },
+    "public/audio/studio-v2/bassJazz-e2_pp_rr3.m4a": {
+      "before": null,
+      "after": "baa3730251e74913ed250516a948e4c7d673a4295c47f2586b902a27a55868cf"
+    },
+    "public/audio/studio-v2/bassJazz-e2_pp_rr4.m4a": {
+      "before": null,
+      "after": "c0bd2b88be1c6d1427a3eb3f8f388e6a60347e2c6010ff1bea8f91dbc232870c"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_f_rr1.m4a": {
+      "before": null,
+      "after": "0b83d0295cfa778680a0d7ce307f99efef3053ee0fc2b7313f9dc919dc4b26aa"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_f_rr2.m4a": {
+      "before": null,
+      "after": "c6df53848c1d9239bd81b500c37761dc60fb7a68b51777603ceeed99255ed655"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_f_rr3.m4a": {
+      "before": null,
+      "after": "b5aaf443c71b12e25edb8f0f3e9b45ca40ef545256c34413374a5d3a7bfe4dcc"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_f_rr4.m4a": {
+      "before": null,
+      "after": "4f3a979826bd65f14b652eb75e55fb09b5431ff86bc868ba5717bfa272fe83f7"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_ff_rr1.m4a": {
+      "before": null,
+      "after": "a09bcf4525dfb08e9650bed4ef5f5a699bd99aa41521df34eaa6eb40510afd76"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_ff_rr2.m4a": {
+      "before": null,
+      "after": "e27e4c9022dd3852df063e2d2cac6b0b910484ba0d2a6570d7792a6cf43ce100"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_ff_rr3.m4a": {
+      "before": null,
+      "after": "1d96e38798635013cea2ddb5aab04dfdb1285fea2e751aa93909b234649862a6"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_ff_rr4.m4a": {
+      "before": null,
+      "after": "6eff05ee6de8fe8d0b1303102bcf5eaedd9e34d99b17e2f25698f778503930fb"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_p_rr1.m4a": {
+      "before": null,
+      "after": "56431ade482e3efd71014d8f3280673dc26c56792b038841cabfef2abbf8e848"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_p_rr2.m4a": {
+      "before": null,
+      "after": "8ca9fabd2efe50ffe27f316a0a75c1715cb0586396cec21c1179a3115d36c762"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_p_rr3.m4a": {
+      "before": null,
+      "after": "bb59c1bc2fc372aae04295f33721ea0804d280ef9daa95b81fefeaa0e0161a00"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_p_rr4.m4a": {
+      "before": null,
+      "after": "33ab2591bc2856512302fcc62f4f63da72d008ff1140f04c172b8c9010f0a46e"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_pp_rr1.m4a": {
+      "before": null,
+      "after": "df57ce53b1b286af20837b5fe2c3d6caeeb8cab9737110da9d65b82dac3b7ba3"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_pp_rr2.m4a": {
+      "before": null,
+      "after": "b869d111a46d5ad5c6571e1a311e26af315f98e5e6ceedde6be996db2f2200ac"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_pp_rr3.m4a": {
+      "before": null,
+      "after": "a91a2a1c708416c229b81df7eda8936240c70411882e5012c1046512a11c0468"
+    },
+    "public/audio/studio-v2/bassJazz-eb3_pp_rr4.m4a": {
+      "before": null,
+      "after": "86443a9a3b0438f21bc6b894dd7177fa799177855b2323ad1c6867bec6ed340e"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_f_rr1.m4a": {
+      "before": null,
+      "after": "b44e04febc5ae0678316fefddaba335e7ecfd4b13b50678750946d2dfa430b08"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_f_rr2.m4a": {
+      "before": null,
+      "after": "37cd1d66e0d3c75a4c759e50f1c8d34090f89d97161f7ab3e34bbbfcd83ee532"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_f_rr3.m4a": {
+      "before": null,
+      "after": "2748a92d5bdeb654605582e054f3ba705a71205c09a04555450df2a975ff042b"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_f_rr4.m4a": {
+      "before": null,
+      "after": "43665cf350becaea1887be49d3755d532aae1c2c9fea6cc33c31d61e148d8456"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_ff_rr1.m4a": {
+      "before": null,
+      "after": "cc9161bb8a21734b9596f0e70f919d711043c098adc1a216fcd4c1d4722a569e"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_ff_rr2.m4a": {
+      "before": null,
+      "after": "26f011af650cda1c009e9fd6ea0e92edf03d0c3f038ad4c31f2778f6e1173285"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_ff_rr3.m4a": {
+      "before": null,
+      "after": "927928cc152d6fae1f9b34695ff5c28fc97c643d078ac9c6702f1df6fc87a2d7"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_ff_rr4.m4a": {
+      "before": null,
+      "after": "83f54132a7eea791c95b8002edbfbd9d1cd0584ccbecb6f54fb57c249394c983"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_p_rr1.m4a": {
+      "before": null,
+      "after": "df19c1898ede43c359dbf624d37f6f40374567c9e5b1cc2bbf01b23f00f5d170"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_p_rr2.m4a": {
+      "before": null,
+      "after": "22b099d3f635382f9270c0cf5f4ed22afc3eb06607c1116fc3c5dffed0a1779a"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_p_rr3.m4a": {
+      "before": null,
+      "after": "cd9ccc6dbb5c2a70a3799ee6953ca00be09b514425acf1d7b1eac4de40df48d4"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_p_rr4.m4a": {
+      "before": null,
+      "after": "3ddf9a949557b9da45f46bd458cba27f06f3025a79f13b0ecae038c9c3b2335c"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_pp_rr1.m4a": {
+      "before": null,
+      "after": "d5fac969603d756b3024997c3db9627b8a5ae2306744f976a3f78f50c1b53403"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_pp_rr2.m4a": {
+      "before": null,
+      "after": "d56361b592937d3eaab40184180cec27678df3cfe9d3096a172bc20b4fb10866"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_pp_rr3.m4a": {
+      "before": null,
+      "after": "f8fc5218bf08fdd9d90342804808ab70ceca3f59a5616287a8de3cffc1944f60"
+    },
+    "public/audio/studio-v2/bassJazz-eb4_pp_rr4.m4a": {
+      "before": null,
+      "after": "ee82dabe7e36ab0565c3fdcf8e5d39e154a1ab5b6322d1acb54e64c159137a57"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_f_rr1.m4a": {
+      "before": null,
+      "after": "a1a60ccb8a43808c05cdcd176ab8b30535d499c877d55769b45e841f1f299ec8"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_f_rr2.m4a": {
+      "before": null,
+      "after": "a57e4eced63bb8fbdaf9a31041483c9c2657a42db49db1e0bbf280c40db2992e"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_f_rr3.m4a": {
+      "before": null,
+      "after": "3b3299ca9e8e620283227977830cee1c0191de1948aa2df66b4f54f672328d84"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_f_rr4.m4a": {
+      "before": null,
+      "after": "d2852123cc140e6a2ae9c00f080b0858527bd74c9a2bd28a9a5bc2df27d542fb"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_ff_rr1.m4a": {
+      "before": null,
+      "after": "63e9f51572f5452e007eda5bdc62fd26c49b7ae1d4a76c947e2d684fd0c890ab"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_ff_rr2.m4a": {
+      "before": null,
+      "after": "e42bd9af0523b846830a4f3dbf0e6f8cac56b7c0305b75128ce54be80b91cfe0"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_ff_rr3.m4a": {
+      "before": null,
+      "after": "e0af7ac45157af6bc2d33e946518fc65dacd65242d9b85d71bbd59f4efe39aa2"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_ff_rr4.m4a": {
+      "before": null,
+      "after": "65d3d2df526414c9c26da49bd2e394ea0e168a36de0492399df6388c39b7f09f"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_p_rr1.m4a": {
+      "before": null,
+      "after": "565e3877f595892b286d5c07f95e4b55b63146108df958dacd3671491b184c33"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_p_rr2.m4a": {
+      "before": null,
+      "after": "165786e44962a4f75465583b1f95e099ae3703c277fd518fcaab354405af2022"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_p_rr3.m4a": {
+      "before": null,
+      "after": "e9d3112f97c1aa88d4d425e5ccfeb3c80e89219286b7e1fca096bd6ea98e2263"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_p_rr4.m4a": {
+      "before": null,
+      "after": "4ef5cdbe66690c790752d75337eb3d9eb33b699af1594afdde94b868eff99ca9"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_pp_rr1.m4a": {
+      "before": null,
+      "after": "55f2af8aa9fe041007359084deb37040e726aeac9a90f4fcce411a58dd20d1e3"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_pp_rr2.m4a": {
+      "before": null,
+      "after": "3bff2ac544d42ef9c55f291ea3755200b7dc923f8a39b214b18b7dd4c49dd33d"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_pp_rr3.m4a": {
+      "before": null,
+      "after": "6d80a4eb8fbed86557a188a377a987468ca76403c9bc9007ff192548443dafaf"
+    },
+    "public/audio/studio-v2/bassJazz-gb2_pp_rr4.m4a": {
+      "before": null,
+      "after": "dde378cac18a702d68400fb99c8a6c0096710c8bb72ed13bd66cc2af77f3a774"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_f_rr1.m4a": {
+      "before": null,
+      "after": "58ab8e0761e40826965c1f828a36a882794e15791d72317e106cf282ba748f12"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_f_rr2.m4a": {
+      "before": null,
+      "after": "e6f4ca33a7f72c1e68f7caa5bace12045b0a05b8ac46f6c59a138351f5c2bfbf"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_f_rr3.m4a": {
+      "before": null,
+      "after": "852c89f776c38aff613512555bee9ab1b89da774585acd8788d44bd3255c43a8"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_f_rr4.m4a": {
+      "before": null,
+      "after": "3d4bb0a2379499a9fa776a9188983365574c8e1198e066370ab931162cef255c"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_ff_rr1.m4a": {
+      "before": null,
+      "after": "b9b597cd9b4c7355fd6af4ff11a5e4bd5f5f23cc3e5b2e76bc5ed53a1f5a0771"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_ff_rr2.m4a": {
+      "before": null,
+      "after": "4ae202de16e49c7d19c554cf2c5c7542d9fd1dec83c2db0df6c7afe668b64699"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_ff_rr3.m4a": {
+      "before": null,
+      "after": "5c320c276dd973fff91bdc394716a6d850846011c6df29841bfef719b428ccf4"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_ff_rr4.m4a": {
+      "before": null,
+      "after": "612938453ee29bdbdb68b1e90f2efa9018c699716690538377f8eb7699e45e05"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_p_rr1.m4a": {
+      "before": null,
+      "after": "5407c98c33171d67c385014ba854e24a0f378c37bbdbc65263eaec419f136b72"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_p_rr2.m4a": {
+      "before": null,
+      "after": "6850964eff31e24185bcd34f50ec60b986843c76bbdb3b0f0670bdd41762610d"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_p_rr3.m4a": {
+      "before": null,
+      "after": "8616025e4e6763bd21231774509ffebc298f269474427d9038c4fa5d76fbd9e8"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_p_rr4.m4a": {
+      "before": null,
+      "after": "7ddde23f59a7b260cb2c9de70ff494ec72fce12a0ba92b5e0c2a0c025a5a25f0"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_pp_rr1.m4a": {
+      "before": null,
+      "after": "5e5c5af42ee048e38667b76a7374e2d6e7fbb3b1da2bbd68faaee61d309705fd"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_pp_rr2.m4a": {
+      "before": null,
+      "after": "ca91f9e906eef127b11abbfbf7acb06392b9d39df1abbe2b6f69100748aa323e"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_pp_rr3.m4a": {
+      "before": null,
+      "after": "bcdb81e329d0daf589cdd92d6401d9740bcb3294626c67837182631dc041c3cd"
+    },
+    "public/audio/studio-v2/bassJazz-gb3_pp_rr4.m4a": {
+      "before": null,
+      "after": "31bc9bbc883905f5c159b77feb67498afe663d107b5fd315b84d6dc710858361"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_f_rr1.m4a": {
+      "before": null,
+      "after": "d7933b71fb0283db77282307fcf1c4e441a19a794e8ec94d8b2562aa98582718"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_f_rr2.m4a": {
+      "before": null,
+      "after": "93397a0ff6bc04df0e516d41d11a4010c901d7210b33054bd765f154dfeb1feb"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_f_rr3.m4a": {
+      "before": null,
+      "after": "bd999ba632697dc3d65d4083a77552efdb997ab9d097ac244bae7d1d04208bcb"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_f_rr4.m4a": {
+      "before": null,
+      "after": "dd1d027a363b943f61af9b80e746256e59448ccb4d64d1461c1773a7109040c6"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_ff_rr1.m4a": {
+      "before": null,
+      "after": "69d364b83a06628856e82d67a818883a16dec896b430b1d5a909cca5d6b7108b"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_ff_rr2.m4a": {
+      "before": null,
+      "after": "bc757bb238d41000986e2439f70a72da4c8674f9dd955678d395051b01f98eee"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_ff_rr3.m4a": {
+      "before": null,
+      "after": "e0699b4f368ef803bd964359828b17ae15dfa1ffb6f1b308765b2a427bfc5037"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_ff_rr4.m4a": {
+      "before": null,
+      "after": "4e604d9a15f42caa0c8f957555b491f39be8df9dbdfc1ceaaeeb53dd71f34ad8"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_p_rr1.m4a": {
+      "before": null,
+      "after": "f2d8baff4303dacce88632f3ed1f401a2ff54c4825bb811d9da910f3a6f6eafa"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_p_rr2.m4a": {
+      "before": null,
+      "after": "ec57bd2124904c87adeeaa74f341553b089a680085396479bd6d6c8db25b31c0"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_p_rr3.m4a": {
+      "before": null,
+      "after": "0f287b34a49c84fe2ef441930ad69e56a8e24d2b7aba9adf6f12dc6b7a1cc697"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_p_rr4.m4a": {
+      "before": null,
+      "after": "6b1e47afe7401b5f4a6968e4049da4fc2a9e30e15dc8815ffd462de9d37938ee"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_pp_rr1.m4a": {
+      "before": null,
+      "after": "3b51dacf10a1412ec55d7f07eed9f77c98a54418addb1b5a29f901f601c4a8d7"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_pp_rr2.m4a": {
+      "before": null,
+      "after": "15642abeb63faea4c66d2503c66de8e795fd66e62e9706d557242ec6ddeb218b"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_pp_rr3.m4a": {
+      "before": null,
+      "after": "292a69a20767755fba5e85288b32f77bea0c35b5acd785e0342653d0e3709bc4"
+    },
+    "public/audio/studio-v2/bassJazz-gb4_pp_rr4.m4a": {
+      "before": null,
+      "after": "126b5b995491aac300b1d44afadeae8762481dcd335c22a6176ef7f576034aba"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a2_rel_rr1.m4a": {
+      "before": null,
+      "after": "78578d4afc3a874aa1147ff0fd0a7d54f2d2d49b14745197d13b7e72f567eeba"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a2_rel_rr2.m4a": {
+      "before": null,
+      "after": "89e79ee691b664f2b6bb74110517a60a1b127a2e6400acc8d1c5e86c5a0dfbb7"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a2_rel_rr3.m4a": {
+      "before": null,
+      "after": "b7114f879bcdd05bae5b511e4059bc150514e1f69e21fdc9a6aa9fd558efeb0c"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a2_rel_rr4.m4a": {
+      "before": null,
+      "after": "312d049d5551742879612dff1d6c8df4ef03c30ba207aa39f5f3957fab2ab13c"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a2_rel_rr5.m4a": {
+      "before": null,
+      "after": "20f961eb68e14eddd30efbdefbfcb3811084058c3f6cdd81808169f1115c73a3"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a3_rel_rr1.m4a": {
+      "before": null,
+      "after": "3479101145772f868d208d84327c316b17acbd769283aeeb84411714d9cccd48"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a3_rel_rr2.m4a": {
+      "before": null,
+      "after": "7abe74d2e60c897dd2e6f89daf09ddfe37c80dd7b28e9ced10b93d5e481dec73"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a3_rel_rr3.m4a": {
+      "before": null,
+      "after": "5e06ccf4acc0fbc6d81426e6b7199f51e90fd4de944f4079d662a1a44707b817"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a3_rel_rr4.m4a": {
+      "before": null,
+      "after": "b8feae305043fa52b2513ce9ca0de5a5f0fdc773ec141b9f123f96e7366f1381"
+    },
+    "public/audio/studio-v2/bassJazzRelease-a3_rel_rr5.m4a": {
+      "before": null,
+      "after": "17b4b074356acdf41b69a6876521a0248f7c2866a0d09cf4d471b7fba73715fe"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c3_rel_rr1.m4a": {
+      "before": null,
+      "after": "32aba3de4a1e5f91988476993d07af5e82ea28193b50169a75193a3068c2be09"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c3_rel_rr2.m4a": {
+      "before": null,
+      "after": "753ee1f12dae3283d0c84e6a2ecb34e6bd9c0a38179d4e43af183e432fb574f0"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c3_rel_rr3.m4a": {
+      "before": null,
+      "after": "71c3a62636cc129d1fead146a181530444bef341656e698f01658c77ae22920b"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c3_rel_rr4.m4a": {
+      "before": null,
+      "after": "fae87dd61c877d29299d7a5e94bd52cbb65c7411a533cee584afccc9ab8dbea7"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c3_rel_rr5.m4a": {
+      "before": null,
+      "after": "61210714e0ce218fc174a98f030845b3bae01fb159dd565f3d8c8837f1f3142d"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c4_rel_rr1.m4a": {
+      "before": null,
+      "after": "35a250188def77480a8eda8282da7323a085716f46c87f665647d7247ac6a9b7"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c4_rel_rr2.m4a": {
+      "before": null,
+      "after": "f28d0838c2755f6306c6b3409596ee4752e426e96dc4f643f81e93e8b11f7a43"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c4_rel_rr3.m4a": {
+      "before": null,
+      "after": "72911d854cc15412de60918a9c4c5fd2e36d8a4bb78203c9ad5aee72c8eb30b4"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c4_rel_rr4.m4a": {
+      "before": null,
+      "after": "230f9f7de510bb1031d2c3bd623e34b3097268f5becf262ce334b3e0407da81e"
+    },
+    "public/audio/studio-v2/bassJazzRelease-c4_rel_rr5.m4a": {
+      "before": null,
+      "after": "b67fb3f4d1112dbe7a26e3a7f58805655aad7e337367ae35dca79855058995f7"
+    },
+    "public/audio/studio-v2/bassJazzRelease-e2_rel_rr1.m4a": {
+      "before": null,
+      "after": "220083e16a7dda15df5ed258ef134fb1069cb04131018245226d9c4e640394da"
+    },
+    "public/audio/studio-v2/bassJazzRelease-e2_rel_rr2.m4a": {
+      "before": null,
+      "after": "98704910ce0835a6c3f90ec652bca6d0350ed75744bcd1269c07153d010ca5f1"
+    },
+    "public/audio/studio-v2/bassJazzRelease-e2_rel_rr3.m4a": {
+      "before": null,
+      "after": "ec23beb6bc89348283dc874d8758558115777fe786106236cfde18b7d27640cd"
+    },
+    "public/audio/studio-v2/bassJazzRelease-e2_rel_rr4.m4a": {
+      "before": null,
+      "after": "c657fb212e87fedb5f39aed7c688e80193efa791c77e007624a35366937867ea"
+    },
+    "public/audio/studio-v2/bassJazzRelease-e2_rel_rr5.m4a": {
+      "before": null,
+      "after": "4184a5b4540d20d3e2cdc91b8007cc1c2c9e0c14df5b3e858e42c2c271f3c18e"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb3_rel_rr1.m4a": {
+      "before": null,
+      "after": "a6b4caed501365964fc4cfe6feca7d56337d8ae92131c9a68d06df288fa466a6"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb3_rel_rr2.m4a": {
+      "before": null,
+      "after": "0ca77038127a47fa30de15297dabcf0e2af6f0ed78dff68d24771105afd2e987"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb3_rel_rr3.m4a": {
+      "before": null,
+      "after": "76d0cf67fb6cc3f82787bec9416213ede22c459e896156bcede1b820d43db82d"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb3_rel_rr4.m4a": {
+      "before": null,
+      "after": "8c1e90018c2f7621a010316dd401ea5c094be9f28562835aeeeafd82b6712764"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb3_rel_rr5.m4a": {
+      "before": null,
+      "after": "63c6c44ca8c794712ab2d86e883e034285586464239d2f8de4ca79d58543ddc8"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb4_rel_rr1.m4a": {
+      "before": null,
+      "after": "bfe5f75f68d73857d0d309134a8f0d8d4418df336afa9b00001060f635aa49fe"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb4_rel_rr2.m4a": {
+      "before": null,
+      "after": "1365e0a50e426e4daf9181b80a930eb2276ccbb16fa0037a5d0db946d070c115"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb4_rel_rr3.m4a": {
+      "before": null,
+      "after": "7717374b42e11258a2ed458bcf1e5632b6a8c54a43dc683cb958a21508b00d2a"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb4_rel_rr4.m4a": {
+      "before": null,
+      "after": "13b54f12c3945dffd2a4d25cb69092dd3734e7e33d7e3b731322b487dde7fee5"
+    },
+    "public/audio/studio-v2/bassJazzRelease-eb4_rel_rr5.m4a": {
+      "before": null,
+      "after": "c96f0b105c428058882a36bf8a5c6fb920f00822c498329f911fae6232ee1e56"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb2_rel_rr1.m4a": {
+      "before": null,
+      "after": "71038706b9be8ab4ec9faa6f7ca3ef5f067e84de164f246e415850600cca7267"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb2_rel_rr2.m4a": {
+      "before": null,
+      "after": "e9d8ab121b99efb4a89be2d82023751583375c10f0a0a5eee9d9ce1d58776421"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb2_rel_rr3.m4a": {
+      "before": null,
+      "after": "d05be86a0dc222a449dcf25b8dfe6448807228e6f3ec0bbcd9a82de0edd8a312"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb2_rel_rr4.m4a": {
+      "before": null,
+      "after": "bbd770e03ef15474c2d2f69d6f06475f22ad241a1115ce061ccc708b5908fa40"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb2_rel_rr5.m4a": {
+      "before": null,
+      "after": "c1db7dc72525121a438619d58420dba1c384307d6a6fdfa29096052d8e3903f0"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb3_rel_rr1.m4a": {
+      "before": null,
+      "after": "270b8c48a578a7cd64f7803fd1096efc31ca5ef86922bd1127aac8d6295d7e01"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb3_rel_rr2.m4a": {
+      "before": null,
+      "after": "73a6366ab413d1f34efdaf95585acb10a0b788b6b56d12e831a54a3989ca008c"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb3_rel_rr3.m4a": {
+      "before": null,
+      "after": "82cece1f46f5c6463714f2c8a98dd13c5d4029d6e0f529da62ec9d64d75e9b23"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb3_rel_rr4.m4a": {
+      "before": null,
+      "after": "005cae3b3ecfdf2d90a9ceadb093b65689792205667f797b6e6e8985c734b946"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb3_rel_rr5.m4a": {
+      "before": null,
+      "after": "495b9f7f0c7bf5a2d9fd5e441884d35ac2040d5c1f9468a6292bcb3a52f11fec"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb4_rel_rr1.m4a": {
+      "before": null,
+      "after": "87a0bccd2cf8bb15bc5dbbaebeabb671301c68935180289bdedbdee0a0beff7f"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb4_rel_rr2.m4a": {
+      "before": null,
+      "after": "89676341e6771104671e6453a2c7de86159d72252c109cecc45736c17bb0a612"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb4_rel_rr3.m4a": {
+      "before": null,
+      "after": "ca4a6a030348fec1ce654de2d2a46d2cdad5b3179dd600640a8de0aaa5f57cc8"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb4_rel_rr4.m4a": {
+      "before": null,
+      "after": "c96be14a272e32aa157a71b0e2e4c25f43547affa1f316e242a1185488c9c53e"
+    },
+    "public/audio/studio-v2/bassJazzRelease-gb4_rel_rr5.m4a": {
+      "before": null,
+      "after": "eb9f39ae82b53a2f7f810edc7d8285d819b06b84eb0c0c45e6d8dd9940c0cb47"
+    },
+    "public/audio/studio-v2/bassJazzShort-a2_staccato_rr1.m4a": {
+      "before": null,
+      "after": "d9787653cb67aaf8c604b5643be54a1a446132541aba3ed5ad8366309cd47245"
+    },
+    "public/audio/studio-v2/bassJazzShort-a2_staccato_rr2.m4a": {
+      "before": null,
+      "after": "f324dada72e29c083f57a06610072f825f8bcf24c142043d33fe257a2b059a00"
+    },
+    "public/audio/studio-v2/bassJazzShort-a2_staccato_rr3.m4a": {
+      "before": null,
+      "after": "b56e8881c948f56cd264350a255e3e7631efe22455e08d99a6a3fc68a605e59d"
+    },
+    "public/audio/studio-v2/bassJazzShort-a2_staccato_rr4.m4a": {
+      "before": null,
+      "after": "892b24e0c06bbd3e8521779188167504619e606c1ca1dbadae3346cdc94128c7"
+    },
+    "public/audio/studio-v2/bassJazzShort-a2_staccato_rr5.m4a": {
+      "before": null,
+      "after": "69011e4f652d5bf2ed2e7c2b158e63a6324b4196741d3b4c0b207119f6585d45"
+    },
+    "public/audio/studio-v2/bassJazzShort-a3_staccato_rr1.m4a": {
+      "before": null,
+      "after": "91b1ff3c6bfe2848e4a6a23a8dd27fd0244b4d09c76f9466320de143b339f588"
+    },
+    "public/audio/studio-v2/bassJazzShort-a3_staccato_rr2.m4a": {
+      "before": null,
+      "after": "443ce33fe4389a9864f5954efd8343ec6290179fa8d8aa578237b8d97c2352c9"
+    },
+    "public/audio/studio-v2/bassJazzShort-a3_staccato_rr3.m4a": {
+      "before": null,
+      "after": "ab4e8840443103d817deb4637e075f75ffcdb7ff7e6ee1652ccb9956dd64260a"
+    },
+    "public/audio/studio-v2/bassJazzShort-a3_staccato_rr4.m4a": {
+      "before": null,
+      "after": "de270d26c3fb15e3201cafc64261019d883324c2343b1f3a3df9a0c5401a6351"
+    },
+    "public/audio/studio-v2/bassJazzShort-a3_staccato_rr5.m4a": {
+      "before": null,
+      "after": "df4fb7d1657cfd1be319fa47ee13ed983516b1c3c70425a91a12bb008976e891"
+    },
+    "public/audio/studio-v2/bassJazzShort-c3_staccato_rr1.m4a": {
+      "before": null,
+      "after": "d5b1d198bb0b8b580976ab8c8fdcc33d6dad020e55b0314570cc63daa0167dae"
+    },
+    "public/audio/studio-v2/bassJazzShort-c3_staccato_rr2.m4a": {
+      "before": null,
+      "after": "36ce30525f613003ba876ff3287d967447cd909419db579aab47ee824ffa6aaa"
+    },
+    "public/audio/studio-v2/bassJazzShort-c3_staccato_rr3.m4a": {
+      "before": null,
+      "after": "ebbadf4846bc547317fd56c344e73aeded2b2c874432bce1f784e059e1b2e89d"
+    },
+    "public/audio/studio-v2/bassJazzShort-c3_staccato_rr4.m4a": {
+      "before": null,
+      "after": "af10fb0a4141ff39bf72c06d3db5061a460cb1939e1ca6d9907bd63ed181ec0f"
+    },
+    "public/audio/studio-v2/bassJazzShort-c3_staccato_rr5.m4a": {
+      "before": null,
+      "after": "a9e3d01f346bfd742959a5f9ae1e69e9a439f24dfcb545917ea6084d139c158f"
+    },
+    "public/audio/studio-v2/bassJazzShort-c4_staccato_rr1.m4a": {
+      "before": null,
+      "after": "573727338edaa9c8fb44f72a0791bf073832d63f69e1351cdf0fe62fb168c87e"
+    },
+    "public/audio/studio-v2/bassJazzShort-c4_staccato_rr2.m4a": {
+      "before": null,
+      "after": "ccd83ac75a8954f358b68629774c6674504fdb31e358193bf09ea4e03d090a52"
+    },
+    "public/audio/studio-v2/bassJazzShort-c4_staccato_rr3.m4a": {
+      "before": null,
+      "after": "395b28d23fc69e383cbe807f1fd9a6148902512ef1598f47ad0f8e3551a3a65f"
+    },
+    "public/audio/studio-v2/bassJazzShort-c4_staccato_rr4.m4a": {
+      "before": null,
+      "after": "89b4e0fc00e9ba8dc80a98ad033870bcaf1ea6f5c2e96bf0b9a7a1861889aa40"
+    },
+    "public/audio/studio-v2/bassJazzShort-c4_staccato_rr5.m4a": {
+      "before": null,
+      "after": "38c46431d2e8c8b8c7c3e22a631ee29f1fcbea12112291af0cd50de0286278d6"
+    },
+    "public/audio/studio-v2/bassJazzShort-e2_staccato_rr1.m4a": {
+      "before": null,
+      "after": "83c230c9ac42b108cc7db35b1c1494104bd944c71f96015c5e14e2a698958fdb"
+    },
+    "public/audio/studio-v2/bassJazzShort-e2_staccato_rr2.m4a": {
+      "before": null,
+      "after": "a2c31dd8f5bd1736f59e84ae546b11093b39e17d588eb93e1edb3ebaca6c6c76"
+    },
+    "public/audio/studio-v2/bassJazzShort-e2_staccato_rr3.m4a": {
+      "before": null,
+      "after": "b6d6cf381449e464d1114b7f0b613b91315db81fa83f2973df760849c1331b00"
+    },
+    "public/audio/studio-v2/bassJazzShort-e2_staccato_rr4.m4a": {
+      "before": null,
+      "after": "b9710a0e19f600e0e7b1b18b4d7c5571d22cf8c6c3ebabdd1c668bed5f0433ec"
+    },
+    "public/audio/studio-v2/bassJazzShort-e2_staccato_rr5.m4a": {
+      "before": null,
+      "after": "77f636e17098449721a59778debbef02e5b5797ca35dc0103ed11a844a6f789d"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb3_staccato_rr1.m4a": {
+      "before": null,
+      "after": "8a9037f20e3691daeaabf3013332d55763bd8f6891db2a4e4ba231ca571e62a6"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb3_staccato_rr2.m4a": {
+      "before": null,
+      "after": "1806a2c514595d7b34dec1ed87ca4c193dbaae00383200a42b3f25ac64678a6a"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb3_staccato_rr3.m4a": {
+      "before": null,
+      "after": "72ba9243f6953366a08190368cf35dbe51297f9f6da68f9eae9d9c986c22822c"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb3_staccato_rr4.m4a": {
+      "before": null,
+      "after": "98e3019d026f79076b7eec78f35cc0f21ded2353f1e310529b8baf893f2b0dee"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb3_staccato_rr5.m4a": {
+      "before": null,
+      "after": "2f108746e32f16f2db462743a0241ce362a84016225a545ac66f7864b552ec91"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb4_staccato_rr1.m4a": {
+      "before": null,
+      "after": "19dd4f13f6c6257e4abcdbf50a84959c019148f181888400c786aaebc94535b8"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb4_staccato_rr2.m4a": {
+      "before": null,
+      "after": "36f4490048d827557bb00a7859e7de8bc37474031e6a951f953d89cf2fb53b92"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb4_staccato_rr3.m4a": {
+      "before": null,
+      "after": "73f1b2cbb4cfedc6de208f19ffa2e2a3453019c6a1d584aa52b067c85b585485"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb4_staccato_rr4.m4a": {
+      "before": null,
+      "after": "cb74a1357cf03c7c9c9d9e4ece37a4052b262d9500a199c3a15580843d3df9a7"
+    },
+    "public/audio/studio-v2/bassJazzShort-eb4_staccato_rr5.m4a": {
+      "before": null,
+      "after": "ef1a8e7a756f9c7edfda5d904240bcebbc364c09ad4d05356b05476a1d54be48"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb2_staccato_rr1.m4a": {
+      "before": null,
+      "after": "bda776de45d98bfec3c10eee7a90d2f0bbdc8bcfefd3eaec8442621e9b6da15c"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb2_staccato_rr2.m4a": {
+      "before": null,
+      "after": "128a9d16b5088c585dd1c337d12ce22881296e11abd0e256bc4d713bc22a0358"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb2_staccato_rr3.m4a": {
+      "before": null,
+      "after": "18b3cd88bd15417b4240e8e763c41d3be82cb41668bbd32682b1da75ab100e8a"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb2_staccato_rr4.m4a": {
+      "before": null,
+      "after": "48801c9346a0b243f0d4fd5fb91d106132d895e8f6c8106b35d4307f822f7540"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb2_staccato_rr5.m4a": {
+      "before": null,
+      "after": "5647a00cb8ff48a1ac02538359bdcf28fa6d2b857a1797b13ab0d92e458225a1"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb3_staccato_rr1.m4a": {
+      "before": null,
+      "after": "17a0d0a87bab8b7260d8f2284386378f7a99aeea24b43b361fe55a6091e19269"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb3_staccato_rr2.m4a": {
+      "before": null,
+      "after": "0fc39765bfe5e867f4e61153498f59b7ae5735240e86a91a554dc354dd6728f7"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb3_staccato_rr3.m4a": {
+      "before": null,
+      "after": "ec08d854418328091d06b3e74ba05911b3ed8ad18d54d38b182f4654f4a4572b"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb3_staccato_rr4.m4a": {
+      "before": null,
+      "after": "295eb3bec7356c311639c3ff564329800488d0af083709054a9b9ad3fe507d45"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb3_staccato_rr5.m4a": {
+      "before": null,
+      "after": "ea9b7171dddb608002db367f8ac64c37198fd4296840a73f0bfc0b41a1f623b7"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb4_staccato_rr1.m4a": {
+      "before": null,
+      "after": "15d54a314ec22d45ecf4fff2d8514f832d5587034d31cdd716cdc7b378401c79"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb4_staccato_rr2.m4a": {
+      "before": null,
+      "after": "a760448a0696ac5bf51ed150b441f3b064d786841c67af54c682571549bc6686"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb4_staccato_rr3.m4a": {
+      "before": null,
+      "after": "75eeb798fbc31a2584fc6f7c4e24132190ed59a3fdf76baee2b4926734c7fff1"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb4_staccato_rr4.m4a": {
+      "before": null,
+      "after": "56fa3efe386c2f900834a41e6d6f41c29f5ca847d802e1e454ee23afd87fd0e1"
+    },
+    "public/audio/studio-v2/bassJazzShort-gb4_staccato_rr5.m4a": {
+      "before": null,
+      "after": "be37ead85203141654bdd54b946d27ca15d9eea84199ab0a59caf1cf515f82fb"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_f_rr1.m4a": {
+      "before": null,
+      "after": "fd57e2e7109e6dfb2379a521e6a16b6657b95ff4ca741b67ec272c3cd1bb14a1"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_f_rr2.m4a": {
+      "before": null,
+      "after": "308fbc73e9f0b5dee0f315344a3b6cb29e1ff84842a654049dc2cd03740463c3"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_f_rr3.m4a": {
+      "before": null,
+      "after": "0851c78af981ba587f7743c7e02891fafc1430dfd1a42433ffb2ff9a948480b6"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_f_rr4.m4a": {
+      "before": null,
+      "after": "2abaaaaf88648c988060e3728a2f9ad3d7a51303bfd2318782b11cf33bd6f01b"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_ff_rr1.m4a": {
+      "before": null,
+      "after": "3d6860e1b214c82badb618df53f5a546f08f43e232c4bf81d21436db164b19fa"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_ff_rr2.m4a": {
+      "before": null,
+      "after": "ef126cb65b09daac79f577bec42af67808ec93b3be7e1148ffb8933d72ecd20a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_ff_rr3.m4a": {
+      "before": null,
+      "after": "df5f391bd6e6031518d21763b1fbfc1038f2a9186ac92b848afd1ab012d89d75"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_ff_rr4.m4a": {
+      "before": null,
+      "after": "b0dd043aabbc977144accaff14bbb1bf9ddf00dd30209233483449c87b492705"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_ff_rr5.m4a": {
+      "before": null,
+      "after": "f38e28844e8fbb85927a969e09a701368f8918e84453bceae39ed2c36bc72569"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_ff_rr6.m4a": {
+      "before": null,
+      "after": "99822fc915a85a55a09715875a0449ef623a97ee25b48b693d951ae945f00261"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_ff_rr7.m4a": {
+      "before": null,
+      "after": "14f2767dac9b8dc4eac868ce404a1efa74b538d555434c0a13c4e5db036f297e"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a2_ff_rr8.m4a": {
+      "before": null,
+      "after": "2b69b9546a19cc92980a5694e6c84461043006db5400ad624b8ba1cdca462fc1"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_f_rr1.m4a": {
+      "before": null,
+      "after": "2d619725d1c438707866fb09b98253c54eb7e6db299dcdf71becc1cf39ba5ac5"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_f_rr2.m4a": {
+      "before": null,
+      "after": "294cb9aa9b2a795067759e46f72798a081fb1893051d390283276dc017cd3e6a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_f_rr3.m4a": {
+      "before": null,
+      "after": "01abc54a56ea6f93493817f6a68121361c05696b5cc0125663e2b8dcf73bb322"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_f_rr4.m4a": {
+      "before": null,
+      "after": "5bbe7a2e6c3481ebdb0f1f6de40cadf280e9799c2bb42de26298c41d09e4b049"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_ff_rr1.m4a": {
+      "before": null,
+      "after": "b543df9a1dadb9f44f8680c4c2edfb0e502d4eec6ea352719a6c61b0e2e755b7"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_ff_rr2.m4a": {
+      "before": null,
+      "after": "543829c98828574a027922d2698015f0da8b65d878ef4dcb2bf4e031e9d5792f"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_ff_rr3.m4a": {
+      "before": null,
+      "after": "dce5084dea13c9653209bfdac4655300ee0e2865d4afc37b1328e6365afec569"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_ff_rr4.m4a": {
+      "before": null,
+      "after": "c199a868b2e5f410943915d743609fc4ba3e06496dbe3435af54c9bc2cdfcb56"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_ff_rr5.m4a": {
+      "before": null,
+      "after": "2f5a3af62b2205bc1060ec7b2bfc9163c77466a865a77b2026d05458ea0d21c7"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_ff_rr6.m4a": {
+      "before": null,
+      "after": "0b5ee06e3a4faf5e06e6a2749ff8c678338ca81acd47f7b1a2d5f935f077c2a8"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_ff_rr7.m4a": {
+      "before": null,
+      "after": "55abdcb9bca078292e1227f58eeb6af9cf7e7f117e59251de6b9d90e9ff6d991"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_a3_ff_rr8.m4a": {
+      "before": null,
+      "after": "d1d8307adcac69526e372788e1caab38a49e99b389d2bca89550ec3a484440b8"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_f_rr1.m4a": {
+      "before": null,
+      "after": "4df728b3d22802ce911b99beba364fb302e098155000bad7d6c799b710446ea7"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_f_rr2.m4a": {
+      "before": null,
+      "after": "58845aa55739c607be32c8cf31308393180538d913af87caae295713388526c6"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_f_rr3.m4a": {
+      "before": null,
+      "after": "b1c67786b72841aeff855d264735791683fecaa566b2dc2a4daa41b20b300dda"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_f_rr4.m4a": {
+      "before": null,
+      "after": "04a448b71f4a4bb6a59e933328166dc1ecf19b6badf8fd45bdbe29d1349898b9"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_ff_rr1.m4a": {
+      "before": null,
+      "after": "25dad1aa458537925912eea4559bb79d888a7f51121d4ddcc6c219c631c5d781"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_ff_rr2.m4a": {
+      "before": null,
+      "after": "e5ec778e33339e1d724529803f96fbbfb40224b87d874d9e5b5a2f4fa44726bd"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_ff_rr3.m4a": {
+      "before": null,
+      "after": "e9604f2567286e90c74ce59346205c89c4eed58557d507d33f1cc7e785398c4e"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_ff_rr4.m4a": {
+      "before": null,
+      "after": "eccdc0dd00203cb6f8b1c1e80898f2160d0878c97cefb26e5cc927cf78653c85"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_ff_rr5.m4a": {
+      "before": null,
+      "after": "8eb13504f9a88faa43ddfba1fea232c30a10a95a6cea5d26a922a8d894ec427a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_ff_rr6.m4a": {
+      "before": null,
+      "after": "dbac73998886d5686170001707828a58a6ef258e769432a9a7aec4152e30dbb8"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_ff_rr7.m4a": {
+      "before": null,
+      "after": "7962223b1d475f866be0a3d0019e4cca19de399919a602f64f7fe35a3a8c7c83"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b2_ff_rr8.m4a": {
+      "before": null,
+      "after": "6c339da2524d6e80d8ecd699be7b62a1f680a29df74fc6e4ba9535640845e6af"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_f_rr1.m4a": {
+      "before": null,
+      "after": "76f2543867c78da36cd4425e27603ca5532517c5df6410d5de19442cf1ca8ec8"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_f_rr2.m4a": {
+      "before": null,
+      "after": "4fc0f1ad19ede2a1fdc53ea907e0911151a54da36c501bf6081650cc5b0a2f5b"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_f_rr3.m4a": {
+      "before": null,
+      "after": "38695d18f8c08269549f0b1fe654893e6af2e0457ad3520942daadfeae33f0dd"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_f_rr4.m4a": {
+      "before": null,
+      "after": "5e53909d286e223254df6c84b8d1943913bd75e49b8307a53c7d7bcfe98f693f"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_ff_rr1.m4a": {
+      "before": null,
+      "after": "c7145b0e64bed8116b9b4c8425db431c9afb1dbec75b03ed87236bed987376f0"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_ff_rr2.m4a": {
+      "before": null,
+      "after": "404cc81d5a7696520c71b54b26b1e2bdce4db0b0b6a0ec7e5dadc5537a97106d"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_ff_rr3.m4a": {
+      "before": null,
+      "after": "503555ef59c28b8dd8434ae78bd53d9f60c2d70ccae992dfe2f00d9bbd6d4fad"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_ff_rr4.m4a": {
+      "before": null,
+      "after": "33fc26374450739d372954f09f871e93c540ff6330a3ad44eb3fc77fb1668595"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_ff_rr5.m4a": {
+      "before": null,
+      "after": "686a7587f01db5881f82e7fece4a945331b1f1674205d71ef1c5394001919f7d"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_ff_rr6.m4a": {
+      "before": null,
+      "after": "2ed9df10df6bd52459c10ec28972eec2268ab925ad392900f698a9201c5bdee2"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_ff_rr7.m4a": {
+      "before": null,
+      "after": "279e55d77f1f803221295e80145224b91e3559b4cb4297c33c5674d15f4fdbe0"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_b3_ff_rr8.m4a": {
+      "before": null,
+      "after": "adcfaa7a7717138c5fd23c50c12355e076618e136c87af44fb805fcb067c836a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_f_rr1.m4a": {
+      "before": null,
+      "after": "3a6eefdd02b3cbbb607a8b166ba3ca14b5616a2411e2f1a4228ae5970360ac5c"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_f_rr2.m4a": {
+      "before": null,
+      "after": "891d8d8dd2727913d07aa1127c4c897818928e7730b5e8b3a3b0a92390cc2210"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_f_rr3.m4a": {
+      "before": null,
+      "after": "b8dcb4164efd71726282f7ff6b4df428151f9ff99f5635caf2ff5ee898a43305"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_f_rr4.m4a": {
+      "before": null,
+      "after": "da7572bda4afaea64cf62b04b2811b74ffe3856231ad781f51feb9d67bab1022"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_ff_rr1.m4a": {
+      "before": null,
+      "after": "f280139e57e50d82db8666eb9ef8a1ff880660223c3453e3c7cb4fc8cce97765"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_ff_rr2.m4a": {
+      "before": null,
+      "after": "b86228b10b6fbf214519d1f288c44e6990c6f58b50bd32ccce9a5f157ff0296f"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_ff_rr3.m4a": {
+      "before": null,
+      "after": "6b73e30a97c73ec9b81b7a1cfee486f1a876306c5ff05fd63929a387f9a6dbf8"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_ff_rr4.m4a": {
+      "before": null,
+      "after": "b3c13fefd8bbdaeb6569b31fa06081789fab94bcc47818f650f77b9720e7a28a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_ff_rr5.m4a": {
+      "before": null,
+      "after": "7e26533fee48959e3864d607a5894d0d15a9d238c4ba23496d28c8cc857be76f"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_ff_rr6.m4a": {
+      "before": null,
+      "after": "0dc6b53294fd2d22269df27e80ad623895c93d6cf28b77c56a2a742efbe8a95e"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_ff_rr7.m4a": {
+      "before": null,
+      "after": "358cbaeb81054e0228eb349b59fd086c94df9bb3606d7f5579b40ff2ccb46437"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d3_ff_rr8.m4a": {
+      "before": null,
+      "after": "41dae5a1b09c6a812c0aeba3ec23185ae3b97956041b64c922db2085c57cac64"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_f_rr1.m4a": {
+      "before": null,
+      "after": "4c42dd585f4be0d0101521a5547487d8d1e7fc870fce26989a1800fd93c93d5d"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_f_rr2.m4a": {
+      "before": null,
+      "after": "9368ce8ab0e3675cdfa0ec97f936e77f3511489c30ebd6a709f510cfed705be3"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_f_rr3.m4a": {
+      "before": null,
+      "after": "c7c73162299ce154db9ece966744ee5e96d3cd1c360920b539318d7920984580"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_f_rr4.m4a": {
+      "before": null,
+      "after": "2d10ef5ebe25c3208882483064147a58e4b493d8f341a55508c1dd4073226298"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_ff_rr1.m4a": {
+      "before": null,
+      "after": "89ddc141b9e7ccc60613b1bd2f420d6183b93f719f28a6dac0f5c97e5fa475f7"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_ff_rr2.m4a": {
+      "before": null,
+      "after": "07a08791f6ad60d2f69fd563ed90f45dcfe6036542765fd6f4ffec98768a5a29"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_ff_rr3.m4a": {
+      "before": null,
+      "after": "55a57eb014da69aaed82f5cc0ef0a5d3624904d50f62e526d965ef7f55939118"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_ff_rr4.m4a": {
+      "before": null,
+      "after": "24cf98773f3332dfeb4569a041fa51c2bd744e3889940b8a0c6450ca15aee7f2"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_ff_rr5.m4a": {
+      "before": null,
+      "after": "98e54d83e006c9b7515048a21e802a1f483e1ca76830339f0fe6fbf003070b3c"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_ff_rr6.m4a": {
+      "before": null,
+      "after": "1d14b0d394db61f02c606a0e35a9a119995bd7ab80bac8e541052c74ad034b5e"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_ff_rr7.m4a": {
+      "before": null,
+      "after": "0cffdcf2310ec199bcc8c6128b97f1f59eb4b8a0f19ebb9f78a80991f0b74977"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_d4_ff_rr8.m4a": {
+      "before": null,
+      "after": "630e988932b299951cbcd1cfaa709a762e129af097dcdde8d882651f520b6fc3"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_f_rr1.m4a": {
+      "before": null,
+      "after": "b67474869fac9a036d5c90c6ee613a6983af80aa37edc7225239c17970d464bf"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_f_rr2.m4a": {
+      "before": null,
+      "after": "0eddf1ddf6d1f0020138311a0346972eaac98bbb08fbebbec17917eab9ff912b"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_f_rr3.m4a": {
+      "before": null,
+      "after": "22014ca6aa57ba0529ba73eda919fd4b14e1041312470d62facbfe0ac3036d44"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_f_rr4.m4a": {
+      "before": null,
+      "after": "6440362c9e347f43993435143f83db76d079d924b21356d360a23fb138fc92c7"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_ff_rr1.m4a": {
+      "before": null,
+      "after": "916ecca836a75119c70d940c1d7c6ebe289df641893daf1f01cd2cffc9a6dba5"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_ff_rr2.m4a": {
+      "before": null,
+      "after": "b15e891b689db5e98d549b96e488e3c1459fcc6498b0091a858e3754ff81ca45"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_ff_rr3.m4a": {
+      "before": null,
+      "after": "a63c44587ac0261df221e7693a734d7310b17bd63369b8f470d4bff6afa92739"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_ff_rr4.m4a": {
+      "before": null,
+      "after": "0981ffe58fd9cbc918a949ce41069633553e10306cee1c450a3fcaf0af5f953b"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_ff_rr5.m4a": {
+      "before": null,
+      "after": "9b9d804f7fc6fcbd7936290b4b5c56cd8d5e8e83bdc42edd80327c847e52bd04"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_ff_rr6.m4a": {
+      "before": null,
+      "after": "d2fb8b2ff7b15be96d7d90a3b0faebc1551a7cff9a79e5c12c5aca368edb8bd2"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_ff_rr7.m4a": {
+      "before": null,
+      "after": "b3782f47d83f0b880d61b51b4b8a6a7b5826f2a82793c3779e7cd7f173ba99e1"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e2_ff_rr8.m4a": {
+      "before": null,
+      "after": "ffd1c767a40ec3af02d0db542df96236bdef307f33769577b5ba452bdb62975d"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_f_rr1.m4a": {
+      "before": null,
+      "after": "3b055e352a4f3d82175dafa75a912b7300d53bd3917f89381e4fd61908eae5db"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_f_rr2.m4a": {
+      "before": null,
+      "after": "40704901b92e0df2878b0091bdd2f622cedd3eb07df07854104ae5246ea7496b"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_f_rr3.m4a": {
+      "before": null,
+      "after": "ee690c1c5780f29f42a74d1daea0c48087444017fca942d00ff73bc723afd712"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_f_rr4.m4a": {
+      "before": null,
+      "after": "ea3bcb81680e0da59e553da31293ef6c6440d5887b2b478d662fd09e48382143"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_ff_rr1.m4a": {
+      "before": null,
+      "after": "5daf05735be050d0d08fca1437c212ae727b6030aa0cf6fcc3bfe1402d2660e7"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_ff_rr2.m4a": {
+      "before": null,
+      "after": "bb16058b8993d5c4587890034d913591c7304ecb4d8d4b2203832f625ec0fa62"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_ff_rr3.m4a": {
+      "before": null,
+      "after": "e6dbd1d13e587ce771cc87f5cc2d74071e734183f32fbcfc334fde35643d8968"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_ff_rr4.m4a": {
+      "before": null,
+      "after": "26408fdb9a8d842d0d191d2291e4b94ccebf48d6d1bd61771d62c6f7b9d4a8d1"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_ff_rr5.m4a": {
+      "before": null,
+      "after": "00bc298a138f9f307155be2af5dcf3cfbfe39755fbce464b7fcd566c84258c8a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_ff_rr6.m4a": {
+      "before": null,
+      "after": "4e523bd2a4844a5b3f140b59ba64ca91e023ca82f2a07bf06d5138fbc4ba7dc9"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_ff_rr7.m4a": {
+      "before": null,
+      "after": "50faf66c831166785d47419fee3dc12e94f032b1f26db4ab1a8da80abedfdb2e"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e3_ff_rr8.m4a": {
+      "before": null,
+      "after": "4f4311f3f043802d404e6fa59fdd5aa7306c19cfe86bea8d25bb649a33cc420a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_f_rr1.m4a": {
+      "before": null,
+      "after": "5148269caa78a67051d7a55169ed13c0a2a11cf29e108ea2f211d8e3ef8ef987"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_f_rr2.m4a": {
+      "before": null,
+      "after": "9f29df864b1dafb3186023ffa9fa144d14a24d92d959ea69a738a37680df0285"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_f_rr3.m4a": {
+      "before": null,
+      "after": "246ba86fea6373aeb04aca212e4c53ce7bee1726c38c0ffd96cd8aef783e0233"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_f_rr4.m4a": {
+      "before": null,
+      "after": "61caf86897032a56f8df5bfbf949c822a5516cadeec039609b030cac3188fc80"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_ff_rr1.m4a": {
+      "before": null,
+      "after": "bd785f75d07d3ac359cbad27071cbaa512c1e9fe599b1857b4a4c57868e8cf44"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_ff_rr2.m4a": {
+      "before": null,
+      "after": "03d3d9f0f781d5c55ed67a299686778dc0cf2f938c98575f76d51f0902dac48a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_ff_rr3.m4a": {
+      "before": null,
+      "after": "842832bafcd7d8a6ab56347f7f71ce124d84ff2e71ca1bec2e6e871b9357ae5f"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_ff_rr4.m4a": {
+      "before": null,
+      "after": "26627d8864f88d0b7c6bec3f0628941d338f6fc1cd6cdcd2943ef6f6ebdcb63c"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_ff_rr5.m4a": {
+      "before": null,
+      "after": "91b19e7cbc84069ecb304b6c919004695c72d75a38d110757d34c98276993beb"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_ff_rr6.m4a": {
+      "before": null,
+      "after": "69b34a5ba3ff082f08aeeee580fe930e5eeb4991db742277ad2760d002c19b0c"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_ff_rr7.m4a": {
+      "before": null,
+      "after": "e5c7f09c4816cef0a23684a63d72ed8637da3efaa0866733aec95be3cd9b6a17"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_e4_ff_rr8.m4a": {
+      "before": null,
+      "after": "b32074a31791cbafa099af5f1017d4c13b758a781857d191b7392780d18d5353"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_f_rr1.m4a": {
+      "before": null,
+      "after": "b674dd75be994cecf2d2b7832060c7f0be24c1f06d3912af9c8612e9bfdba0d0"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_f_rr2.m4a": {
+      "before": null,
+      "after": "6bc4386aac4dc860a33524c4cd040a9b39a1dcd4847cce3d958e9def9519da8f"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_f_rr3.m4a": {
+      "before": null,
+      "after": "24fb16ea173dbec54f829fd9022f6525b22de79b4171de7a5e2e06517886c570"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_f_rr4.m4a": {
+      "before": null,
+      "after": "5171b995388e7b0057de6f550347de94fbc89ad09bf5ae399a115e3e63c7d748"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_ff_rr1.m4a": {
+      "before": null,
+      "after": "bad4d20b9f4e46e34b4e3f55780715831d4dd59c2563d732d25135d989ff742a"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_ff_rr2.m4a": {
+      "before": null,
+      "after": "ea04e093ca3b9fcb69ddbde4739f09aa77d36310b17b28b9889c64686627bee4"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_ff_rr3.m4a": {
+      "before": null,
+      "after": "0ea03cb12f15657fb2f748bd9e141679cded4f7246663f1944bd04524e1a9d92"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_ff_rr4.m4a": {
+      "before": null,
+      "after": "5e234bea4639473517f04d8865a66b29f23592a6a0a7e16f43d79babf90ff527"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_ff_rr5.m4a": {
+      "before": null,
+      "after": "dc1672bf3b9b68147b52b5ab1a12733b7c99f2f791b0cdf4e4bc7cb3702d6874"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_ff_rr6.m4a": {
+      "before": null,
+      "after": "7b13e22572b679cc7f3e31208928a54c7baec0590121b2cff9d952d4ff444383"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_ff_rr7.m4a": {
+      "before": null,
+      "after": "4bd736f5b29c61f6cc7d67ada3c5e3389ededfc07b070bb3774da3088b49129e"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g2_ff_rr8.m4a": {
+      "before": null,
+      "after": "fb9f8dc3a5e1fcdd01a6a6212bc10d12dfc9f359d164aa91466b7f9f5b019cb9"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_f_rr1.m4a": {
+      "before": null,
+      "after": "53a93677a78c53d24232597958b6c27d2b28d3fdaaeb86fcf90c0369e441a07f"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_f_rr2.m4a": {
+      "before": null,
+      "after": "a595b5580102da20a6def516b8c6a58b8b90ffbf31d08f350912426858788046"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_f_rr3.m4a": {
+      "before": null,
+      "after": "8a512998ddf82c084fb36ae649e81ad4ee1114be48c0c2399fbd59dfe902d04f"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_f_rr4.m4a": {
+      "before": null,
+      "after": "92e8385627f6f1765d66da7095796ee82aaf593e2b07f93223493f7ad5b13387"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_ff_rr1.m4a": {
+      "before": null,
+      "after": "a5bc7513bf50e79779e35cf676d0f3f04630c98de8c3da546bb6346288941d03"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_ff_rr2.m4a": {
+      "before": null,
+      "after": "795e6a8f166255aabf7890d998b5dedc75a908b33c784acda05f6c0e50234b14"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_ff_rr3.m4a": {
+      "before": null,
+      "after": "f8de55ab7e5ca00c1c1cf0a95750ec52efdeccb93b8f9e47f1dfd34c12a60876"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_ff_rr4.m4a": {
+      "before": null,
+      "after": "0e29307e0a6926c52c661fc83be786ecbd400bebb4f9b03589b0a44e997004d8"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_ff_rr5.m4a": {
+      "before": null,
+      "after": "d7c6601a30015c2802d3ca8d365d0c7c2b8f48df27f8c61bb55c48940a0956b2"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_ff_rr6.m4a": {
+      "before": null,
+      "after": "81811a836a79f26f03216855a5dc331ddd71b265b3b0d72370020de6ccd41728"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_ff_rr7.m4a": {
+      "before": null,
+      "after": "a2e177ba23a8636e224ba0daa91a44c0d697284605800d52ba0ecc13d4d20347"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g3_ff_rr8.m4a": {
+      "before": null,
+      "after": "4b93152b007e795e9e61bfe4e8186c0a61f35acc4471ff4f0bb8e5b8153487cc"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_f_rr1.m4a": {
+      "before": null,
+      "after": "83cb026334307576f53b45c25b7d5e2447b8406fab690ad57f36908d74468897"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_f_rr2.m4a": {
+      "before": null,
+      "after": "75c1ce7d886ddbfa3d61d08954905999e53bc90cc34ec3627edfa82352e7fa1b"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_f_rr3.m4a": {
+      "before": null,
+      "after": "8b85a7415c88a4b44bd4c24cbb6a11364c256812d456bcf47e9052beff8467a4"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_f_rr4.m4a": {
+      "before": null,
+      "after": "b43460db103dd30fe290e283e6bfeba00e0d5f3cc7dedeb416963bd6a156670b"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_ff_rr1.m4a": {
+      "before": null,
+      "after": "50b969b7acd0c2908e648b9d85abd1cdd345ac7bbf7b58659797394d302ed4d5"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_ff_rr2.m4a": {
+      "before": null,
+      "after": "64bf3ecdda075f50be90587ddced535e7e6472a7c7d45a7215719e25727d4abf"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_ff_rr3.m4a": {
+      "before": null,
+      "after": "4f842f1c4dc9061a1c53c2cc63b97eb36088ba8fd0f230814437085a97e9fb6d"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_ff_rr4.m4a": {
+      "before": null,
+      "after": "8e9ff915dbadf061f3bb76efe0400087624164133c4150523a9a6f466c568adb"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_ff_rr5.m4a": {
+      "before": null,
+      "after": "ff5ff058172e0bafef545b911e6f1742bf336897eeadc7929c7fa795063d5981"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_ff_rr6.m4a": {
+      "before": null,
+      "after": "f4e9c13725d491f0bd98f0bac3427d8c45643a7d45eace0c460d99b603155f84"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_ff_rr7.m4a": {
+      "before": null,
+      "after": "f46c374bee96d8e1c085ff977cb69aa682d2cd1cbd29d6f6220716334fb49d70"
+    },
+    "public/audio/studio-v2/bassPicked-babyblue_g4_ff_rr8.m4a": {
+      "before": null,
+      "after": "22a1497819f54bcf31e1bc25856392fa06d7d63ebaa540cee1af33ae4902691a"
+    },
+    "public/audio/studio-v2/bassPrecision-148247.mp3": {
+      "before": null,
+      "after": "de1531e17bd3489dd0b2ad32cb951d2af0128a8d87c8bd58dd2eaf3cb6626242"
+    },
+    "public/audio/studio-v2/bassPrecision-148248.mp3": {
+      "before": null,
+      "after": "77ee93d59a7fac05f569b4fe80a621e45919ec6f8cde45079d79e246adb1bb48"
+    },
+    "public/audio/studio-v2/bassPrecision-148249.mp3": {
+      "before": null,
+      "after": "714a7f0a8d94da7c7e210f6d2d5a1673d228482c8222e149fcc33efd91e7952b"
+    },
+    "public/audio/studio-v2/bassPrecision-148250.mp3": {
+      "before": null,
+      "after": "d9438360bad3ecf89c8ff051ffe162bc8d2c156813f2bddf10828070e5dfd8e9"
+    },
+    "public/audio/studio-v2/bassPrecision-148251.mp3": {
+      "before": null,
+      "after": "96e01b04cd5bb56096690fb737c9b8fefa37c7a3e8b8bdf8e56b351b9feb342a"
+    },
+    "public/audio/studio-v2/bassPrecision-148252.mp3": {
+      "before": null,
+      "after": "ed145c69a17ddcc198c68d984da281e336045d5d9e2dcc05658291edf2bf00f4"
+    },
+    "public/audio/studio-v2/bassPrecision-148253.mp3": {
+      "before": null,
+      "after": "f9c0631a75d271aa813a39977158dfd977490f25bd2f27764d373c05ccf97d79"
+    },
+    "public/audio/studio-v2/bassPrecision-148254.mp3": {
+      "before": null,
+      "after": "ae141a85cdc09b55e0664b892c29ac3b32724b1ab4465f65c3dda8ffd1b310fa"
+    },
+    "public/audio/studio-v2/bassPrecision-148255.mp3": {
+      "before": null,
+      "after": "9097b9a611a160b295cfd2599dcb1f94b7fbbe30e86110a50d1fb0f4bd7cc55c"
+    },
+    "public/audio/studio-v2/bassPrecision-148256.mp3": {
+      "before": null,
+      "after": "0e5c87b7efb9002b0683cabcd173797c650e346ae0fc6d4bb5806482c4fb0e49"
+    },
+    "public/audio/studio-v2/bassPrecision-148257.mp3": {
+      "before": null,
+      "after": "fbedc189095b2bc4ecf187952802aef31533200109607a5853f17ff19999d89e"
+    },
+    "public/audio/studio-v2/bassPrecision-148258.mp3": {
+      "before": null,
+      "after": "b39cfb3b49d198589809163c73cb0a59b31b1c78e4dc1c2d49b91336c7db42b8"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As2_vl2_rr1.m4a": {
+      "before": null,
+      "after": "59c3959532b63ee90ed068d4f54abecbd86007946e023f893126c2b0c42277e9"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As2_vl3_rr1.m4a": {
+      "before": null,
+      "after": "d195542a95921134e7c5836ebeca4dfec80853369e85c6eabf78ce2848784e59"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As2_vl4_rr1.m4a": {
+      "before": null,
+      "after": "93b4e4bfc4ddd9b83ca26b8dbcc635051c86747aa443ac4656679784804ef8f8"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As3_vl2_rr1.m4a": {
+      "before": null,
+      "after": "53930dd0916c55b76978dc0b8be2418ee2fdc2781d34b12056e5112ad679d133"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As3_vl3_rr1.m4a": {
+      "before": null,
+      "after": "a09ea639eaedc2a0dc710ea6d0f6fde0696423ed4f8a3a5125560c4883d30651"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As3_vl4_rr1.m4a": {
+      "before": null,
+      "after": "60166ce7d1eb260fadb91c3ec18e747e1e271af85cba75557c21409337aa01b7"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As4_vl2_rr1.m4a": {
+      "before": null,
+      "after": "a1134f82e5436fc49eb8935e364315e217953493bb02e1a6efb732a20c7ff65f"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As4_vl3_rr1.m4a": {
+      "before": null,
+      "after": "99539ff058d4739f13c21c3873e7c74195841bc0b1b826cbdc1d4ecfd626809b"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As4_vl4_rr1.m4a": {
+      "before": null,
+      "after": "603f0c3dc1664b69a5bff37c9d57b92edbc976b5157aff6f6298d4b58a2ae9ee"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As5_vl2_rr1.m4a": {
+      "before": null,
+      "after": "b688ecdb45297a8898db29f5e13f46e5fc691bd1e63a27765790163507f05018"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As5_vl3_rr1.m4a": {
+      "before": null,
+      "after": "1495c29f9f392207ce323e300105a195697c472575cc448869bd49e0c5ef533e"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_As5_vl4_rr1.m4a": {
+      "before": null,
+      "after": "659e78c85410850841de7d9bbd2e7a5d528f1e8a00f75f4eb44fa186d5680ac9"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C3_vl2_rr1.m4a": {
+      "before": null,
+      "after": "2a1a901c6bbefcb293457ce2df64318e0ee21c58924802f4dcf77e1e26ae6d84"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C3_vl3_rr1.m4a": {
+      "before": null,
+      "after": "87bea91decf1d9fb73db5f4536691eb231ce0f8205327fb0a230d3e402dbacca"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C3_vl4_rr1.m4a": {
+      "before": null,
+      "after": "0121ff3a8bb24457b459333785332d8bf2216f5a53210847243eabde09c0dc94"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C4_vl2_rr1.m4a": {
+      "before": null,
+      "after": "cf8defef5ca98695c3f23bdbe9851b2f8ec31349de9c4fd2604fbfcda6845c08"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C4_vl3_rr1.m4a": {
+      "before": null,
+      "after": "b99f8a9de74b2546d3c335438da65b7d0af242f1e19d6c4b8374dc20f20da712"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C4_vl4_rr1.m4a": {
+      "before": null,
+      "after": "8676aefbb5dcca7f9ac0fc93dce9a115cca911847b1a889eb6dcb8df31adbe32"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C5_vl2_rr1.m4a": {
+      "before": null,
+      "after": "dc99c05cfb594be0efb9b384e43321719c220084a5d7cedb7f22c0521773b87b"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C5_vl3_rr1.m4a": {
+      "before": null,
+      "after": "1c5f8d71de9c769615ee09eaf06f22bfcd959ee245f7411389346be15056c912"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C5_vl4_rr1.m4a": {
+      "before": null,
+      "after": "fa68390657aa3528e0950b561d12b5c0206c9b15dfc29fd44a3dd65060bec67b"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C6_vl2_rr1.m4a": {
+      "before": null,
+      "after": "d02dc64ee2f3458746ea9b7084f38efa00170bea8986b65913ec5b07ab8c739c"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C6_vl3_rr1.m4a": {
+      "before": null,
+      "after": "f2a27ae9dfacf785bdc3c76b2b2e728a8117a0dbe294dac1f44adac50f7a2400"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_C6_vl4_rr1.m4a": {
+      "before": null,
+      "after": "86eaffc1ddaf3a80ed5d8593cd73398c57b89dcd0a2f043502f69fa0ca57a4ac"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D3_vl2_rr1.m4a": {
+      "before": null,
+      "after": "fe890cd42b35ee4833012b7b084e3646a3afa3b3d6093d9f57aecce285d37a81"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D3_vl3_rr1.m4a": {
+      "before": null,
+      "after": "6c89b47f448797dae6d85e09c8168d4f815cb01fa1b51fc047087cbc77b59534"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D3_vl4_rr1.m4a": {
+      "before": null,
+      "after": "bc6fde53bf9cea0b5a48858939f10d3ef62e02ad12cbaef84387e5e4c0067d5c"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D4_vl2_rr1.m4a": {
+      "before": null,
+      "after": "90585b80d5992b6e719e05b22dea1513be23fc49a194f60970147134931f43f8"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D4_vl3_rr1.m4a": {
+      "before": null,
+      "after": "7140a5e9d96cff6096eb5ce489d41db3f3ea4088f88b112fda7dbb7567033f04"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D4_vl4_rr1.m4a": {
+      "before": null,
+      "after": "b72c49313c8a2b27cd91a4f012bfcb90c53b2f17edced20f143ac6604efce7d6"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D5_vl2_rr1.m4a": {
+      "before": null,
+      "after": "d8843a1320254fbc11b9c4b7fb938a1c395e842202c1a63fbf1245e332624e4a"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D5_vl3_rr1.m4a": {
+      "before": null,
+      "after": "dc706988eb475f9b3e639a9a436576d4619cd3dd6732123b7df3f8d5868ca3cb"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D5_vl4_rr1.m4a": {
+      "before": null,
+      "after": "d540d7f1389271a72644138e882dc78905b63946fac0df63c03a3d88da544c89"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D6_vl2_rr1.m4a": {
+      "before": null,
+      "after": "c1d63415d5909604ac5d0e813f85a089d97b0544a49ba1f6cb62e71fdc0cdb9b"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D6_vl3_rr1.m4a": {
+      "before": null,
+      "after": "8aba72fc660f563296c1a2c25225a008386efc3afb3ef3f705ff194e191729f1"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_D6_vl4_rr1.m4a": {
+      "before": null,
+      "after": "ab66195c42429c465b063019eaf29ce68143aeb493b08bfbdc15b10edbaf9707"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E3_vl2_rr1.m4a": {
+      "before": null,
+      "after": "92f8ac30afe2e3e7e2904ce763a21fd2d19a2803058c4a964aab791e03ef2e5d"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E3_vl3_rr1.m4a": {
+      "before": null,
+      "after": "8e06b36c446e9d245da6dcc7a0a0b843a398a802b264814cc50504a35f36d019"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E3_vl4_rr1.m4a": {
+      "before": null,
+      "after": "9d542eb8d3de137a35e3def97e808031b9d228a0a083826db71dea3bb91869ea"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E4_vl2_rr1.m4a": {
+      "before": null,
+      "after": "330d7783ccde8480a051041c8806c9a8b9a67e185c3a27c7c25258914d7cb5f7"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E4_vl3_rr1.m4a": {
+      "before": null,
+      "after": "5240666fd3dc10e543063df59a9c6b2bd8a00d8564774336daa43b80ec547fd1"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E4_vl4_rr1.m4a": {
+      "before": null,
+      "after": "eb5b4a26768e753d554ae01d00cae2a26616323b253039767295920e7fe4552b"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E5_vl2_rr1.m4a": {
+      "before": null,
+      "after": "35de2350735e2fffbe66e21a6f24e904ec8165cea0c9fc8e6e4e4eb79f179d09"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E5_vl3_rr1.m4a": {
+      "before": null,
+      "after": "6894bba0f7dd3ed3cc40ad51ecb55eb3fabf880fd0c5d398ab64021700af2548"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_E5_vl4_rr1.m4a": {
+      "before": null,
+      "after": "2948a5fa18aaccabf722196f3cf7f0ade9338d1e62c15053d41fa49705139bd4"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs3_vl2_rr1.m4a": {
+      "before": null,
+      "after": "fbee224845183b7927e2882af209790016235f0ccaf8a8db3de7d0be173eb717"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs3_vl3_rr1.m4a": {
+      "before": null,
+      "after": "54d3a49e87719473dfe3535ea96f3ac0211ed47333fe2308b36751df2e51ce73"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs3_vl4_rr1.m4a": {
+      "before": null,
+      "after": "c4904a25869bba9ce74c51505099e52d9f41e022a41e299b8f44906d7b2f3a2a"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs4_vl2_rr1.m4a": {
+      "before": null,
+      "after": "74bb406f004eae790b53369ca812e772fc37f97feb6a7c8869f425016983c9e2"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs4_vl3_rr1.m4a": {
+      "before": null,
+      "after": "9865783098aa7ca3b6f4e486ce504e2f820bc762b99f925ae3e8a4c89a539c48"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs4_vl4_rr1.m4a": {
+      "before": null,
+      "after": "d9fcdb04d6a70c5d9c5223ff9870198ffa888a320054eb5bd2c93c5cdb31d907"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs5_vl2_rr1.m4a": {
+      "before": null,
+      "after": "aed1d712b0ea582e979243dfe293f777039c40fc36e53b3587f5ab61397f7734"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs5_vl3_rr1.m4a": {
+      "before": null,
+      "after": "bd28280695da49f60d41417f98d096fe02849497d85f0939791c2a4913708bea"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Fs5_vl4_rr1.m4a": {
+      "before": null,
+      "after": "330e535fc970790d50ace9f637133d8d8f79b50e15d02f7b6699c7f79eb532e2"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs3_vl2_rr1.m4a": {
+      "before": null,
+      "after": "94c9618b45e36ffe7bf8fca29b8976bbfc92c79af04f0ca0c6a9912b490670df"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs3_vl3_rr1.m4a": {
+      "before": null,
+      "after": "989b7a7c3cef06b08fe33cd0ddf73145de510958649b66ec97d4d6f234c60b55"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs3_vl4_rr1.m4a": {
+      "before": null,
+      "after": "be6ca0d5d47ffba7287e854ca5db1887689161443f75d10141a58461da130b60"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs4_vl2_rr1.m4a": {
+      "before": null,
+      "after": "81d78b9225e09edf7edcaf17148647e40007e30d3e64fd8992c2d5647466ac4d"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs4_vl3_rr1.m4a": {
+      "before": null,
+      "after": "4a18d58db48aa6df76257cde56d353eff0909aaf66bed8b2772b956c7a3528fb"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs4_vl4_rr1.m4a": {
+      "before": null,
+      "after": "b7533c97b4a6d602fc377343f1757a8acbc32e4035bc4aada9dac631ae011893"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs5_vl2_rr1.m4a": {
+      "before": null,
+      "after": "f354d9b282c9ae9cdc4637ca787efccd5d67a1402d18805ba301857dbcd6deee"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs5_vl3_rr1.m4a": {
+      "before": null,
+      "after": "20bc538020483be38eda2431081f850214a559f90fd0205571e07d206677cca7"
+    },
+    "public/audio/studio-v2/grandSteinway-JHPiano_NoSus_Close_Gs5_vl4_rr1.m4a": {
+      "before": null,
+      "after": "94048bd4bad8fc08910eb0ce06c84c8c8cac3c49aa343ab0d3a7151b6bc550c1"
+    },
+    "public/audio/studio-v2/grandYamaha-A2v1.m4a": {
+      "before": null,
+      "after": "8e3ef1a1401d3ad7e1bc183b678d6209164c270f1cbbf4edeb8ca6e782fd2b95"
+    },
+    "public/audio/studio-v2/grandYamaha-A2v11.m4a": {
+      "before": null,
+      "after": "57bfca2cf1b0f7ac082c109c774b7c2e5eec10ae35d63726e87239886b01e258"
+    },
+    "public/audio/studio-v2/grandYamaha-A2v13.m4a": {
+      "before": null,
+      "after": "291336593cc3442c738ef602b48abcf9b4245d774396275b978132266278757f"
+    },
+    "public/audio/studio-v2/grandYamaha-A2v16.m4a": {
+      "before": null,
+      "after": "fc851ae916f06ea8fae6c7691ee96df8c90818c64e89a91a20e907f26e11d785"
+    },
+    "public/audio/studio-v2/grandYamaha-A2v3.m4a": {
+      "before": null,
+      "after": "d6684beea47df6ff1d24823f8c6534da8f3a5a03cfdce89e6451c7eec7ef11ae"
+    },
+    "public/audio/studio-v2/grandYamaha-A2v5.m4a": {
+      "before": null,
+      "after": "c517e09f239938bab4a40c1bd0d98779c5fea65d06f053537f1119124c266637"
+    },
+    "public/audio/studio-v2/grandYamaha-A2v7.m4a": {
+      "before": null,
+      "after": "b64da0d30c9db68b1499a33ee30038f0cc9e5dcfc0db827081ce2a3ce181b166"
+    },
+    "public/audio/studio-v2/grandYamaha-A2v9.m4a": {
+      "before": null,
+      "after": "9d108edce4979fcb4d7b464c2543475d7072852c16baee65f64b9ee42570bcc1"
+    },
+    "public/audio/studio-v2/grandYamaha-A3v1.m4a": {
+      "before": null,
+      "after": "998f0f152f1078aa45c48ae513ee43d408657ad8997c2ef171be18b58548a71d"
+    },
+    "public/audio/studio-v2/grandYamaha-A3v11.m4a": {
+      "before": null,
+      "after": "fbdca786bdc4916e23b78f9a57b518fd68a801b7c9300402fac59147fbd79280"
+    },
+    "public/audio/studio-v2/grandYamaha-A3v13.m4a": {
+      "before": null,
+      "after": "860a0a24773ac9425e7592f18ca99d252bc20f7e2d3ec066295209e626ba0148"
+    },
+    "public/audio/studio-v2/grandYamaha-A3v16.m4a": {
+      "before": null,
+      "after": "c49bae9254197b4386eab87784bfd8556c78590ac345ab0832ca5d7275df3735"
+    },
+    "public/audio/studio-v2/grandYamaha-A3v3.m4a": {
+      "before": null,
+      "after": "376f64f8dd04b81368e5685a1bf5e421b205b70aad60e61765b2648eae29fa89"
+    },
+    "public/audio/studio-v2/grandYamaha-A3v5.m4a": {
+      "before": null,
+      "after": "d68b6efe91e474a2d0c2e7639eec1385791f7c2d42c61af813d0d9bfc4c86956"
+    },
+    "public/audio/studio-v2/grandYamaha-A3v7.m4a": {
+      "before": null,
+      "after": "d9a80b54ea2544e62d7b3f87011155a4752f57d679aaaf4cfd652b72e9d5f5bd"
+    },
+    "public/audio/studio-v2/grandYamaha-A3v9.m4a": {
+      "before": null,
+      "after": "ad2f8e25dac3df620a4a54512bee5742a3207ee3423d111fe77c49c942fd4c3e"
+    },
+    "public/audio/studio-v2/grandYamaha-A4v1.m4a": {
+      "before": null,
+      "after": "c986eddd8551fbdb2cde4f54ec0217d7a881be0f86a60edaebf1bf057e72e2c5"
+    },
+    "public/audio/studio-v2/grandYamaha-A4v11.m4a": {
+      "before": null,
+      "after": "4ddf543836a529a3fc11e9355dbb806fbbccd64cf415c94cef40a1834bc76779"
+    },
+    "public/audio/studio-v2/grandYamaha-A4v13.m4a": {
+      "before": null,
+      "after": "3c4cd2047280a0884137e021408f225b227c50fb7f1340a4b75985bc406a919f"
+    },
+    "public/audio/studio-v2/grandYamaha-A4v16.m4a": {
+      "before": null,
+      "after": "d1245e1106c884452550bdd63e03193b479497443dacbdb680feb539a68cdaca"
+    },
+    "public/audio/studio-v2/grandYamaha-A4v3.m4a": {
+      "before": null,
+      "after": "39ac25550058102771eac5c398a0ab455efb0866c10a54e7eebbc2e5a84b1344"
+    },
+    "public/audio/studio-v2/grandYamaha-A4v5.m4a": {
+      "before": null,
+      "after": "0edf0675e8880c848faaa9e0f5a20061c267aa09f4afcc4c2371a90de6c1c559"
+    },
+    "public/audio/studio-v2/grandYamaha-A4v7.m4a": {
+      "before": null,
+      "after": "12fb022ebf5cbd59ae8b3cb460b360b6487e037c5fdda5f363a1670d2457db44"
+    },
+    "public/audio/studio-v2/grandYamaha-A4v9.m4a": {
+      "before": null,
+      "after": "7b459a087f049d0683cc7ba52b73a104691fee1856ecc364047015d26aaa090a"
+    },
+    "public/audio/studio-v2/grandYamaha-A5v1.m4a": {
+      "before": null,
+      "after": "a2858fa9d091ca2de2f7143ada596a0700ec18d168cb81d4622a89ae6a4213f2"
+    },
+    "public/audio/studio-v2/grandYamaha-A5v11.m4a": {
+      "before": null,
+      "after": "23f4cb7c5b7cbd65a673cce5b1738d37c9a6a429e8d8839b8a8ca260672c7758"
+    },
+    "public/audio/studio-v2/grandYamaha-A5v13.m4a": {
+      "before": null,
+      "after": "1d07dfd3c2f89a162ae2a841014ac120af9c917def18ae051fb2a42d0c9ca0f2"
+    },
+    "public/audio/studio-v2/grandYamaha-A5v16.m4a": {
+      "before": null,
+      "after": "686fd63b0effa23d812843ec72c61e23d784fcfdc101d4cf1a598262bd17fc05"
+    },
+    "public/audio/studio-v2/grandYamaha-A5v3.m4a": {
+      "before": null,
+      "after": "b1037e0f847320dacf792583a7a6d47c6476477f6f47d66ff8deaf14c85cc80c"
+    },
+    "public/audio/studio-v2/grandYamaha-A5v5.m4a": {
+      "before": null,
+      "after": "4337d4b19d92bad7395f788eeb373981524d0f31700383111883ef5a6bfb3d77"
+    },
+    "public/audio/studio-v2/grandYamaha-A5v7.m4a": {
+      "before": null,
+      "after": "099951eb01d4662d084102dd0f92abc401a854e0931e3b9959b39ce54ac6c0a8"
+    },
+    "public/audio/studio-v2/grandYamaha-A5v9.m4a": {
+      "before": null,
+      "after": "25022f87e681f38ecbdad232f5402e2e7065ac0b431fa186e77010516196ea36"
+    },
+    "public/audio/studio-v2/grandYamaha-C3v1.m4a": {
+      "before": null,
+      "after": "65d9a18039f4dcf66051a62c3fc2fa55331460c394547224894fba5d05f9a34c"
+    },
+    "public/audio/studio-v2/grandYamaha-C3v11.m4a": {
+      "before": null,
+      "after": "acf05a9d14af6cd26f176f46fab0773868425c979448305885122a5ff922c893"
+    },
+    "public/audio/studio-v2/grandYamaha-C3v13.m4a": {
+      "before": null,
+      "after": "394e93eb0ace16cd6f4bcc481841c84c559c82c808d0cc55828d2dc2b965ad1c"
+    },
+    "public/audio/studio-v2/grandYamaha-C3v16.m4a": {
+      "before": null,
+      "after": "08876d18ad5062b90d28818e644ae7aabd22a1f34ce41947035bb5da3567df92"
+    },
+    "public/audio/studio-v2/grandYamaha-C3v3.m4a": {
+      "before": null,
+      "after": "517a88905d9b4286dd517062caa5b46b9e912ff3e8cbb5b6f03a414773963d7b"
+    },
+    "public/audio/studio-v2/grandYamaha-C3v5.m4a": {
+      "before": null,
+      "after": "84f4bef97161a2cd7d0757c64ffb65308790f80a70b50c0133f457a489fc6808"
+    },
+    "public/audio/studio-v2/grandYamaha-C3v7.m4a": {
+      "before": null,
+      "after": "3b8f25921fbc9c8ebb6d9dd716787dca96717232ba96e308c9dbf5864c20c0fc"
+    },
+    "public/audio/studio-v2/grandYamaha-C3v9.m4a": {
+      "before": null,
+      "after": "b91fe76ed47bb98e905c77c61b08aa033337283c1e205f60b1cfaf98588aa9a9"
+    },
+    "public/audio/studio-v2/grandYamaha-C4v1.m4a": {
+      "before": null,
+      "after": "fd9d61b12ddbeef94a960fb7b84ad488a562dd7c6b507bcf9aae3ac27459dc70"
+    },
+    "public/audio/studio-v2/grandYamaha-C4v11.m4a": {
+      "before": null,
+      "after": "9681f88b6177c3d5c3f962a1b239ab5f6267f3da7ca6ad033d1cebce01ec5c43"
+    },
+    "public/audio/studio-v2/grandYamaha-C4v13.m4a": {
+      "before": null,
+      "after": "0f217b4663a5fc0a960cf0e9e50e5d484f82585b69c8064b72c1d9a016276b5a"
+    },
+    "public/audio/studio-v2/grandYamaha-C4v16.m4a": {
+      "before": null,
+      "after": "02dd9c410d7321b82f0574634ad824f05656bda17e100b4d4218116780a2d821"
+    },
+    "public/audio/studio-v2/grandYamaha-C4v3.m4a": {
+      "before": null,
+      "after": "19f700736422f5ec8ba22bdd3843450df1017cf851756fabf6275fe83c5ebc7c"
+    },
+    "public/audio/studio-v2/grandYamaha-C4v5.m4a": {
+      "before": null,
+      "after": "269812c84afa33833e4b0a20667e7bdfa75060f52d73eae2c106e108026d854c"
+    },
+    "public/audio/studio-v2/grandYamaha-C4v7.m4a": {
+      "before": null,
+      "after": "0a0e8afd4d275cbdfc679d052a7820aa414fd43503fcb5dd8ccc6d0a93ed9de5"
+    },
+    "public/audio/studio-v2/grandYamaha-C4v9.m4a": {
+      "before": null,
+      "after": "16c1162cc4338d7ae5d9c46ea6b1cf4581b3c4676fe7c1bf4d002429a73e9e6b"
+    },
+    "public/audio/studio-v2/grandYamaha-C5v1.m4a": {
+      "before": null,
+      "after": "5261993bc1c15a03a9b91d32a7332f9e0f9bad42d11203a885ecdfe2262ac15d"
+    },
+    "public/audio/studio-v2/grandYamaha-C5v11.m4a": {
+      "before": null,
+      "after": "aa5767d3d3c2598e2645377d53cdd569d9b4058c3dd1ae0453360add056467a5"
+    },
+    "public/audio/studio-v2/grandYamaha-C5v13.m4a": {
+      "before": null,
+      "after": "64c72cbef240abbbe08b1acaaba1c98e2c81ae929d59915d493a6d4146604457"
+    },
+    "public/audio/studio-v2/grandYamaha-C5v16.m4a": {
+      "before": null,
+      "after": "fafd79574fd8fbcfbf4bf7a9684dd656595adee99b364fbd0edadcf459d70664"
+    },
+    "public/audio/studio-v2/grandYamaha-C5v3.m4a": {
+      "before": null,
+      "after": "33a57a631ce6d5e00e9b41c5c214dbb9b8d9a6fb049efe7867537cdf892c2c0d"
+    },
+    "public/audio/studio-v2/grandYamaha-C5v5.m4a": {
+      "before": null,
+      "after": "28870b8a4783721c3e9fc6b088b0804cfc499e5ef17c2df6925216177da6f721"
+    },
+    "public/audio/studio-v2/grandYamaha-C5v7.m4a": {
+      "before": null,
+      "after": "3a297ae08fbeb8bf5bef0309f24dbf52ff412f02d01b1806b18ebe0d2f68a6c9"
+    },
+    "public/audio/studio-v2/grandYamaha-C5v9.m4a": {
+      "before": null,
+      "after": "120012ce4d79e90d4c5eae548e3f9e284677ff77535a6a8e4cb797a74b092335"
+    },
+    "public/audio/studio-v2/grandYamaha-C6v1.m4a": {
+      "before": null,
+      "after": "6102e1c5b068ea8318aba4272f58c10a82f82e6e574529dc0fc37fcf62380516"
+    },
+    "public/audio/studio-v2/grandYamaha-C6v11.m4a": {
+      "before": null,
+      "after": "46cdf923a039480bbec853983fcdb023c08be44b4bc42674b76833a3b10aec42"
+    },
+    "public/audio/studio-v2/grandYamaha-C6v13.m4a": {
+      "before": null,
+      "after": "7407abf3b31fafe2f9f05d2dca5629f3aee3303f98e2918762df4fdbd2e98353"
+    },
+    "public/audio/studio-v2/grandYamaha-C6v16.m4a": {
+      "before": null,
+      "after": "70caeb075eb19226b40f7d1b9c0fda82ca2aed9d54fe039d7fafd9676234824f"
+    },
+    "public/audio/studio-v2/grandYamaha-C6v3.m4a": {
+      "before": null,
+      "after": "194b2ee6198c0e1503da29368cbc11eb523d0a4e3b532d4c47afe796323b5ce1"
+    },
+    "public/audio/studio-v2/grandYamaha-C6v5.m4a": {
+      "before": null,
+      "after": "5bfc79fdc2b1494fac764de08a5a0c365b03b2394a28b0a0bc40c7c869c602e1"
+    },
+    "public/audio/studio-v2/grandYamaha-C6v7.m4a": {
+      "before": null,
+      "after": "e1e6c05911fdb19c255be0aeae30155835ad8dbff2223bb4082b7ffaf7f9a322"
+    },
+    "public/audio/studio-v2/grandYamaha-C6v9.m4a": {
+      "before": null,
+      "after": "fbbc11ea055e2d585efb6f2acebaeac5eeed25eeb2c31d42a86f780773e05983"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds3v1.m4a": {
+      "before": null,
+      "after": "a2cdbcbf5a17764e64560ad9e1aa1af44f460350c09c9be54f36732071976ec7"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds3v11.m4a": {
+      "before": null,
+      "after": "4a18d713be0cd1eb3ddfa936b9f6c61f58189f4be7e1672f0e14122daa9593bb"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds3v13.m4a": {
+      "before": null,
+      "after": "de94b2f4b4faea27533f808a31bc4bb514cf32e861c8c490feedb3e00c0ba8c3"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds3v16.m4a": {
+      "before": null,
+      "after": "217b612b9c90bc220bb2da5229e8103c2f9ac1e10d3e4ae0186b03b0083ce6c3"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds3v3.m4a": {
+      "before": null,
+      "after": "05b23c65adcdf291c73fe817addc797071139b71121fb97b701650c57e40780c"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds3v5.m4a": {
+      "before": null,
+      "after": "2a664ce89ba0b800ab16b7285a234907ac3102eebc5835e908bff02570aaee14"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds3v7.m4a": {
+      "before": null,
+      "after": "bbd946dc323a5d44c20e082c9952f5c329afbe4c8cc09894bd63e28293f3a50e"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds3v9.m4a": {
+      "before": null,
+      "after": "7624ea4839bb7dbb21b4cc89e83934a4d256fd315dcacc390918a0a48f37c491"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds4v1.m4a": {
+      "before": null,
+      "after": "1cc117774f12b1e92f906d448daaf24b84cbdb9f483cb92b2cfeb2f9aa041386"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds4v11.m4a": {
+      "before": null,
+      "after": "dcd3031ebb824924661c90b526528969718c037ce2ad6320a49222f1e3a14466"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds4v13.m4a": {
+      "before": null,
+      "after": "72956fa1bd5b8c7bf103ca365f1ba1578f5ac5cd89266a22ce8e645ac04ccf3d"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds4v16.m4a": {
+      "before": null,
+      "after": "8ec0de96c58f89a7804ca73a55d2498dabc9538ca3537466a3d128646f115278"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds4v3.m4a": {
+      "before": null,
+      "after": "5b884b73cc314b4ef90bc3e34c19a6b190dd57b9cfcc5fd5a9d2e7b7a217c247"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds4v5.m4a": {
+      "before": null,
+      "after": "87420f111993cabf0f34e18393ef2713b73a208429ab6a8edeb4fa3de6943969"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds4v7.m4a": {
+      "before": null,
+      "after": "ab9bb88dd3bea04c99bc8a45bc321ee718d0d105009d7e5d1643934fcb1f6e33"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds4v9.m4a": {
+      "before": null,
+      "after": "d645a44c215475b24c1d0b063acdb2c715252bd7977107c0e67039b52c3a924a"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds5v1.m4a": {
+      "before": null,
+      "after": "62f2686816aaae6dce0d8d0c79f75f4ecb155a0134dc7463fd720305fb80e0c1"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds5v11.m4a": {
+      "before": null,
+      "after": "5dc0a764aae09676511e207a988bc768fc641bd903468f18243a3d85e3106a93"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds5v13.m4a": {
+      "before": null,
+      "after": "2ac487ba4d6fb717f98e2c8755fa8238ba22d875df67c8f1ea479f7d99689faa"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds5v16.m4a": {
+      "before": null,
+      "after": "06fb9ec5c5435b66c422029bceda22b03cc7b03313f6c2081e6fbbd1819b2909"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds5v3.m4a": {
+      "before": null,
+      "after": "57cb8ff6a62761302a2981de11b9ddbbcb2586b4c41543f946d17bf000bd0e7b"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds5v5.m4a": {
+      "before": null,
+      "after": "23f64472203e527bf1b99a6d4b5f1d999d44bcecc077737e10f40663f431574a"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds5v7.m4a": {
+      "before": null,
+      "after": "9c8097311496815dbc1ed6eefe8432fac49ba59812e16f02f33caaff81f181df"
+    },
+    "public/audio/studio-v2/grandYamaha-Ds5v9.m4a": {
+      "before": null,
+      "after": "f719f9f67e16b4bf326d2d1a7da99e212220cda160ab09a51080e6a2bc6c2bb2"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs3v1.m4a": {
+      "before": null,
+      "after": "62b88005f3eebc4b5b0155b522f2e80bd8270dde3379b3803c7de3322e2586b1"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs3v11.m4a": {
+      "before": null,
+      "after": "f1b81cdfc908f9872c58ae79a0a9d3678b12984fb6039760ff045561b0ecccbc"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs3v13.m4a": {
+      "before": null,
+      "after": "3591b27c09853ae2dcb61c963c0fca3a8b2b60a2b71fcd4e14071d69931e0253"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs3v16.m4a": {
+      "before": null,
+      "after": "d397a03bbaf2917adce348722ecc096c8f8fca4de7411ade0e94d27dd48396e7"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs3v3.m4a": {
+      "before": null,
+      "after": "3fb2dab2c0523b865d5f15111625eee5b934ded2b558d14d69671f000be5a2f1"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs3v5.m4a": {
+      "before": null,
+      "after": "1906fe5f71cb60f4130270225f6805fe5e6b07fc78a3a04f285e3040646812b7"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs3v7.m4a": {
+      "before": null,
+      "after": "aac3e31a0c51d653712855165128c45acdc2220b1f996eb289ae03c017d124b4"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs3v9.m4a": {
+      "before": null,
+      "after": "85e8b209763c59397212e01458356444e4a9acccf3e25db061e5eb815f8f7015"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs4v1.m4a": {
+      "before": null,
+      "after": "6f2317140d55e9d1eb571a4aaf42a6acadebc8fc4151be5242ecf080cc9a21eb"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs4v11.m4a": {
+      "before": null,
+      "after": "a29fba1183419b10a70c2628d60240bf2a242f574a78eb67a474627645f0ec85"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs4v13.m4a": {
+      "before": null,
+      "after": "ff9a2f536f94bafed31a6fe0b51e67f745f0e47345a3d4e139942d5e5629840e"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs4v16.m4a": {
+      "before": null,
+      "after": "7a0a85b54a286ccf59c62b9fd4a3da53b268481d39d3de82604acee6fc550167"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs4v3.m4a": {
+      "before": null,
+      "after": "836059b0ddf8f5d5d961571018ac8a82830ff95b1238ac81ca80795f8a5e1758"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs4v5.m4a": {
+      "before": null,
+      "after": "d467c25c58fe4a42ef667ec97623fe8b894a475bec38d6d02e7986c88c797c5b"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs4v7.m4a": {
+      "before": null,
+      "after": "1f209c587edfc1d9ba9000fa06ab6eb273eb2b44f42b68e46fc963147b413d98"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs4v9.m4a": {
+      "before": null,
+      "after": "ea15d900e3de08851ae4897cf5d8ab336ac79da358f829c608fd4476d2f00f65"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs5v1.m4a": {
+      "before": null,
+      "after": "5f7d5e933f5b97759e6664e1f76dcada208e28958a028f03f88594647cb92745"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs5v11.m4a": {
+      "before": null,
+      "after": "aef28a353442f3d274e135edd279bfd2878bdcee36f6a0b9a6a37aacbcd8c2ab"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs5v13.m4a": {
+      "before": null,
+      "after": "e5458d8a1ef320c3ed11d4263a95f50effdc38ab487174229da685f00cf6d5fb"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs5v16.m4a": {
+      "before": null,
+      "after": "151c19793722bbbeb1950b8659fd50c9e2f10fb55b2684192850485080e8742e"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs5v3.m4a": {
+      "before": null,
+      "after": "dd572bb0b7d962775d9ea075311123a634c802c7bd059e1c097bfc7f815b00c1"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs5v5.m4a": {
+      "before": null,
+      "after": "31898eb86bc160d86cafe1e47dcb4c02c8e17940a235220e3317955be7dca439"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs5v7.m4a": {
+      "before": null,
+      "after": "f917cfe77a350d9c12dfbc952da97bd2850ed8edde407fe0bdef4ecc5be809d9"
+    },
+    "public/audio/studio-v2/grandYamaha-Fs5v9.m4a": {
+      "before": null,
+      "after": "fa7681322da0498f681bc6ab9c19a5660000109f8aeb316225ca72e34ddc014c"
+    },
+    "public/audio/studio-v2/manifest.json": {
+      "before": "bd8ef32abf27901386f59f51e928becf99834d10a6c1fd9cb5834536e4f0c258",
+      "after": "43426b6447ff4b58396c5dc1bdfae9628e802f6801b8563c075967fe9f1d5b9d"
+    }
+  }
+}

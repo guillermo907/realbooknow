@@ -1,0 +1,126 @@
+{
+  "format": "jazzbook-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/App.jsx",
+      "before": "800a48d4ebaaec6f9402d8e9d9e12269ba415933db7a6f88373e108b10f9b072",
+      "after": "6b8755f97194d12a1bbde6b37de88d9f76dadfa92676fb380918be26094ff52c"
+    },
+    {
+      "path": "src/Studio.jsx",
+      "before": "39911acfe720a9e84522cc10b9707740b3d7a79596b31bc5cbaf9fdfee01d34a",
+      "after": "c7ea600ab197c5d97567ef63460707299fc88d257310fe45ee644bd4da7a0535"
+    },
+    {
+      "path": "src/styles/layout/_mobile-score.scss",
+      "before": "631f243cf6fc1aa9e85e88dff97e157e232468fc3c8b17022227962663a861c1",
+      "after": "bdc74605f03e986acf7fa42967e26ef8ead3cabd30a52e97d82bb92daa2e6e64"
+    },
+    {
+      "path": "src/styles/components/_dialogs.scss",
+      "before": "b32a0703ed2d688da6f7bb8aca92917227349c398d2b12d8ec7818d5ed03751b",
+      "after": "7bdaa1bee4b81cba40c3d7e972673c1b56aceb2317671e77c1cf9668e6a8338b"
+    },
+    {
+      "path": "src/components/Admin.jsx",
+      "before": null,
+      "after": "e5e990831144835d734706764d39a3c27bc1e416d3aefeb7344978bccdcc8750"
+    },
+    {
+      "path": "src/components/Settings.jsx",
+      "before": "7f1f0f952cb6a506a5ec4640641a921afe5ff42843a53b865536740c4cb271ff",
+      "after": "5939a30a9eafc90877b5c6cdbed09e3f82b3e6c69dcc610badaaf2b62995a66d"
+    },
+    {
+      "path": "src/components/Library.jsx",
+      "before": "5ff14a0ff693b9fd536f43f63185f8ebd5cf21e497d2f6ace9d2d68430acfc6f",
+      "after": "021bc0af9ffc57aedfcd1c50e33dc36bbdee7b412a081d7b5566adcf70427293"
+    },
+    {
+      "path": "src/components/Account.jsx",
+      "before": "a8ef50e3a64d2295fadaed34f3f2265f8f4f2305f45583933d05e1aa9989eefb",
+      "after": "b87d80693d7552f4968afdb6742373f0a3d6e4a49348f59ed3df8f512f7fbd36"
+    },
+    {
+      "path": "src/lib/admin-import.js",
+      "before": null,
+      "after": "90ab7ed26c4ebac244bd9ee45d42b852c7ab8e530370add3f680201fbd0632bc"
+    },
+    {
+      "path": "src/store/themes.js",
+      "before": "ace72d31e884cd5cec57e93c8f4f9ba31f9366111c40ba23d4350e74abb06e30",
+      "after": "7484776fe4ae5df9ed08ca095fb3870e8287aa375043ab46e80d3a772cbcc71c"
+    },
+    {
+      "path": "src/store/SiteProvider.jsx",
+      "before": null,
+      "after": "a9cb9748fa11425825c52ff807c7f449954e65e43ecc710046b7fde6f49d752a"
+    },
+    {
+      "path": "public/data/site.json",
+      "before": null,
+      "after": "dc9691a3c3e39047b5dfdb3dcf3561007dfe5c15c42fab8a4814230eea8d4d73"
+    },
+    {
+      "path": "public/data/global-songs.json",
+      "before": "1533103682e438a9652933eff9da4518548b09d390f73418f29d1b831e530fcb",
+      "after": "13671131fdd81638faf0a91ecdecc854bffb004c3a61ce4117068ef9a989c9a0"
+    },
+    {
+      "path": "server/api/index.php",
+      "before": "4fb4f9d2a22328a0d55889d3fe50bc332f35f8a2d376f2ab968af18dc0e1e3f2",
+      "after": "49e8326a4deb4b5f413f66c706911816c70b56c09334fcd0b9856d3844fc7d4f"
+    },
+    {
+      "path": "server/api/shared-config.php",
+      "before": "03fbfe58e437912868eb861c758c21c85ed8bc881ea7acb3c16b43fd66c5546e",
+      "after": "a1f22bb8ee37e18cd854024a89380a9690d6e397873f958975eeac49b2f3719c"
+    },
+    {
+      "path": "server/api/site.php",
+      "before": null,
+      "after": "0492eade68051fcf1dc934f891e844975914bba84be8283170127949742f6334"
+    },
+    {
+      "path": "server/sql/002_site_admin.sql",
+      "before": null,
+      "after": "d5bcedff9013e4621c4f27733d5879387e8b22ac34ce4939f861d4a5261670df"
+    },
+    {
+      "path": "server/sql/001_accounts_catalog.sql",
+      "before": "a67a4915cddad86a0888870d9ad1def4f72990e8c19eaef263950de33d617e46",
+      "after": "cd73a6b32b0b0f2372d51a9b48721b40548c012394afddcd47c02c5bd3412a25"
+    },
+    {
+      "path": "scripts/package-hostgator.py",
+      "before": "dda365b84b79afe0a42014949976c7339c338477198434b8d6b3427822c8708b",
+      "after": "342c67447953b5c634f197e70d7ebd93e4041564998940c6af8912e746f071c3"
+    },
+    {
+      "path": "scripts/hosting/check-api-sqlite.py",
+      "before": "a2b7a03e1e94b78a5e6581602281d4325d63b0c1548359b690342aaa339024a6",
+      "after": "1bb0611431b784608e60e738fba1386cbf7ba28a9c7bc35cb459edc68c019c71"
+    },
+    {
+      "path": "tests/public-admin.test.js",
+      "before": null,
+      "after": "34f5fad9d12d659cb598b84075c02f0bee68a440aebdd6a86a01235174c63dca"
+    },
+    {
+      "path": "docs/implementation-status.md",
+      "before": "e1ce477b6d7f644d0f07af1c3a00da9aadb72f32da060882338a610e0fa3c5fd",
+      "after": "aad001b96a87698ff2133dd13a5a20fc2d2e57dadbaee8d45d39cfcfa5819999"
+    },
+    {
+      "path": "docs/hostgator-rollout.md",
+      "before": "cf7fe6f03933ad354808b547b04ffde98974046a7894a342272079417886deba",
+      "after": "7b35c50eabebe4cee93a194ba9b7f237525e9ca68806a0153fe0856b49583e0a"
+    },
+    {
+      "path": "README.md",
+      "before": "e0eebd000013644bc0270dd35fc68f470eff18b6dd2a90b8ed92b45e81bc1306",
+      "after": "f52681badf3e1aca78e2c91f19a74cf2e88678d300a0e57a6117bf5e092f38ea"
+    }
+  ]
+}

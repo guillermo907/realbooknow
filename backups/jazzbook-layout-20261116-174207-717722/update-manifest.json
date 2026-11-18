@@ -1,0 +1,16 @@
+{
+  "files": {
+    "src/styles/layout/_app.scss": {
+      "before": "31a77ee5d69f0015722f63a392f4e17777e3de6ef8625fa68553d9cf94cae4f2",
+      "after": "68ce9dbea8f233d39cf651bc06bd31df5c7b27d10d7ddec88dd6f7cbe764e1f8"
+    },
+    "src/styles/layout/_mobile-score.scss": {
+      "before": "1f905d02091f6bdccd98aaa2f108219932f01a123ddc08cab6941cddd3f05b39",
+      "after": "c5c0cbe5313c13a8b8897304508c29ed1f23f279956ba1c432593919aa8a3760"
+    },
+    "docs/accompaniment-decisions.md": {
+      "before": "55fcc07a4a7d5a2954df33b38cf76b18b7f72508b30b83736aa8caf18360c502",
+      "after": "2c5f33e432bc9c28c3d1c5fed840a21d194a3acd08d19c2b90cb3006b843a700"
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "format": "jazzbook-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/App.jsx",
+      "before": "a63c41b849e29e686abce5d3a0406b7e3ede4d6ef403c2da981885ca55a751b1",
+      "after": "800a48d4ebaaec6f9402d8e9d9e12269ba415933db7a6f88373e108b10f9b072"
+    },
+    {
+      "path": "src/app/layout.jsx",
+      "before": "a427eca29d4c92aed6fab0d7c8f6162ffb6ef236405f74c2bae2a3656de5ad1a",
+      "after": "ee88b5ae1f7d54bfa4a8130e1cebb56694b7d6c7dead20b8ffbb6bff329fc8ea"
+    },
+    {
+      "path": "src/app/page.jsx",
+      "before": "ffad09178157792227550f4a0b79fd0978c209a5e79dfd5f7a7410c0c67f2975",
+      "after": "a8325ee6f58c585f5928688fb99a0d56ec18e7004cd4a903b218698713a9ed80"
+    },
+    {
+      "path": "src/components/ImportExport.jsx",
+      "before": "e618de344b5eed35354a58fee60a06159d2b338ea217405d6cbeff5175620884",
+      "after": "6b436e64f65551ccbcabadf3dd96a7d0e1af6c433bf61f28dd85bafca28718a6"
+    },
+    {
+      "path": "src/components/BandTuning.jsx",
+      "before": "a39c2972a890af325a43bc3935b0d90a7e1df19b26f7ff569a1d578d323e012e",
+      "after": "afb99b3eaa1d6607069025dde196fc51cf2b321faf8818342f1f3df73bdc5e5b"
+    },
+    {
+      "path": "src/components/Settings.jsx",
+      "before": "00f80111c906506dd4935dceb20d4beb1d37e96aa879cef5720c9a752fa32a6c",
+      "after": "7f1f0f952cb6a506a5ec4640641a921afe5ff42843a53b865536740c4cb271ff"
+    },
+    {
+      "path": "src/components/Library.jsx",
+      "before": "1df3c6a3c2b18708fb6033ec9a27ab81182c03d40ff3b61e777b67b7aa5a76de",
+      "after": "5ff14a0ff693b9fd536f43f63185f8ebd5cf21e497d2f6ace9d2d68430acfc6f"
+    },
+    {
+      "path": "src/components/Account.jsx",
+      "before": "836aa2f36a0807487ede340d55ae8d1ddd6a1891a111feb4e38159857df6a70e",
+      "after": "a8ef50e3a64d2295fadaed34f3f2265f8f4f2305f45583933d05e1aa9989eefb"
+    },
+    {
+      "path": "src/components/Chart.jsx",
+      "before": "404c1dfe29a1bdd59917066acda830b7ee49b372a6ce2d6100f611b1a2443f48",
+      "after": "0a12addc659b8b782fc7adbc58e8b109f63d02f4b286cc6924dc82c506e32d49"
+    },
+    {
+      "path": "src/lib/legacy-storage.js",
+      "before": null,
+      "after": "f8e26e8706f8bba55b9be750a315a3da22129a2e7c9287bbccbbb07f25125caf"
+    },
+    {
+      "path": "src/lib/account-api.js",
+      "before": "a8f8ac0acdf00bb96d52ae52159fb4bf304edcdd027586deab8ce954bcda5039",
+      "after": "46655c9bb425087723a9dd5fe0c962e7a215d28e62f664c7c05a47c93bc09c16"
+    },
+    {
+      "path": "src/lib/studio.js",
+      "before": "289186ed866996c5c0c5c45afb9163cd7f7fe3546d0f25d29c1c60b42ac590b7",
+      "after": "11591c0259dd9fe3ed3b875156626a6fbb063e972b66f521be137450cef63de3"
+    },
+    {
+      "path": "src/lib/audio.js",
+      "before": "93687d32950664c4e4c70fb9f3faebeb201e8f6434b4a448402550651250319e",
+      "after": "a4beb2041188a5d85398325e51a6ea5b2ced5d6b80c18df606763358ea23be7c"
+    },
+    {
+      "path": "src/lib/band-midi.js",
+      "before": "4370c01eb8fffe5ba4555f36034b81c4bd799177d34bb4d96f048b613c9d6bc8",
+      "after": "c4d64696aef463284144c59d7114b0cfd8f1b72eb524548dd7b4b7540371fcd1"
+    },
+    {
+      "path": "src/lib/samples.js",
+      "before": "5e5fd49828cac9596832154c266b7e1e90000c1a5955a8971b69ec17ec0dbdfd",
+      "after": "49b7bdbae12849c552139939db1be1ef2e438d853acb6bbe0d7c96044249f8ba"
+    },
+    {
+      "path": "src/lib/parser.js",
+      "before": "895c05885d1439f97515947fdbb5667ece0cc25dc3d2e3ff886baae9b3a0f275",
+      "after": "29de482fd7c530103572ec67d2ac2fce21f7c9090290da5899a80b940b4db0ae"
+    },
+    {
+      "path": "src/lib/storage.js",
+      "before": "41562059d729833f2fa22170d2dbe38c03c425f85edd5f11266f9331b10edc1a",
+      "after": "ddfc723f2b7f5ee89e44792a4fadf14e3e9b8471cb3f4578a157f158c82ae4e7"
+    },
+    {
+      "path": "src/store/Store.jsx",
+      "before": "92e117b6bb8205d5a54bb16f0006d42a126a0c262015e9c15b45db7ba06fce32",
+      "after": "9b99f8ea29f70c25c5c47a78a165967984c284e03a9cb53775d809e576afc592"
+    },
+    {
+      "path": "src/store/AccountProvider.jsx",
+      "before": "346ff98fe519be6f6eec221c5e374fb4fb24581564d6f8c2b2ad62c56fde3b37",
+      "after": "c673c6e29c8c02839c73e362c2aa77d4ebde938ab4a08c0be233bbf5f8571431"
+    },
+    {
+      "path": "public/data/global-songs.json",
+      "before": "0f20ef98ad652a327c1cfd06692c301e63dc9daeb758517521c7f88b2c3ee0b2",
+      "after": "1533103682e438a9652933eff9da4518548b09d390f73418f29d1b831e530fcb"
+    },
+    {
+      "path": "server/web.htaccess",
+      "before": "582043aeca8742f8956304f7e453b39eb3c70c1b1a0c77c4c58335d6fc67349a",
+      "after": "7e94bfb5e286372bc78da889dfb96798b13dd9b87d193e98a75ee701bad35899"
+    },
+    {
+      "path": "server/private/config.example.php",
+      "before": "1d1cd0d0383fac611171d09a2449bc4e72ee1b48e8ab6d0ac6bca176ef6932f8",
+      "after": "23f4ee21f25fefbb0e0396e129ba5cb15f8aabe3f055f5c13dacf4a33bf61b64"
+    },
+    {
+      "path": "server/api/index.php",
+      "before": "5dd4594a8bdc5abf71b8fac5f759b7147d645b7d1793ec182e74a3c84c7c6d17",
+      "after": "4fb4f9d2a22328a0d55889d3fe50bc332f35f8a2d376f2ab968af18dc0e1e3f2"
+    },
+    {
+      "path": "server/api/bootstrap.php",
+      "before": "67b3c7b8efd1f6721ed47b70df216ef0afd6d752f153521bac82419220a98b70",
+      "after": "e6aeb9e0056d01540079103e06b8c6d23919ccfa27d50d83bf5f1d3f538b36fa"
+    },
+    {
+      "path": "server/sql/001_accounts_catalog.sql",
+      "before": "0fd9698de8d1bc7f0f3717e5591d0a6fd359353a1be8c69181784cf103259e5b",
+      "after": "a67a4915cddad86a0888870d9ad1def4f72990e8c19eaef263950de33d617e46"
+    },
+    {
+      "path": "scripts/package-hostgator.py",
+      "before": "e19c0331a69d5cef49a3c8a5e930de0f59f5396f62307f55da4b24a8c8b43f59",
+      "after": "9a9cec04c156573d175163f83e6e319f3655234bdc0d818555b70ea446db7d11"
+    },
+    {
+      "path": "scripts/import-global-catalog.mjs",
+      "before": "cb3b146ff47a3b6a7362b2c9b5dc89f625d8e9c4ce26bae0a442868c2eeec148",
+      "after": "ce42aa0581f90291bf477d741d4241afa85c93bc20cde6e59880d72553ab55be"
+    },
+    {
+      "path": "scripts/browser-check-legacy-vite.mjs",
+      "before": "511a2a0a6d7ce86fb55e23270059d7071ef778ddc9640ffb08d857ee89a7bf45",
+      "after": "c5f7eb57bbe1a1ebc1dc55c6e2a20925a95a5a025b1b1f57a6d08918f631410c"
+    },
+    {
+      "path": "scripts/apply-band-update.py",
+      "before": "bd9980029d3b29f19c9ee5f8f54b386aaddfb069c6fdd90614fcb4818d4faeab",
+      "after": "e615f3ff7e172b1afa91db73a46d4190fe50a161e8a5393d96af38559c00aa79"
+    },
+    {
+      "path": "scripts/browser-check.mjs",
+      "before": "4ec908f7c6177c3ace94616a73606b2b7711768346e8b0982df43ff150020a41",
+      "after": "f7661a7ac97096ccb92d0c78678eecba4f7879f7d05b080265a1f55c68de0789"
+    },
+    {
+      "path": "scripts/package-band-update.py",
+      "before": "c3c544449438320614a5ca700ce366c45eab1709a4a12d7857b44b425e88c451",
+      "after": "4974d03752806a7fff11fb60b4acc1a6c66116c2656ef3ae4feb82b09347587a"
+    },
+    {
+      "path": "scripts/author-band-styles.mjs",
+      "before": "c61b1fb6b91b6509b53241947f7097ecfa33cab7971577594f64dba137a0f750",
+      "after": "c1d584e5a43bacb4f56d2dfa358b67c247911e95726cd2fbbd6dc143cdc3e8e4"
+    },
+    {
+      "path": "scripts/accompaniment-eval/calibrate-samples.mjs",
+      "before": "ecc86bcd74e3fcc4e0406c0a255957629580f2933667a8047cc9092ee7391ab8",
+      "after": "433d09d793391bfafb1c42cfa8ad09c91402a5a07ba14c37edd712579170f539"
+    },
+    {
+      "path": "scripts/accompaniment-eval/render-mma.mjs",
+      "before": "224373200f0bdd1db5ec37ae895e09c362e87d951c9a4608b88d447f638b2bb3",
+      "after": "3e7725d8b725c2930e17ea1ab5fb27b7cd07bd7ec79d034aa0c31c273cba626e"
+    },
+    {
+      "path": "scripts/accompaniment-eval/browser-ui.mjs",
+      "before": "bbfc298a5ef57945f92be52b669767d7c02328465db21d2e4c12fadcef16f69e",
+      "after": "6513aa8b73c6044391a00b6e519659f35a0d57b8d9f643c67035acba22393d52"
+    },
+    {
+      "path": "scripts/accompaniment-eval/build-harness.mjs",
+      "before": "69333977887cfb0cec48a11049f432f21938fbcc670fbac27c6a55ddd35f3559",
+      "after": "b6958689abed413d7661d335e8b72e8e49b7ebbaea07c379c1050238f758a08d"
+    },
+    {
+      "path": "scripts/accompaniment-eval/write-reports.py",
+      "before": "5959a0c19e62ff1b887d722414f998ba82ed37b9265fb36b2ca7b25f18146b22",
+      "after": "d01ff5b6935957f146de21d07c5ab969e83bce2b7c651e4487f6dfd108729067"
+    },
+    {
+      "path": "scripts/accompaniment-eval/analyze-all.py",
+      "before": "b5bac7372d75a4ae5498f44c40997b03fccd342214fd05a02a886dab6a3ac752",
+      "after": "2676c040df03a880d3a3a17da68cbb457276ed881ccb36513ee856ec50f2821d"
+    },
+    {
+      "path": "scripts/accompaniment-eval/export-jazzbook-baseline.mjs",
+      "before": null,
+      "after": "b1a29e7e6cdc301ed4a905bc480e8808560657cc6635910ec79de848256e3f1e"
+    },
+    {
+      "path": "scripts/accompaniment-eval/browser-band.mjs",
+      "before": "127e976eb64a5a1bf5076b1bc252552baf56dbce3ef5bca8e636901d84f7d7f3",
+      "after": "39086fce04ade081f7ff75a46e7f61069f9a7691bbd1251e5cb9f64431bf4a89"
+    },
+    {
+      "path": "scripts/accompaniment-eval/render-audio-checks.mjs",
+      "before": "4d778fbbe2e4317b3a1791f5d89e7dab2922236073fb04642892f3705afed3ae",
+      "after": "f7500545a99b3c16a07dce9aaa378f88838a87a5bb39124d6cf73e93c7689790"
+    },
+    {
+      "path": "scripts/accompaniment-eval/browser-entry.js",
+      "before": "ce61779b15b03b4b99ff280704f441cef53f0671b489afcaa7b1642a4b398ec6",
+      "after": "f6d57f46eaf0859ba213df9aa6f0f086477e878d51da873e7637ed07f1fcb27a"
+    },
+    {
+      "path": "scripts/accompaniment-eval/check-matching.mjs",
+      "before": "597ca66b27ac953373a5d65e0f087b3f0164175289306f3a49104e2e5f6856cf",
+      "after": "81804348aac3c387666f1939f2bb61c4544e6077e05a15d37c8ca8d96b955687"
+    },
+    {
+      "path": "scripts/hosting/check-account-browser.mjs",
+      "before": "8f44bc601218d469a92fefc11be73391e91d590ba75f2e9a6965bf5119a76f32",
+      "after": "09ce1fc1a3f651531f16bd10b49219e7e4c6e79f61307a0b0c4267095c022b8f"
+    },
+    {
+      "path": "scripts/hosting/check-api-sqlite.py",
+      "before": "2d0f6a08c5a913266361506b78d9eb91b73256a7013beef9f82a8357fec3cb17",
+      "after": "a2b7a03e1e94b78a5e6581602281d4325d63b0c1548359b690342aaa339024a6"
+    },
+    {
+      "path": "scripts/hosting/check-api.py",
+      "before": "1adbda65b22ff12722cf28e453a2e64b8aacef8f907ea17f51ca71c013397c8b",
+      "after": "d190983f32ead77004631c26f241024bf5ebe67f034544a1da8e507450ed030f"
+    },
+    {
+      "path": "tests/music.test.js",
+      "before": "a4150616fab32d6f952ae1f7b0ab8b9b787e09678d5d8e969acc16f3ab6bd9f1",
+      "after": "13f3f86804923165015b6c0ef78ddd1398f2f2795bfbd51d9336159a29a40995"
+    },
+    {
+      "path": "docs/implementation-status.md",
+      "before": "f88c94fbfd47deaf3cbf56175dd8f750af031d0a692cbf2b45e377d467eb55f7",
+      "after": "ccba5ea226b40c9a1ffb8ea9b14f012cfff9886a41201221e0eb2b999e4d17f2"
+    },
+    {
+      "path": "docs/feature-inventory.md",
+      "before": "95f1073340a9990e1e97897aea5ebea5d42473db49853b69314a115b1f1ef176",
+      "after": "c1e5874c9f0454894c0dc01ff24258412a6e996be8d4b74a8e3e68419f7c625a"
+    },
+    {
+      "path": "docs/accompaniment-measurements.md",
+      "before": "96a2dc34bbf772627c01b8e4f406d32735c90ef096ede3539c6c72ad921e70e9",
+      "after": "c40b4034f0539f3a563133c665524cbc19f34b7f8ac6637eca48f6d30f369fef"
+    },
+    {
+      "path": "docs/library-storage.md",
+      "before": "670c0741efcb4fe2d0b85daeae9c3f259c78443aac813afa4fab98489ab8f936",
+      "after": "024af1df90719a0c042c317e7a5eca9bc09f5197780b6b06d62a3f9575426f3d"
+    },
+    {
+      "path": "docs/format-spec.md",
+      "before": "f7ca39aa760d104a9384d746ddec23ce8df7f0aff68d334f610781615ec8c843",
+      "after": "bf807fe9fe81dfd2ba446cce663ff6a497bb99092f27edfbe816f6024be7459f"
+    },
+    {
+      "path": "docs/behavior-spec.md",
+      "before": "b02a830f40ab246d57dbdbcbde746bcd801cf88d1bf538ddde75e5f5292b8c32",
+      "after": "58d28183db659db8ab9324d5d57d0a3fee6bfdf70da621e80deb732bbde84534"
+    },
+    {
+      "path": "docs/accompaniment-spec.md",
+      "before": "676fd576074a0be073368b6d8acb297665e4da2abdab1d81c6dca840332a10c0",
+      "after": "a2b208f00a65b9cc902514f8be817e5ce79ae30d7545e43481fc9b0e2d947e36"
+    },
+    {
+      "path": "docs/hostgator-rollout.md",
+      "before": "d92a88b8084a7d84cb42f1be0c54417a7665dffc0e540d92490f097e3dc8647a",
+      "after": "676eebefeace34a0e5c35d77f47a8afe1ca2ff6681ef61677ea7515cf2d6bb09"
+    },
+    {
+      "path": "docs/accompaniment-results.md",
+      "before": "1984068ba4b39c0defc91fc48a666f32c37ad0ed3c11d767d3c92dac847914f7",
+      "after": "1b03d34a61f129ea19bb1b01fbce2f5333ab45349c9ff191269f4ae936897937"
+    },
+    {
+      "path": "package.json",
+      "before": "8a8e531e37d91f50bde3ef12a35a0defd1d2ef00d8368be5db3df893b998016c",
+      "after": "a4761e8ab5acfb9f71a9f302251287ddff0f74d7ec611f894fc79ba7b1bed561"
+    },
+    {
+      "path": "package-lock.json",
+      "before": "369de1c306186f02f301eedf55fd0a3786d19d368d2e3a360f00fb9d5cd69644",
+      "after": "dc7384e3f130f303758edc08762c51f85807d28db5ff6208d41b3d2fcf62c075"
+    },
+    {
+      "path": "README.md",
+      "before": "66f85eabd75a666d4a998cb582265d8f0849e674e060bc2748f800341a66ba65",
+      "after": "7d711df8f93a6eb0a187440f771c5bf51547d369ca535ee6d65a7d6651aa439f"
+    }
+  ]
+}

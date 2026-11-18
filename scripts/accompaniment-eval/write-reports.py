@@ -12,7 +12,7 @@ for source,rs in data.items():
   b=r['bass'];co=r['comping'];sw=r['drums']['ride_swing_ratio'];rows.append([source,r['fixture'],r['tempo'],f(b['root_downbeat_pct']),f(b['chromatic_approach_pct']),f(100*b['twofeel_bars']/r['bar_count'])+'/'+f(100*b['walking_bars']/r['bar_count']),f(co['hits_per_bar']),f(co['voice_leading_semitones_per_matched_voice']['mean']),f(sw['median'])])
 summary='''# Accompaniment implementation results
 
-2026-11-14. These are reproducible measurements of the original Vesper generator, the new Vesper band, and **MMA 25.05.3 separately**. MMA is an automatic generator, not a human reference. GMD supplies independent human drum statistics; it supplies no harmony, bass lines or comping gestures. No source is pooled with another.
+2026-11-14. These are reproducible measurements of the original Jazzbook generator, the new Jazzbook band, and **MMA 25.05.3 separately**. MMA is an automatic generator, not a human reference. GMD supplies independent human drum statistics; it supplies no harmony, bass lines or comping gestures. No source is pooled with another.
 
 The new band, controls, samples and theme updates are implemented in the writable `band-engine-work` copy. The original app folder remains blocked by macOS write permissions. The prepared apply package is required to update that folder. This deployment limitation is distinct from the tested implementation.
 
@@ -102,7 +102,7 @@ base=(docs/'accompaniment-measurements.md').read_text();marker='<!-- PHASE_1_HIS
 if marker in base:base=base.split(marker,1)[1].lstrip()
 new='''# Accompaniment measurements — current implementation update
 
-2026-11-14. The user subsequently authorized downloading and running MMA. Its 24 original-fixture renders now replace the previous **MMA runtime unavailable** status. JJazzLab/Toolkit and Impro-Visor were not executed and remain unmeasured. MMA is an automatic generator, not a human band. Sources below are kept separate; no groove or note sequence has been copied into Vesper.
+2026-11-14. The user subsequently authorized downloading and running MMA. Its 24 original-fixture renders now replace the previous **MMA runtime unavailable** status. JJazzLab/Toolkit and Impro-Visor were not executed and remain unmeasured. MMA is an automatic generator, not a human band. Sources below are kept separate; no groove or note sequence has been copied into Jazzbook.
 
 MMA 25.05.3 official archive: https://www.mellowood.ca/mma/mma-devl.25.05.3.tar.gz . Python was already installed; no package installation occurred. The source archive was executed for measurements only. Groove choices: blues/AABA `stdlib/swing:Swing`; ballad `stdlib/ballad:Ballad`; bossa `stdlib/bossanova:BossaNova`; waltz `stdlib/jazzwaltz:JazzWaltz`; funk `stdlib/bvfunk:BVFunk`. All tempos below rendered successfully; extreme tempos are stress cases, not endorsements of musical suitability. Original chart labels and bar metadata match the historical fixture definitions.
 

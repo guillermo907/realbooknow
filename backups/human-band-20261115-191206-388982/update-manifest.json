@@ -1,0 +1,41 @@
+{
+  "format": "jazzbook-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "server/api/shared-config.php",
+      "before": null,
+      "after": "03fbfe58e437912868eb861c758c21c85ed8bc881ea7acb3c16b43fd66c5546e"
+    },
+    {
+      "path": "server/api/bootstrap.php",
+      "before": "e6aeb9e0056d01540079103e06b8c6d23919ccfa27d50d83bf5f1d3f538b36fa",
+      "after": "fee69b0d0ec815823dc7225f731c6f83caf12785e91559b0ae19d9910bbc3d7c"
+    },
+    {
+      "path": "scripts/package-hostgator.py",
+      "before": "9a9cec04c156573d175163f83e6e319f3655234bdc0d818555b70ea446db7d11",
+      "after": "dda365b84b79afe0a42014949976c7339c338477198434b8d6b3427822c8708b"
+    },
+    {
+      "path": "scripts/hosting/check-shared-config.php",
+      "before": null,
+      "after": "7eec0ab0501fcce4630fb8a08e164163851e2b07919e11caad87d321badecefe"
+    },
+    {
+      "path": "docs/implementation-status.md",
+      "before": "ccba5ea226b40c9a1ffb8ea9b14f012cfff9886a41201221e0eb2b999e4d17f2",
+      "after": "e1ce477b6d7f644d0f07af1c3a00da9aadb72f32da060882338a610e0fa3c5fd"
+    },
+    {
+      "path": "docs/hostgator-rollout.md",
+      "before": "676eebefeace34a0e5c35d77f47a8afe1ca2ff6681ef61677ea7515cf2d6bb09",
+      "after": "cf7fe6f03933ad354808b547b04ffde98974046a7894a342272079417886deba"
+    },
+    {
+      "path": "README.md",
+      "before": "7d711df8f93a6eb0a187440f771c5bf51547d369ca535ee6d65a7d6651aa439f",
+      "after": "e0eebd000013644bc0270dd35fc68f470eff18b6dd2a90b8ed92b45e81bc1306"
+    }
+  ]
+}

@@ -13,8 +13,8 @@ def run(cmd,**kw):
 def main():
  for name in ['mysqld','mysql','php']:
   if not shutil.which(name):raise SystemExit('Required existing binary missing: '+name)
- with tempfile.TemporaryDirectory(prefix='vesper-api-') as d:
-  work=Path(d);db=work/'db';db.mkdir();sessions=work/'sessions';sessions.mkdir();web=work/'web';web.mkdir();shutil.copytree(ROOT/'server/api',web/'api');(web/'data').mkdir();(web/'data/global-songs.json').write_text(json.dumps({'format':'vesper-global-catalog','version':1,'songs':[]}));sock=str(work/'mysql.sock');http=port();base='http://127.0.0.1:'+str(http)
+ with tempfile.TemporaryDirectory(prefix='jazzbook-api-') as d:
+  work=Path(d);db=work/'db';db.mkdir();sessions=work/'sessions';sessions.mkdir();web=work/'web';web.mkdir();shutil.copytree(ROOT/'server/api',web/'api');(web/'data').mkdir();(web/'data/global-songs.json').write_text(json.dumps({'format':'jazzbook-global-catalog','version':1,'songs':[]}));sock=str(work/'mysql.sock');http=port();base='http://127.0.0.1:'+str(http)
   run(['mysqld','--no-defaults','--initialize-insecure','--datadir='+str(db)])
   log=(work/'mysql.log').open('w');sqlserver=subprocess.Popen(['mysqld','--no-defaults','--datadir='+str(db),'--socket='+sock,'--skip-networking','--mysqlx=OFF','--log-error='+str(work/'db-error.log')],stdout=log,stderr=log)
   php=None
@@ -23,18 +23,18 @@ def main():
     if Path(sock).exists():break
     if sqlserver.poll() is not None:raise RuntimeError((work/'db-error.log').read_text())
     time.sleep(.1)
-   sql=['mysql','--no-defaults','--socket='+sock,'-uroot','--batch','--skip-column-names'];run(sql,input=b'CREATE DATABASE vesper_test;');run(sql+['vesper_test'],input=(ROOT/'server/sql/001_accounts_catalog.sql').read_bytes());run(sql+['vesper_test'],input=b"INSERT INTO vesper_users(google_sub,email,display_name) VALUES ('google-admin','admin@example.test','Admin'),('google-user','user@example.test','User');")
-   config=work/'config.php';config.write_text("<?php return "+"['base_url'=>'"+base+"','allow_local_http'=>true,'db_dsn'=>'mysql:unix_socket="+sock+";dbname=vesper_test;charset=utf8mb4','db_user'=>'root','db_password'=>'','google_client_id'=>'test-client','google_client_secret'=>'test-secret','admin_emails'=>['admin@example.test'],'session_seconds'=>3600];")
+   sql=['mysql','--no-defaults','--socket='+sock,'-uroot','--batch','--skip-column-names'];run(sql,input=b'CREATE DATABASE jazzbook_test;');run(sql+['jazzbook_test'],input=(ROOT/'server/sql/001_accounts_catalog.sql').read_bytes());run(sql+['jazzbook_test'],input=b"INSERT INTO jazzbook_users(google_sub,email,display_name) VALUES ('google-admin','admin@example.test','Admin'),('google-user','user@example.test','User');")
+   config=work/'config.php';config.write_text("<?php return "+"['base_url'=>'"+base+"','allow_local_http'=>true,'db_dsn'=>'mysql:unix_socket="+sock+";dbname=jazzbook_test;charset=utf8mb4','db_user'=>'root','db_password'=>'','google_client_id'=>'test-client','google_client_secret'=>'test-secret','admin_emails'=>['admin@example.test'],'session_seconds'=>3600];")
    for uid,sid in [(1,'adminsession'),(2,'usersession')]:
-    code="session_name('VesperSession');session_id('"+sid+"');session_start();$_SESSION=['user_id'=>"+str(uid)+",'csrf'=>'test-csrf','expires'=>time()+3600];session_write_close();"
+    code="session_name('JazzbookSession');session_id('"+sid+"');session_start();$_SESSION=['user_id'=>"+str(uid)+",'csrf'=>'test-csrf','expires'=>time()+3600];session_write_close();"
     run(['php','-d','session.save_path='+str(sessions),'-r',code])
-   env={**os.environ,'VESPER_CONFIG':str(config)};php=subprocess.Popen(['php','-d','session.save_path='+str(sessions),'-S','127.0.0.1:'+str(http),'-t',str(web)],env=env,stdout=subprocess.DEVNULL,stderr=(work/'php.log').open('w'))
+   env={**os.environ,'JAZZBOOK_CONFIG':str(config)};php=subprocess.Popen(['php','-d','session.save_path='+str(sessions),'-S','127.0.0.1:'+str(http),'-t',str(web)],env=env,stdout=subprocess.DEVNULL,stderr=(work/'php.log').open('w'))
    for _ in range(100):
     try:urllib.request.urlopen(base+'/api/index.php?action=session',timeout=.2);break
     except Exception:time.sleep(.05)
    def request(action,method='GET',data=None,sid=None,csrf=True,extra=None):
     headers={'Content-Type':'application/json','Origin':base,**(extra or {})}
-    if sid:headers['Cookie']='VesperSession='+sid
+    if sid:headers['Cookie']='JazzbookSession='+sid
     if csrf:headers['X-CSRF-Token']='test-csrf'
     r=urllib.request.Request(base+'/api/index.php?action='+action,data=json.dumps(data).encode() if data is not None else None,method=method,headers=headers)
     try:response=urllib.request.urlopen(r)

@@ -1,3 +1,3 @@
-# HostGator deployment
+# Jazzbook HostGator deployment
 
-The current complete guide is [hostgator-rollout.md](hostgator-rollout.md). It supersedes the earlier static-only deployment instructions and adds optional PHP/MySQL accounts and admin publication.
+The current guide is [hostgator-rollout.md](hostgator-rollout.md). It uses the Jazzbook public name; legacy technical identifiers remain unchanged until a separate migration. UI and logo changes are deferred.

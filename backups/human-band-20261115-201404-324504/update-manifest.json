@@ -1,0 +1,11 @@
+{
+  "format": "jazzbook-band-update",
+  "version": 1,
+  "files": [
+    {
+      "path": "src/styles/layout/_mobile-score.scss",
+      "before": "587712f5ee3b17e86540d5d7fac7f12f3e1f8fe94e66920bdff2bec89124e777",
+      "after": "8b27317b2b899892157ef1d3879fe2d31920af554dc3254529bd18126ddac4c7"
+    }
+  ]
+}

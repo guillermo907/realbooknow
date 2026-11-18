@@ -1,0 +1,18 @@
+# Install only in Vesper's document root. Do not replace the parent site's rules.
+Options -Indexes
+DirectoryIndex index.html
+<IfModule mod_headers.c>
+ Header always set X-Content-Type-Options "nosniff"
+ Header always set Referrer-Policy "strict-origin-when-cross-origin"
+ <FilesMatch "\.(html|txt)$">
+  Header set Cache-Control "no-cache"
+ </FilesMatch>
+</IfModule>
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ # HTTPS should also be enabled per-domain in cPanel. Keep localhost usable.
+ RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)(:[0-9]+)?$ [NC]
+ RewriteCond %{HTTPS} !=on
+ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+# Deliberately no SPA catch-all: real /api/index.php must reach PHP.

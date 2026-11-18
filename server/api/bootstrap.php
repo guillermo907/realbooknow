@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
-const VESPER_MAX_BODY = 5242880;
+require_once __DIR__.'/shared-config.php';
+const JAZZBOOK_MAX_BODY = 5242880;
 function answer(array $value, int $status = 200): never {
     http_response_code($status); header('Content-Type: application/json; charset=utf-8');
     echo json_encode($value, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR); exit;
@@ -10,8 +11,15 @@ function config(): ?array {
     static $loaded = false, $value = null;
     if (!$loaded) {
         $loaded = true;
-        $path = getenv('VESPER_CONFIG') ?: (is_file(__DIR__.'/config-path.php') ? require __DIR__.'/config-path.php' : ($_SERVER['HOME'] ?? getenv('HOME') ?: '') . '/vesper-private/config.php');
-        if (is_file($path)) $value = require $path;
+        $home=$_SERVER['HOME']??getenv('HOME')?:'';
+        $explicit=getenv('JAZZBOOK_CONFIG') ?: (is_file(__DIR__.'/config-path.php') ? require __DIR__.'/config-path.php' : null);
+        $path=$explicit ?: ($home!==''?$home.'/jazzbook-private/config.php':'');
+        if(!$explicit&&!is_file($path))$path=jazzbook_shared_config_path([$home,dirname(__DIR__,3),dirname(__DIR__,2)])??'';
+        if (is_string($path)&&is_file($path)) {
+            $values=require $path;
+            if(!is_array($values))throw new RuntimeException('Configuration must return an array.');
+            $value=jazzbook_config_values($values);
+        }
     }
     return is_array($value) ? $value : null;
 }
@@ -31,7 +39,7 @@ function start_session(): void {
     $c=config();$path=(parse_url(base_url(),PHP_URL_PATH)?:'').'/';
     ini_set('session.use_strict_mode','1');ini_set('session.use_only_cookies','1');
     ini_set('session.gc_maxlifetime',(string)($c['session_seconds']??604800));
-    session_name('VesperSession');
+    session_name('JazzbookSession');
     session_set_cookie_params(['lifetime'=>$c['session_seconds']??604800,'path'=>$path,'secure'=>str_starts_with(base_url(),'https://'),'httponly'=>true,'samesite'=>'Lax']);
     session_start();
     if (isset($_SESSION['expires']) && $_SESSION['expires']<time()) {$_SESSION=[];session_regenerate_id(true);}
@@ -39,7 +47,7 @@ function start_session(): void {
 }
 function user(): ?array {
     if (!isset($_SESSION['user_id'])) return null;
-    $q=database()->prepare('SELECT id,google_sub,email,display_name FROM vesper_users WHERE id=?');$q->execute([$_SESSION['user_id']]);$row=$q->fetch(PDO::FETCH_ASSOC);if (!$row)return null;
+    $q=database()->prepare('SELECT id,google_sub,email,display_name FROM jazzbook_users WHERE id=?');$q->execute([$_SESSION['user_id']]);$row=$q->fetch(PDO::FETCH_ASSOC);if (!$row)return null;
     $c=config();$admin=in_array($row['google_sub'],$c['admin_subjects']??[],true)||in_array(strtolower($row['email']),array_map('strtolower',$c['admin_emails']??[]),true);
     return ['id'=>(int)$row['id'],'cacheKey'=>hash('sha256',$row['google_sub']),'name'=>$row['display_name'],'email'=>$row['email'],'admin'=>$admin];
 }
@@ -52,8 +60,8 @@ function write_request(string $method): void {
     if (!str_starts_with(strtolower($_SERVER['CONTENT_TYPE']??''),'application/json'))fail(415,'Send application/json.');
 }
 function body(): array {
-    if ((int)($_SERVER['CONTENT_LENGTH']??0)>VESPER_MAX_BODY)fail(413,'Request exceeds 5 MB.');
-    $raw=file_get_contents('php://input',false,null,0,VESPER_MAX_BODY+1);if(strlen($raw)>VESPER_MAX_BODY)fail(413,'Request exceeds 5 MB.');
+    if ((int)($_SERVER['CONTENT_LENGTH']??0)>JAZZBOOK_MAX_BODY)fail(413,'Request exceeds 5 MB.');
+    $raw=file_get_contents('php://input',false,null,0,JAZZBOOK_MAX_BODY+1);if(strlen($raw)>JAZZBOOK_MAX_BODY)fail(413,'Request exceeds 5 MB.');
     try {$value=json_decode($raw,true,64,JSON_THROW_ON_ERROR);}catch(JsonException){fail(400,'Invalid JSON.');}
     if(!is_array($value))fail(400,'Expected a JSON object.');return $value;
 }
